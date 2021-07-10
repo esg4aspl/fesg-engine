@@ -1,0 +1,165 @@
+{
+	"ID"	:30,
+	"name"	:"credit_cancelWithdraw",
+	"vertices"	:[
+		{
+			"ID"	:0,
+			"event"	:"["
+		},
+		{
+			"ID"	:1,
+			"event"	:"]"
+		},
+		{
+			"ID"	:2,
+			"event"	:"get balance"
+		},
+		{
+			"ID"	:3,
+			"event"	:"select deposit"
+		},
+		{
+			"ID"	:4,
+			"event"	:"enter deposit amount"
+		},
+		{
+			"ID"	:5,
+			"event"	:"put money"
+		},
+		{
+			"ID"	:6,
+			"event"	:"select withdraw"
+		},
+		{
+			"ID"	:7,
+			"event"	:"enter withdraw amount"
+		},
+		{
+			"ID"	:8,
+			"event"	:"take money"
+		},
+		{
+			"ID"	:9,
+			"event"	:"enter a credit amount"
+		},
+		{
+			"ID"	:10,
+			"event"	:"confirm credit approved"
+		},
+		{
+			"ID"	:11,
+			"event"	:"confirm credit disapproved"
+		},
+		{
+			"ID"	:12,
+			"event"	:"cancel withdraw"
+		}
+			],
+	"edges"	:[
+		{
+			"ID"	:0,
+			"source"	:2,
+			"target"	:1
+		},
+		{
+			"ID"	:1,
+			"source"	:0,
+			"target"	:2
+		},
+		{
+			"ID"	:2,
+			"source"	:2,
+			"target"	:3
+		},
+		{
+			"ID"	:3,
+			"source"	:0,
+			"target"	:3
+		},
+		{
+			"ID"	:4,
+			"source"	:3,
+			"target"	:4
+		},
+		{
+			"ID"	:5,
+			"source"	:4,
+			"target"	:5
+		},
+		{
+			"ID"	:6,
+			"source"	:5,
+			"target"	:1
+		},
+		{
+			"ID"	:7,
+			"source"	:5,
+			"target"	:2
+		},
+		{
+			"ID"	:8,
+			"source"	:2,
+			"target"	:6
+		},
+		{
+			"ID"	:9,
+			"source"	:0,
+			"target"	:6
+		},
+		{
+			"ID"	:10,
+			"source"	:6,
+			"target"	:7
+		},
+		{
+			"ID"	:11,
+			"source"	:7,
+			"target"	:8
+		},
+		{
+			"ID"	:12,
+			"source"	:8,
+			"target"	:1
+		},
+		{
+			"ID"	:13,
+			"source"	:8,
+			"target"	:2
+		},
+		{
+			"ID"	:14,
+			"source"	:0,
+			"target"	:9
+		},
+		{
+			"ID"	:15,
+			"source"	:10,
+			"target"	:1
+		},
+		{
+			"ID"	:16,
+			"source"	:9,
+			"target"	:10
+		},
+		{
+			"ID"	:17,
+			"source"	:9,
+			"target"	:11
+		},
+		{
+			"ID"	:18,
+			"source"	:11,
+			"target"	:1
+		},
+		{
+			"ID"	:19,
+			"source"	:6,
+			"target"	:12
+		},
+		{
+			"ID"	:20,
+			"source"	:12,
+			"target"	:1
+		}
+			]
+}

@@ -1,0 +1,3 @@
+[ prompt payEUR select serveTea ]
+[ prompt payEUR select serveSoda ]
+[ prompt payEUR cancel returnMoney ]

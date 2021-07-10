@@ -1,0 +1,21 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+1	1	1	1	1	9	2	omitterminal,old,2/9	selectdeposit___3:enterdepositamount___4,false,false
+4	2	3	3	1	4	1	omitsequence,old,3/9	enterdepositamount___4,putmoney___5,false,false
+9	3	5	5	1	6	2	omitterminal,old,1/9	getbalance___2:selectdeposit___3,false,false
+14	4	5	5	1	14	3	omitterminal,old,1/11	getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+26	5	12	5	2	3	1	omitsequence,old,5/9	getbalance___2,selectwithdraw___6,false,false
+31	6	5	5	2	8	2	omitsequence,old,5/11	putmoney___5:getbalance___2,getbalance___2:selectwithdraw___6,false,false
+37	7	6	6	2	2	1	omitterminal,old,6/8	enterwithdrawamount___7,false,false
+43	8	6	6	2	12	3	omitterminal,old,6/11	getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+50	9	7	7	2	10	2	omitterminal,old,8/9	takemoney___8:getbalance___2,false,false
+66	10	16	9	3	13	3	omitsequence,old,11/14	enterwithdrawamount___7:takemoney___8:getbalance___2,takemoney___8:getbalance___2:selectwithdraw___6,false,false
+75	11	9	9	3	17	4	omitsequence,old,11/16	selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,enterwithdrawamount___7:takemoney___8:getbalance___2:selectwithdraw___6,false,false
+85	12	10	10	3	18	4	omitterminal,old,13/14	takemoney___8:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+101	13	16	5	4	15	4	omitsequence,old,10/16	selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,enterwithdrawamount___7:takemoney___8:getbalance___2:selectdeposit___3,false,false
+107	14	6	6	4	11	3	omitsequence,old,12/14	takemoney___8:getbalance___2:selectdeposit___3,getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+127	15	20	6	7	1	1	omitterminal,old,8/8	cancelwithdraw___9,false,false
+133	16	6	6	7	5	1	omitsequence,old,9/9	selectwithdraw___6,cancelwithdraw___9,false,false
+139	17	6	6	7	7	2	omitsequence,old,7/11	getbalance___2:selectwithdraw___6,selectwithdraw___6:cancelwithdraw___9,false,false
+145	18	6	6	7	16	4	omitterminal,old,7/14	putmoney___5:getbalance___2:selectwithdraw___6:cancelwithdraw___9,false,false
+151	18	6	---	7	---	---

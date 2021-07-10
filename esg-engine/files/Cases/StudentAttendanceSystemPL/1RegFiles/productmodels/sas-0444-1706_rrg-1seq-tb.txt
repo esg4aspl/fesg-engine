@@ -1,0 +1,42 @@
+S -> submitattendance___2 nt(submitattendance___2)
+nt(confirmyouridentity___3) -> <epsilon>
+S -> login___4 nt(login___4)
+nt(login___4) -> opennotificationsettings___5 nt(opennotificationsettings___5)
+nt(confirmnotificationsettings___6) -> <epsilon>
+nt(selecttheexistingclass___8) -> viewclass___9 nt(viewclass___9)
+nt(viewclass___9) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingclass___8 nt(selecttheexistingclass___8)
+nt(selecttheexistingschedule___10) -> viewschedule___11 nt(viewschedule___11)
+nt(viewschedule___11) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingschedule___10 nt(selecttheexistingschedule___10)
+nt(opennotificationsettings___5) -> receivenotificationsasEmail___12 nt(receivenotificationsasEmail___12)
+nt(receivenotificationsasEmail___12) -> confirmnotificationsettings___6 nt(confirmnotificationsettings___6)
+nt(accessasastudent___13) -> openmyattendancerecords___14 nt(openmyattendancerecords___14)
+nt(login___4) -> accessasastudent___13 nt(accessasastudent___13)
+nt(accessasastudent___13) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openmyattendancerecords___14) -> openclassrecords___7 nt(openclassrecords___7)
+nt(login___4) -> accessasateacher___15 nt(accessasateacher___15)
+nt(accessasateacher___15) -> turneditingon___16 nt(turneditingon___16)
+nt(turneditingon___16) -> openstudentattendancerecords___17 nt(openstudentattendancerecords___17)
+nt(turneditingon___16) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openstudentattendancerecords___17) -> openclassrecords___7 nt(openclassrecords___7)
+nt(addnewclass___18) -> enterthenameoftheclass___19 nt(enterthenameoftheclass___19)
+nt(enterthenameoftheclass___19) -> entertheclassdetail___20 nt(entertheclassdetail___20)
+nt(addnewclass___18) -> entertheclassdetail___20 nt(entertheclassdetail___20)
+nt(entertheclassdetail___20) -> enterthenameoftheclass___19 nt(enterthenameoftheclass___19)
+nt(entertheclassdetail___20) -> submittheclass___21 nt(submittheclass___21)
+nt(enterthenameoftheclass___19) -> submittheclass___21 nt(submittheclass___21)
+nt(enterthenameoftheclass___19) -> enterthenameoftheclass___19 nt(enterthenameoftheclass___19)
+nt(entertheclassdetail___20) -> entertheclassdetail___20 nt(entertheclassdetail___20)
+nt(turneditingon___16) -> addnewclass___18 nt(addnewclass___18)
+nt(submittheclass___21) -> <epsilon>
+nt(monitorcurrentattendancestatus___22) -> <epsilon>
+nt(openmyattendancerecords___14) -> monitorcurrentattendancestatus___22 nt(monitorcurrentattendancestatus___22)
+nt(deleteclass___23) -> confirmdeletion___24 nt(confirmdeletion___24)
+nt(confirmdeletion___24) -> <epsilon>
+nt(turneditingon___16) -> selectthedeletableclass___25 nt(selectthedeletableclass___25)
+nt(selectthedeletableclass___25) -> deleteclass___23 nt(deleteclass___23)
+nt(confirmdeletion___24) -> selectthedeletableclass___25 nt(selectthedeletableclass___25)
+nt(readtheaccesscardtothecardreader___26) -> readtheaccesscardtothecardreader___26 nt(readtheaccesscardtothecardreader___26)
+nt(submitattendance___2) -> readtheaccesscardtothecardreader___26 nt(readtheaccesscardtothecardreader___26)
+nt(readtheaccesscardtothecardreader___26) -> confirmyouridentity___3 nt(confirmyouridentity___3)

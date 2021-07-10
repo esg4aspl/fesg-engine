@@ -1,0 +1,60 @@
+digraph G {
+rankdir = LR
+label = "credit_interest_cancelWithdraw_dailyLimit_interestEstimation";
+esg35_vertex2 -> esg35_vertex1;
+esg35_vertex0 -> esg35_vertex2;
+esg35_vertex2 -> esg35_vertex3;
+esg35_vertex0 -> esg35_vertex3;
+esg35_vertex3 -> esg35_vertex4;
+esg35_vertex4 -> esg35_vertex5;
+esg35_vertex5 -> esg35_vertex1;
+esg35_vertex5 -> esg35_vertex2;
+esg35_vertex2 -> esg35_vertex6;
+esg35_vertex0 -> esg35_vertex6;
+esg35_vertex6 -> esg35_vertex7;
+esg35_vertex7 -> esg35_vertex8;
+esg35_vertex8 -> esg35_vertex1;
+esg35_vertex8 -> esg35_vertex2;
+esg35_vertex0 -> esg35_vertex9;
+esg35_vertex10 -> esg35_vertex1;
+esg35_vertex9 -> esg35_vertex10;
+esg35_vertex9 -> esg35_vertex11;
+esg35_vertex11 -> esg35_vertex1;
+esg35_vertex0 -> esg35_vertex12;
+esg35_vertex13 -> esg35_vertex1;
+esg35_vertex12 -> esg35_vertex13;
+esg35_vertex12 -> esg35_vertex14;
+esg35_vertex14 -> esg35_vertex1;
+esg35_vertex6 -> esg35_vertex15;
+esg35_vertex15 -> esg35_vertex1;
+esg35_vertex7 -> esg35_vertex16;
+esg35_vertex16 -> esg35_vertex15;
+esg35_vertex16 -> esg35_vertex7;
+esg35_vertex0 -> esg35_vertex17;
+esg35_vertex17 -> esg35_vertex1;
+esg35_vertex17 -> esg35_vertex17;
+esg35_vertex16 -> esg35_vertex1;
+esg35_vertex13 -> esg35_vertex18;
+esg35_vertex18 -> esg35_vertex19;
+esg35_vertex19 -> esg35_vertex1;
+esg35_vertex2 [label = "get balance"]
+esg35_vertex1 [label = "]"]
+esg35_vertex0 [label = "["]
+esg35_vertex3 [label = "select deposit"]
+esg35_vertex4 [label = "enter deposit amount"]
+esg35_vertex5 [label = "put money"]
+esg35_vertex6 [label = "select withdraw"]
+esg35_vertex7 [label = "enter withdraw amount"]
+esg35_vertex8 [label = "take money"]
+esg35_vertex9 [label = "enter a credit amount"]
+esg35_vertex10 [label = "confirm credit approved"]
+esg35_vertex11 [label = "confirm credit disapproved"]
+esg35_vertex12 [label = "request an interest rate"]
+esg35_vertex13 [label = "confirm interest rate approved"]
+esg35_vertex14 [label = "confirm interest rate disapproved"]
+esg35_vertex15 [label = "cancel withdraw"]
+esg35_vertex16 [label = "confirm daily limit excess"]
+esg35_vertex17 [label = "enter daily withdraw limit"]
+esg35_vertex18 [label = "enter days left"]
+esg35_vertex19 [label = "get estimated interest for days left"]
+}

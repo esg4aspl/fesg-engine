@@ -1,0 +1,7 @@
+7 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+7 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+1 : get_balance
+2 : select_withdraw, cancel_withdraw
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, get_balance, select_deposit, cancel_deposit, select_deposit, cancel_deposit
+3 : select_deposit, enter_deposit_amount, put_money
+7 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money

@@ -1,0 +1,18 @@
+total fault counts (ba-24-03_rrg-1seq-tb_mutantcounts-faultseeding(4).txt)
+m=2	m=3	m=4	m=5	total
+20	20	22	26	88
+
+
+seeded fault counts (ba-24-03_rrg-1seq-tb_mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt)
+m=2	m=3	m=4	m=5	total
+5	5	4	4	18
+
+
+revealed fault counts
+m=2	m=3	m=4	m=5	total
+5	4	3	1	13	ba-24-03_rrg-1seq-tb_length2-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt
+5	4	3	1	13	ba-24-03_rrg-1seq-tb_length2-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt
+5	5	4	4	18	ba-24-03_rrg-1seq-tb_length3-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt
+5	5	4	4	18	ba-24-03_rrg-1seq-tb_length3-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt
+5	5	4	4	18	ba-24-03_rrg-1seq-tb_length4-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt
+4	4	4	4	16	ba-24-03_rrg-1seq-tb_length4-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,18,88,1,-1210225942).txt

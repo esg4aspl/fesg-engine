@@ -1,0 +1,19 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+3	1	3	2	2	2	1	omitsequence,old,2/13	selectdeposit___3,enterdepositamount___4,false,false
+5	2	2	2	2	14	3	omitterminal,old,3/13	enterdepositamount___4:putmoney___5:getbalance___2,false,false
+8	3	3	3	2	9	2	omitterminal,old,4/13	putmoney___5:getbalance___2,false,false
+12	4	4	4	2	6	1	omitsequence,old,4/13	putmoney___5,getbalance___2,false,false
+17	5	5	5	2	19	4	omitsequence,old,2/16	selectdeposit___3:enterdepositamount___4:putmoney___5:getbalance___2,enterdepositamount___4:putmoney___5:getbalance___2:selectdeposit___3,false,false
+27	6	10	3	3	8	2	omitterminal,old,8/13	takemoney___8:getbalance___2,false,false
+31	7	4	4	3	12	2	omitsequence,old,9/13	enterwithdrawamount___7:takemoney___8,takemoney___8:getbalance___2,false,false
+36	8	5	5	3	10	2	omitsequence,old,11/13	takemoney___8:getbalance___2,getbalance___2:selectwithdraw___6,false,false
+42	9	6	6	3	22	4	omitterminal,old,13/15	takemoney___8:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+50	10	8	1	4	3	1	omitterminal,old,9/13	requestaninterestrate___9,false,false
+52	11	2	2	4	1	1	omitterminal,old,10/13	confirminterestratedisapproved___11,false,false
+58	12	6	2	6	4	1	omitsequence,old,9/13	requestaninterestrate___9,confirminterestrateapproved___10,false,false
+60	13	2	2	6	13	3	omitterminal,old,13/13	confirminterestrateapproved___10:enterdaysleft___13:getestimatedinterestfordaysleft___14,false,false
+63	14	3	3	6	7	2	omitsequence,old,12/13	requestaninterestrate___9:confirminterestrateapproved___10,confirminterestrateapproved___10:enterdaysleft___13,false,false
+67	15	4	4	6	5	1	omitterminal,old,13/13	getestimatedinterestfordaysleft___14,false,false
+71	16	4	4	6	11	2	omitsequence,old,13/13	confirminterestrateapproved___10:enterdaysleft___13,enterdaysleft___13:getestimatedinterestfordaysleft___14,false,false
+77	16	6	---	7	---	---

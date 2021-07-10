@@ -1,0 +1,75 @@
+Scenario ID,Existing Product,EP # of Features,EP Features,Product Under Consideration ID,PUC Name,PUC # Features,PUC Features,Increment,
+2,baseProduct,3,deposit; withdraw,6,cancelWithdraw,4,deposit; withdraw; cancelWithdraw,cancelWithdraw
+3,baseProduct,3,deposit; withdraw,24,credit,4,deposit; withdraw; credit,credit
+5,interest,4,deposit; withdraw; interest,4,cancelDeposit_interest,5,deposit; withdraw; cancelDeposit; interest,cancelDeposit
+
+
+64,credit,4,deposit; withdraw; credit,25,credit_interest,5,deposit; withdraw; credit; interest,interest
+
+19,cancelWithdraw,4,deposit; withdraw; cancelWithdraw,7,interest_cancelWithdraw,5,deposit; withdraw; interest; cancelWithdraw,interest
+
+66,credit,4,deposit; withdraw; credit,30,credit_cancelWithdraw,5,deposit; withdraw; credit; cancelWithdraw,cancelWithdraw
+4,interest,4,deposit; withdraw; interest,2,interest_interestEstimation,5,deposit; withdraw; interest; interestEstimation,interestEstimation
+20,cancelWithdraw,4,deposit; withdraw; cancelWithdraw,9,cancelWithdraw_dailyLimit,5,deposit; withdraw; cancelWithdraw; dailyLimit,dailyLimit
+
+68,credit_interest,5,deposit; withdraw; credit; interest,28,cancelDeposit_credit_interest,6,deposit; withdraw; cancelDeposit; credit; interest,cancelDeposit
+
+
+
+41,cancelDeposit_cancelWithdraw,5,deposit; withdraw; cancelDeposit; cancelWithdraw,13,cancelDeposit_interest_cancelWithdraw,6,deposit; withdraw; cancelDeposit; interest; cancelWithdraw,interest
+31,cancelWithdraw_dailyLimit,5,deposit; withdraw; cancelWithdraw; dailyLimit,15,cancelDeposit_cancelWithdraw_dailyLimit,6,deposit; withdraw; cancelDeposit; cancelWithdraw; dailyLimit,cancelDeposit
+
+
+67,credit_interest,5,deposit; withdraw; credit; interest,26,credit_interest_interestEstimation,6,deposit; withdraw; credit; interest; interestEstimation,interestEstimation
+43,cancelDeposit_cancelWithdraw,5,deposit; withdraw; cancelDeposit; cancelWithdraw,36,cancelDeposit_credit_cancelWithdraw,6,deposit; withdraw; cancelDeposit; credit; cancelWithdraw,credit
+
+
+
+23,interest_cancelWithdraw,5,deposit; withdraw; interest; cancelWithdraw,8,interest_cancelWithdraw_interestEstimation,6,deposit; withdraw; interest; cancelWithdraw; interestEstimation,interestEstimation
+
+78,credit_cancelWithdraw,5,deposit; withdraw; credit; cancelWithdraw,33,credit_cancelWithdraw_dailyLimit,6,deposit; withdraw; credit; cancelWithdraw; dailyLimit,dailyLimit
+17,cancelDeposit_interest_interestEstimation,6,deposit; withdraw; cancelDeposit; interest; interestEstimation,14,cancelDeposit_interest_cancelWithdraw_interestEstimation,7,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; interestEstimation,cancelWithdraw
+
+
+50,cancelDeposit_cancelWithdraw_dailyLimit,6,deposit; withdraw; cancelDeposit; cancelWithdraw; dailyLimit,21,cancelDeposit_cancelWithdraw_dailyLimit_overdraft,7,deposit; withdraw; cancelDeposit; cancelWithdraw; dailyLimit; overdraft,overdraft
+
+
+86,credit_cancelWithdraw_dailyLimit,6,deposit; withdraw; credit; cancelWithdraw; dailyLimit,39,cancelDeposit_credit_cancelWithdraw_dailyLimit,7,deposit; withdraw; cancelDeposit; credit; cancelWithdraw; dailyLimit,cancelDeposit
+
+
+71,credit_interest_interestEstimation,6,deposit; withdraw; credit; interest; interestEstimation,32,credit_interest_cancelWithdraw_interestEstimation,7,deposit; withdraw; credit; interest; cancelWithdraw; interestEstimation,cancelWithdraw
+
+
+
+85,credit_cancelWithdraw_dailyLimit,6,deposit; withdraw; credit; cancelWithdraw; dailyLimit,34,credit_interest_cancelWithdraw_dailyLimit,7,deposit; withdraw; credit; interest; cancelWithdraw; dailyLimit,interest
+
+
+49,cancelDeposit_cancelWithdraw_dailyLimit,6,deposit; withdraw; cancelDeposit; cancelWithdraw; dailyLimit,16,cancelDeposit_interest_cancelWithdraw_dailyLimit,7,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit,interest
+36,interest_cancelWithdraw_dailyLimit,6,deposit; withdraw; interest; cancelWithdraw; dailyLimit,19,interest_cancelWithdraw_dailyLimit_overdraft,7,deposit; withdraw; interest; cancelWithdraw; dailyLimit; overdraft,overdraft
+
+54,cancelDeposit_interest_cancelWithdraw_dailyLimit,7,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit,40,cancelDeposit_credit_interest_cancelWithdraw_dailyLimit,8,deposit; withdraw; cancelDeposit; credit; interest; cancelWithdraw; dailyLimit,credit
+
+
+
+
+
+62,cancelDeposit_cancelWithdraw_dailyLimit_overdraft,7,deposit; withdraw; cancelDeposit; cancelWithdraw; dailyLimit; overdraft,22,cancelDeposit_interest_cancelWithdraw_dailyLimit_overdraft,8,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit; overdraft,interest
+
+76,cancelDeposit_credit_interest_interestEstimation,7,deposit; withdraw; cancelDeposit; credit; interest; interestEstimation,38,cancelDeposit_credit_interest_cancelWithdraw_interestEstimation,8,deposit; withdraw; cancelDeposit; credit; interest; cancelWithdraw; interestEstimation,cancelWithdraw
+
+
+
+
+52,cancelDeposit_interest_cancelWithdraw_dailyLimit,7,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit,17,cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation,8,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit; interestEstimation,interestEstimation
+
+83,credit_interest_cancelWithdraw_interestEstimation,7,deposit; withdraw; credit; interest; cancelWithdraw; interestEstimation,35,credit_interest_cancelWithdraw_dailyLimit_interestEstimation,8,deposit; withdraw; credit; interest; cancelWithdraw; dailyLimit; interestEstimation,dailyLimit
+
+39,interest_cancelWithdraw_dailyLimit_interestEstimation,7,deposit; withdraw; interest; cancelWithdraw; dailyLimit; interestEstimation,20,interest_cancelWithdraw_dailyLimit_interestEstimation_overdraft,8,deposit; withdraw; interest; cancelWithdraw; dailyLimit; interestEstimation; overdraft,overdraft
+
+55,cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation,8,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit; interestEstimation,23,cancelDeposit_interest_cancelWithdraw_dailyLimit_interestEstimation_overdraft,9,deposit; withdraw; cancelDeposit; interest; cancelWithdraw; dailyLimit; interestEstimation; overdraft,overdraft
+
+
+
+89,credit_interest_cancelWithdraw_dailyLimit_interestEstimation,8,deposit; withdraw; credit; interest; cancelWithdraw; dailyLimit; interestEstimation,41,cancelDeposit_credit_interest_cancelWithdraw_dailyLimit_interestEstimation,9,deposit; withdraw; cancelDeposit; credit; interest; cancelWithdraw; dailyLimit; interestEstimation,cancelDeposit
+
+

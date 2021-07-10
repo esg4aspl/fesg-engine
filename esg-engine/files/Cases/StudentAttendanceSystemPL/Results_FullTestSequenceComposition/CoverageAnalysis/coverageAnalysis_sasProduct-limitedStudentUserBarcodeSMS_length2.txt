@@ -1,0 +1,27 @@
+Number of nodes: 17
+Number of edges: 19
+Number of CESs: 7
+Number of events: 31
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	show the barcode to the barcodereader, show the barcode to the barcodereader
+1	show the barcode to the barcodereader, enter barcode manually
+1	submit attendance, enter barcode manually
+2	submit attendance, show the barcode to the barcodereader
+2	enter barcode manually, confirm your identity
+1	show the barcode to the barcodereader, confirm your identity
+3	log in, access as a student
+1	access as a student, open class records
+2	access as a student, open my attendance records
+1	open my attendance records, open class records
+1	select the existing record, view record
+1	open my attendance records, select the existing record
+1	select the existing class, view class
+1	open class records, select the existing class
+1	select the existing schedule, view schedule
+1	open class records, select the existing schedule
+1	log in, open notification settings
+1	open notification settings, receive notifications as SMS
+1	receive notifications as SMS, confirm notification settings
+0	Number of uncovered edges 

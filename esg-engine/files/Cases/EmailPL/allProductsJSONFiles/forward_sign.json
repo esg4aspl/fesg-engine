@@ -1,0 +1,157 @@
+{
+	"ID"	:16,
+	"name"	:"forward_sign",
+	"vertices"	:[
+		{
+			"ID"	:0,
+			"event"	:"["
+		},
+		{
+			"ID"	:1,
+			"event"	:"]"
+		},
+		{
+			"ID"	:2,
+			"event"	:"enter receiver's email address"
+		},
+		{
+			"ID"	:3,
+			"event"	:"enter email subject"
+		},
+		{
+			"ID"	:4,
+			"event"	:"enter email body"
+		},
+		{
+			"ID"	:5,
+			"event"	:"open mailbox"
+		},
+		{
+			"ID"	:6,
+			"event"	:"select email"
+		},
+		{
+			"ID"	:7,
+			"event"	:"compose new email"
+		},
+		{
+			"ID"	:8,
+			"event"	:"send email"
+		},
+		{
+			"ID"	:9,
+			"event"	:"enter forward receiver's email address"
+		},
+		{
+			"ID"	:10,
+			"event"	:"sign mail"
+		}
+			],
+	"edges"	:[
+		{
+			"ID"	:0,
+			"source"	:2,
+			"target"	:3
+		},
+		{
+			"ID"	:1,
+			"source"	:3,
+			"target"	:4
+		},
+		{
+			"ID"	:2,
+			"source"	:5,
+			"target"	:6
+		},
+		{
+			"ID"	:3,
+			"source"	:7,
+			"target"	:2
+		},
+		{
+			"ID"	:4,
+			"source"	:2,
+			"target"	:8
+		},
+		{
+			"ID"	:5,
+			"source"	:2,
+			"target"	:2
+		},
+		{
+			"ID"	:6,
+			"source"	:7,
+			"target"	:3
+		},
+		{
+			"ID"	:7,
+			"source"	:3,
+			"target"	:2
+		},
+		{
+			"ID"	:8,
+			"source"	:7,
+			"target"	:4
+		},
+		{
+			"ID"	:9,
+			"source"	:4,
+			"target"	:2
+		},
+		{
+			"ID"	:10,
+			"source"	:3,
+			"target"	:3
+		},
+		{
+			"ID"	:11,
+			"source"	:4,
+			"target"	:4
+		},
+		{
+			"ID"	:12,
+			"source"	:8,
+			"target"	:1
+		},
+		{
+			"ID"	:13,
+			"source"	:6,
+			"target"	:1
+		},
+		{
+			"ID"	:14,
+			"source"	:0,
+			"target"	:7
+		},
+		{
+			"ID"	:15,
+			"source"	:0,
+			"target"	:5
+		},
+		{
+			"ID"	:16,
+			"source"	:4,
+			"target"	:3
+		},
+		{
+			"ID"	:17,
+			"source"	:6,
+			"target"	:9
+		},
+		{
+			"ID"	:18,
+			"source"	:9,
+			"target"	:8
+		},
+		{
+			"ID"	:19,
+			"source"	:2,
+			"target"	:10
+		},
+		{
+			"ID"	:20,
+			"source"	:10,
+			"target"	:8
+		}
+			]
+}

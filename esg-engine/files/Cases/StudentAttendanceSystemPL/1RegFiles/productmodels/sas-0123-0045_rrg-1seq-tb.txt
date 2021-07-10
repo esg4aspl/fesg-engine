@@ -1,0 +1,37 @@
+S -> submitattendance___2 nt(submitattendance___2)
+nt(confirmyouridentity___3) -> <epsilon>
+S -> login___4 nt(login___4)
+nt(login___4) -> opennotificationsettings___5 nt(opennotificationsettings___5)
+nt(confirmnotificationsettings___6) -> <epsilon>
+nt(selecttheexistingclass___8) -> viewclass___9 nt(viewclass___9)
+nt(viewclass___9) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingclass___8 nt(selecttheexistingclass___8)
+nt(selecttheexistingschedule___10) -> viewschedule___11 nt(viewschedule___11)
+nt(viewschedule___11) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingschedule___10 nt(selecttheexistingschedule___10)
+nt(opennotificationsettings___5) -> receivenotificationsasEmail___12 nt(receivenotificationsasEmail___12)
+nt(receivenotificationsasEmail___12) -> confirmnotificationsettings___6 nt(confirmnotificationsettings___6)
+nt(login___4) -> accessasateacher___13 nt(accessasateacher___13)
+nt(accessasateacher___13) -> turneditingon___14 nt(turneditingon___14)
+nt(turneditingon___14) -> openstudentattendancerecords___15 nt(openstudentattendancerecords___15)
+nt(turneditingon___14) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openstudentattendancerecords___15) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openstudentattendancerecords___15) -> selectaclass-listattendancerecord___16 nt(selectaclass-listattendancerecord___16)
+nt(openstudentattendancerecords___15) -> selectaneditablestudent-record___17 nt(selectaneditablestudent-record___17)
+nt(submitattendancerecordupdate___18) -> <epsilon>
+nt(selectaclass-listattendancerecord___16) -> editattendancestatus___19 nt(editattendancestatus___19)
+nt(selectaneditablestudent-record___17) -> editattendancestatus___19 nt(editattendancestatus___19)
+nt(editattendancestatus___19) -> submitattendancerecordupdate___18 nt(submitattendancerecordupdate___18)
+nt(addnewclass___20) -> enterthenameoftheclass___21 nt(enterthenameoftheclass___21)
+nt(enterthenameoftheclass___21) -> entertheclassdetail___22 nt(entertheclassdetail___22)
+nt(addnewclass___20) -> entertheclassdetail___22 nt(entertheclassdetail___22)
+nt(entertheclassdetail___22) -> enterthenameoftheclass___21 nt(enterthenameoftheclass___21)
+nt(entertheclassdetail___22) -> submittheclass___23 nt(submittheclass___23)
+nt(enterthenameoftheclass___21) -> submittheclass___23 nt(submittheclass___23)
+nt(enterthenameoftheclass___21) -> enterthenameoftheclass___21 nt(enterthenameoftheclass___21)
+nt(entertheclassdetail___22) -> entertheclassdetail___22 nt(entertheclassdetail___22)
+nt(turneditingon___14) -> addnewclass___20 nt(addnewclass___20)
+nt(submittheclass___23) -> <epsilon>
+nt(showtheQRcodetotheQRcodereader___24) -> showtheQRcodetotheQRcodereader___24 nt(showtheQRcodetotheQRcodereader___24)
+nt(submitattendance___2) -> showtheQRcodetotheQRcodereader___24 nt(showtheQRcodetotheQRcodereader___24)
+nt(showtheQRcodetotheQRcodereader___24) -> confirmyouridentity___3 nt(confirmyouridentity___3)

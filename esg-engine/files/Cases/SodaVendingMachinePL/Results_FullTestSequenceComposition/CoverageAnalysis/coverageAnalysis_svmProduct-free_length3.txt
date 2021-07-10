@@ -1,0 +1,13 @@
+Number of nodes: 4
+Number of edges: 2
+Number of CESs: 0
+Number of events: 0
+Number of uncovered edges: 2
+Coverage: 0.0
+Number of coverage	Edge
+0	~free, select, serveSoda
+0	prompt, ~free, select
+2	Number of uncovered edges 
+Uncovered edges: 
+~free, select, serveSoda
+prompt, ~free, select

@@ -1,0 +1,2 @@
+4 : prompt, payEUR, select, serveSoda
+4 : prompt, payEUR, cancel, returnMoney

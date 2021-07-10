@@ -1,0 +1,24 @@
+nt(getbalance___2) -> <epsilon>
+S -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectdeposit___3 nt(selectdeposit___3)
+S -> selectdeposit___3 nt(selectdeposit___3)
+nt(selectdeposit___3) -> enterdepositamount___4 nt(enterdepositamount___4)
+nt(enterdepositamount___4) -> putmoney___5 nt(putmoney___5)
+nt(putmoney___5) -> <epsilon>
+nt(putmoney___5) -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectwithdraw___6 nt(selectwithdraw___6)
+S -> selectwithdraw___6 nt(selectwithdraw___6)
+nt(selectwithdraw___6) -> enterwithdrawamount___7 nt(enterwithdrawamount___7)
+nt(enterwithdrawamount___7) -> takemoney___8 nt(takemoney___8)
+nt(takemoney___8) -> <epsilon>
+nt(takemoney___8) -> getbalance___2 nt(getbalance___2)
+S -> requestaninterestrate___9 nt(requestaninterestrate___9)
+nt(confirminterestrateapproved___10) -> <epsilon>
+nt(requestaninterestrate___9) -> confirminterestrateapproved___10 nt(confirminterestrateapproved___10)
+nt(requestaninterestrate___9) -> confirminterestratedisapproved___11 nt(confirminterestratedisapproved___11)
+nt(confirminterestratedisapproved___11) -> <epsilon>
+nt(selectwithdraw___6) -> cancelwithdraw___12 nt(cancelwithdraw___12)
+nt(cancelwithdraw___12) -> <epsilon>
+nt(confirminterestrateapproved___10) -> enterdaysleft___13 nt(enterdaysleft___13)
+nt(enterdaysleft___13) -> getestimatedinterestfordaysleft___14 nt(getestimatedinterestfordaysleft___14)
+nt(getestimatedinterestfordaysleft___14) -> <epsilon>

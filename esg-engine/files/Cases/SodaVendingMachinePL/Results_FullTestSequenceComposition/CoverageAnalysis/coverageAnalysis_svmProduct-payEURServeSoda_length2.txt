@@ -1,0 +1,13 @@
+Number of nodes: 6
+Number of edges: 5
+Number of CESs: 2
+Number of events: 8
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	payEUR, select
+1	select, serveSoda
+2	prompt, payEUR
+1	payEUR, cancel
+1	cancel, returnMoney
+0	Number of uncovered edges 

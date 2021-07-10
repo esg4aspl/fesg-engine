@@ -1,0 +1,20 @@
+11 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+12 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance
+16 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance
+18 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, cancel_withdraw
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, cancel_withdraw
+12 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance
+14 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, cancel_withdraw
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, cancel_withdraw
+10 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, cancel_deposit
+11 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+10 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, cancel_deposit
+11 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, cancel_deposit
+11 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, cancel_deposit
+12 : get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money
+12 : get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+12 : get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money
+12 : get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+12 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance

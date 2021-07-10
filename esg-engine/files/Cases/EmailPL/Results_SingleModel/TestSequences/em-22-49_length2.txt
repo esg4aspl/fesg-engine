@@ -1,0 +1,6 @@
+7 : compose_new_email, enter_email_body, enter_email_subject, enter_receiver's_email_address, get_receiver's_public_key, encrypt_mail_with_receiver's_public_key, send_email
+6 : compose_new_email, enter_email_subject, enter_email_subject, enter_receiver's_email_address, enter_receiver's_email_address, send_email
+2 : enter_autoresponse_email_body, enter_email_autoresponse_date_interval
+3 : enter_email_autoresponse_date_interval, enter_autoresponse_email_body, enter_email_autoresponse_date_interval
+2 : open_mailbox, select_email
+8 : compose_new_email, enter_receiver's_email_address, enter_email_subject, enter_email_body, enter_email_body, enter_receiver's_email_address, sign_mail, send_email

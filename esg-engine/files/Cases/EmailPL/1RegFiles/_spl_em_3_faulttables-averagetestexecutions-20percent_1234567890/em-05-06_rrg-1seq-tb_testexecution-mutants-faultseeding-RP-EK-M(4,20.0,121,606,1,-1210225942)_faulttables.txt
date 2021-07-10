@@ -1,0 +1,18 @@
+total fault counts (em-05-06_rrg-1seq-tb_mutantcounts-faultseeding(4).txt)
+m=2	m=3	m=4	m=5	total
+31	60	144	371	606
+
+
+seeded fault counts (em-05-06_rrg-1seq-tb_mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt)
+m=2	m=3	m=4	m=5	total
+31	30	30	30	121
+
+
+revealed fault counts
+m=2	m=3	m=4	m=5	total
+31	18	5	1	55	em-05-06_rrg-1seq-tb_length2-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt
+31	18	4	1	54	em-05-06_rrg-1seq-tb_length2-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt
+31	30	16	6	83	em-05-06_rrg-1seq-tb_length3-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt
+31	30	15	4	80	em-05-06_rrg-1seq-tb_length3-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt
+31	30	30	18	109	em-05-06_rrg-1seq-tb_length4-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt
+31	30	30	16	107	em-05-06_rrg-1seq-tb_length4-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,121,606,1,-1210225942).txt

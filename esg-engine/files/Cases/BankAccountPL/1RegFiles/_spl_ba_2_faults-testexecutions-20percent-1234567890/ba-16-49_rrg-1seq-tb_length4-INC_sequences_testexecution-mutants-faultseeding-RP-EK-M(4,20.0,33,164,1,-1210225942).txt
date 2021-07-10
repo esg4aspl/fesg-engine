@@ -1,0 +1,35 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+1	1	1	1	1	9	1	omitterminal,old,2/14	selectdeposit___3,false,false
+4	2	3	3	1	1	1	omitsequence,old,3/16	enterdepositamount___4,putmoney___5,false,false
+9	3	5	5	1	13	2	omitsequence,old,5/18	putmoney___5:getbalance___2,getbalance___2:selectdeposit___3,false,false
+14	4	5	5	1	17	2	omitterminal,old,1/16	getbalance___2:selectdeposit___3,false,false
+19	5	5	5	1	32	4	omitterminal,old,3/25	enterdepositamount___4:putmoney___5:getbalance___2:selectdeposit___3,false,false
+26	6	7	7	1	19	3	omitsequence,old,1/25	getbalance___2:selectdeposit___3:enterdepositamount___4,selectdeposit___3:enterdepositamount___4:putmoney___5,false,false
+35	7	9	2	2	2	1	omitsequence,old,16/16	enterdailywithdrawlimit___15,enterdailywithdrawlimit___15,false,false
+47	8	12	5	5	11	2	omitterminal,old,5/16	getbalance___2:selectwithdraw___6,false,false
+52	9	5	5	5	25	3	omitterminal,old,6/18	putmoney___5:getbalance___2:selectwithdraw___6,false,false
+58	10	6	6	5	8	1	omitterminal,old,6/14	enterwithdrawamount___7,false,false
+64	11	6	6	5	21	3	omitterminal,old,7/18	getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+70	12	6	6	5	23	3	omitsequence,old,7/25	putmoney___5:getbalance___2:selectwithdraw___6,getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+77	13	7	7	5	4	1	omitsequence,old,7/16	enterwithdrawamount___7,takemoney___8,false,false
+84	14	7	7	5	7	1	omitterminal,old,7/14	takemoney___8,false,false
+91	15	7	7	5	20	3	omitsequence,old,9/25	getbalance___2:selectwithdraw___6:enterwithdrawamount___7,selectwithdraw___6:enterwithdrawamount___7:takemoney___8,false,false
+106	16	15	8	6	28	4	omitsequence,old,11/32	getbalance___2:selectwithdraw___6:enterwithdrawamount___7:takemoney___8,selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+115	17	9	9	6	27	4	omitterminal,old,15/25	enterwithdrawamount___7:takemoney___8:getbalance___2:selectwithdraw___6,false,false
+132	18	17	6	7	3	1	omitterminal,old,8/14	canceldeposit___9,false,false
+138	19	6	6	7	29	4	omitsequence,old,5/32	enterdepositamount___4:putmoney___5:getbalance___2:selectdeposit___3,putmoney___5:getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+149	20	11	5	8	31	4	omitterminal,old,14/25	enterwithdrawamount___7:takemoney___8:getbalance___2:selectdeposit___3,false,false
+155	21	6	6	8	24	3	omitsequence,old,17/25	takemoney___8:getbalance___2:selectdeposit___3,getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+172	22	17	6	11	10	2	omitsequence,old,8/18	getbalance___2:selectwithdraw___6,selectwithdraw___6:cancelwithdraw___13,false,false
+189	23	17	6	14	18	3	omitsequence,old,8/25	putmoney___5:getbalance___2:selectwithdraw___6,getbalance___2:selectwithdraw___6:cancelwithdraw___13,false,false
+198	24	9	3	15	16	2	omitterminal,old,13/16	enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+201	25	3	3	15	22	3	omitterminal,old,10/18	selectwithdraw___6:enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+205	26	4	4	15	12	2	omitsequence,old,15/18	enterwithdrawamount___7:confirmdailylimitexcess___14,confirmdailylimitexcess___14:enterwithdrawamount___7,false,false
+210	27	5	5	15	33	4	omitterminal,old,20/25	enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7:takemoney___8,false,false
+228	28	18	9	17	14	2	omitsequence,old,17/18	confirmdailylimitexcess___14:enterwithdrawamount___7,enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+237	29	9	9	17	30	4	omitterminal,old,21/25	enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+257	30	20	4	19	15	2	omitsequence,old,14/18	enterwithdrawamount___7:confirmdailylimitexcess___14,confirmdailylimitexcess___14:cancelwithdraw___13,false,false
+279	31	22	1	23	5	1	omitterminal,old,10/14	requestaninterestrate___10,false,false
+283	32	4	2	24	6	1	omitsequence,old,10/16	requestaninterestrate___10,confirminterestrateapproved___11,false,false
+285	32	2	---	24	---	---

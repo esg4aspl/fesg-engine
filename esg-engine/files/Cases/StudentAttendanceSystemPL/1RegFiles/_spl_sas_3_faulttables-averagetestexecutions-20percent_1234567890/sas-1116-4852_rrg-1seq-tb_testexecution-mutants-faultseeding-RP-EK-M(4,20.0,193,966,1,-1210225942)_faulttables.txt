@@ -1,0 +1,18 @@
+total fault counts (sas-1116-4852_rrg-1seq-tb_mutantcounts-faultseeding(4).txt)
+m=2	m=3	m=4	m=5	total
+87	147	262	470	966
+
+
+seeded fault counts (sas-1116-4852_rrg-1seq-tb_mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt)
+m=2	m=3	m=4	m=5	total
+49	48	48	48	193
+
+
+revealed fault counts
+m=2	m=3	m=4	m=5	total
+49	36	18	9	112	sas-1116-4852_rrg-1seq-tb_length2-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt
+49	35	18	6	108	sas-1116-4852_rrg-1seq-tb_length2-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt
+49	48	32	17	146	sas-1116-4852_rrg-1seq-tb_length3-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt
+49	48	32	17	146	sas-1116-4852_rrg-1seq-tb_length3-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt
+49	48	48	34	179	sas-1116-4852_rrg-1seq-tb_length4-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt
+49	48	48	33	178	sas-1116-4852_rrg-1seq-tb_length4-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,193,966,1,-1210225942).txt

@@ -1,0 +1,14 @@
+3 : select_deposit, enter_deposit_amount, put_money
+15 : select_deposit, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money
+16 : select_withdraw, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money, get_balance
+3 : select_withdraw, enter_withdraw_amount, take_money
+27 : select_withdraw, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_withdraw, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money
+2 : enter_a_credit_amount, confirm_credit_disapproved
+2 : enter_a_credit_amount, confirm_credit_approved
+2 : request_an_interest_rate, confirm_interest_rate_disapproved
+2 : request_an_interest_rate, confirm_interest_rate_approved
+28 : get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money
+7 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+19 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_withdraw, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money
+21 : select_deposit, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_withdraw, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_deposit, enter_deposit_amount, put_money
+6 : request_an_interest_rate, confirm_interest_rate_approved, enter_days_left, get_estimated_interest_for_days_left, enter_days_left, get_estimated_interest_for_days_left

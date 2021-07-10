@@ -1,0 +1,75 @@
+Number of nodes: 25
+Number of edges: 37
+Number of CESs: 24
+Number of events: 177
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	log in, open notification settings, receive notifications as Email, confirm notification settings
+4	log in, access as a teacher, turn editing on, open student attendance records
+2	log in, access as a teacher, turn editing on, open class records
+14	log in, access as a teacher, turn editing on, add new class
+2	access as a teacher, turn editing on, open student attendance records, open class records
+1	access as a teacher, turn editing on, open student attendance records, select a class-list attendance record
+1	access as a teacher, turn editing on, open student attendance records, select an editable student-record
+1	access as a teacher, turn editing on, open class records, select the existing class
+1	access as a teacher, turn editing on, open class records, select the existing schedule
+7	access as a teacher, turn editing on, add new class, enter the name of the class
+7	access as a teacher, turn editing on, add new class, enter the class detail
+1	turn editing on, open student attendance records, open class records, select the existing class
+1	turn editing on, open student attendance records, open class records, select the existing schedule
+1	turn editing on, open student attendance records, select a class-list attendance record, edit attendance status
+1	turn editing on, open student attendance records, select an editable student-record, edit attendance status
+1	turn editing on, open class records, select the existing class, view class
+1	turn editing on, open class records, select the existing schedule, view schedule
+1	open student attendance records, open class records, select the existing class, view class
+1	open student attendance records, open class records, select the existing schedule, view schedule
+1	open student attendance records, select a class-list attendance record, edit attendance status, submit attendance record update
+1	open student attendance records, select an editable student-record, edit attendance status, submit attendance record update
+1	add new class, enter the name of the class, enter the class detail, enter the name of the class
+1	add new class, enter the name of the class, enter the class detail, submit the class
+1	add new class, enter the name of the class, enter the class detail, enter the class detail
+1	add new class, enter the name of the class, enter the name of the class, enter the class detail
+1	add new class, enter the name of the class, enter the name of the class, submit the class
+1	add new class, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the name of the class, enter the class detail
+1	enter the name of the class, enter the class detail, enter the name of the class, submit the class
+1	enter the name of the class, enter the class detail, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the class detail, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the class detail, submit the class
+1	enter the name of the class, enter the class detail, enter the class detail, enter the class detail
+1	add new class, enter the class detail, enter the name of the class, enter the class detail
+1	add new class, enter the class detail, enter the name of the class, submit the class
+1	add new class, enter the class detail, enter the name of the class, enter the name of the class
+1	add new class, enter the class detail, enter the class detail, enter the name of the class
+1	add new class, enter the class detail, enter the class detail, submit the class
+1	add new class, enter the class detail, enter the class detail, enter the class detail
+1	enter the class detail, enter the name of the class, enter the class detail, enter the name of the class
+1	enter the class detail, enter the name of the class, enter the class detail, submit the class
+1	enter the class detail, enter the name of the class, enter the class detail, enter the class detail
+1	enter the class detail, enter the name of the class, enter the name of the class, enter the class detail
+1	enter the class detail, enter the name of the class, enter the name of the class, submit the class
+1	enter the class detail, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the name of the class, enter the class detail, enter the name of the class
+1	enter the name of the class, enter the name of the class, enter the class detail, submit the class
+1	enter the name of the class, enter the name of the class, enter the class detail, enter the class detail
+1	enter the name of the class, enter the name of the class, enter the name of the class, enter the class detail
+1	enter the name of the class, enter the name of the class, enter the name of the class, submit the class
+1	enter the name of the class, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the class detail, enter the class detail, enter the name of the class, enter the class detail
+1	enter the class detail, enter the class detail, enter the name of the class, submit the class
+1	enter the class detail, enter the class detail, enter the name of the class, enter the name of the class
+1	enter the class detail, enter the class detail, enter the class detail, enter the name of the class
+1	enter the class detail, enter the class detail, enter the class detail, submit the class
+1	enter the class detail, enter the class detail, enter the class detail, enter the class detail
+3	turn editing on, add new class, enter the name of the class, enter the class detail
+1	turn editing on, add new class, enter the name of the class, submit the class
+3	turn editing on, add new class, enter the name of the class, enter the name of the class
+3	turn editing on, add new class, enter the class detail, enter the name of the class
+1	turn editing on, add new class, enter the class detail, submit the class
+3	turn editing on, add new class, enter the class detail, enter the class detail
+1	show the QR code to the QR code reader, show the QR code to the QR code reader, show the QR code to the QR code reader, show the QR code to the QR code reader
+1	show the QR code to the QR code reader, show the QR code to the QR code reader, show the QR code to the QR code reader, confirm your identity
+1	submit attendance, show the QR code to the QR code reader, show the QR code to the QR code reader, show the QR code to the QR code reader
+1	submit attendance, show the QR code to the QR code reader, show the QR code to the QR code reader, confirm your identity
+0	Number of uncovered edges 

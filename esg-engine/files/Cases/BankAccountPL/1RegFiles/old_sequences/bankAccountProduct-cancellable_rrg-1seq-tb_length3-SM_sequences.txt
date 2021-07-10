@@ -1,0 +1,8 @@
+selectdeposit enterdepositamount putmoney getbalance 
+selectwithdraw enterwithdrawamount takemoney getbalance 
+selectwithdraw cancelwithdraw 
+selectwithdraw enterwithdrawamount takemoney getbalance selectwithdraw enterwithdrawamount takemoney getbalance selectdeposit enterdepositamount putmoney getbalance selectwithdraw enterwithdrawamount takemoney 
+selectdeposit canceldeposit 
+selectdeposit enterdepositamount putmoney getbalance selectdeposit canceldeposit 
+getbalance selectdeposit enterdepositamount putmoney 
+getbalance selectwithdraw cancelwithdraw 

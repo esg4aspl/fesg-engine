@@ -1,0 +1,46 @@
+digraph G {
+rankdir = LR
+label = "cancelDeposit_credit_interest";
+esg28_vertex2 -> esg28_vertex1;
+esg28_vertex0 -> esg28_vertex2;
+esg28_vertex2 -> esg28_vertex3;
+esg28_vertex0 -> esg28_vertex3;
+esg28_vertex3 -> esg28_vertex4;
+esg28_vertex4 -> esg28_vertex5;
+esg28_vertex5 -> esg28_vertex1;
+esg28_vertex5 -> esg28_vertex2;
+esg28_vertex2 -> esg28_vertex6;
+esg28_vertex0 -> esg28_vertex6;
+esg28_vertex6 -> esg28_vertex7;
+esg28_vertex7 -> esg28_vertex8;
+esg28_vertex8 -> esg28_vertex1;
+esg28_vertex8 -> esg28_vertex2;
+esg28_vertex3 -> esg28_vertex9;
+esg28_vertex9 -> esg28_vertex1;
+esg28_vertex0 -> esg28_vertex10;
+esg28_vertex11 -> esg28_vertex1;
+esg28_vertex10 -> esg28_vertex11;
+esg28_vertex10 -> esg28_vertex12;
+esg28_vertex12 -> esg28_vertex1;
+esg28_vertex0 -> esg28_vertex13;
+esg28_vertex14 -> esg28_vertex1;
+esg28_vertex13 -> esg28_vertex14;
+esg28_vertex13 -> esg28_vertex15;
+esg28_vertex15 -> esg28_vertex1;
+esg28_vertex2 [label = "get balance"]
+esg28_vertex1 [label = "]"]
+esg28_vertex0 [label = "["]
+esg28_vertex3 [label = "select deposit"]
+esg28_vertex4 [label = "enter deposit amount"]
+esg28_vertex5 [label = "put money"]
+esg28_vertex6 [label = "select withdraw"]
+esg28_vertex7 [label = "enter withdraw amount"]
+esg28_vertex8 [label = "take money"]
+esg28_vertex9 [label = "cancel deposit"]
+esg28_vertex10 [label = "enter a credit amount"]
+esg28_vertex11 [label = "confirm credit approved"]
+esg28_vertex12 [label = "confirm credit disapproved"]
+esg28_vertex13 [label = "request an interest rate"]
+esg28_vertex14 [label = "confirm interest rate approved"]
+esg28_vertex15 [label = "confirm interest rate disapproved"]
+}

@@ -1,0 +1,48 @@
+S -> submitattendance___2 nt(submitattendance___2)
+nt(confirmyouridentity___3) -> <epsilon>
+S -> login___4 nt(login___4)
+nt(login___4) -> opennotificationsettings___5 nt(opennotificationsettings___5)
+nt(confirmnotificationsettings___6) -> <epsilon>
+nt(selecttheexistingclass___8) -> viewclass___9 nt(viewclass___9)
+nt(viewclass___9) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingclass___8 nt(selecttheexistingclass___8)
+nt(selecttheexistingschedule___10) -> viewschedule___11 nt(viewschedule___11)
+nt(viewschedule___11) -> <epsilon>
+nt(openclassrecords___7) -> selecttheexistingschedule___10 nt(selecttheexistingschedule___10)
+nt(opennotificationsettings___5) -> receivenotificationsasSMS___12 nt(receivenotificationsasSMS___12)
+nt(receivenotificationsasSMS___12) -> confirmnotificationsettings___6 nt(confirmnotificationsettings___6)
+nt(accessasastudent___13) -> openmyattendancerecords___14 nt(openmyattendancerecords___14)
+nt(login___4) -> accessasastudent___13 nt(accessasastudent___13)
+nt(accessasastudent___13) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openmyattendancerecords___14) -> openclassrecords___7 nt(openclassrecords___7)
+nt(login___4) -> accessasateacher___15 nt(accessasateacher___15)
+nt(accessasateacher___15) -> turneditingon___16 nt(turneditingon___16)
+nt(turneditingon___16) -> openstudentattendancerecords___17 nt(openstudentattendancerecords___17)
+nt(turneditingon___16) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openstudentattendancerecords___17) -> openclassrecords___7 nt(openclassrecords___7)
+nt(openstudentattendancerecords___17) -> selectaclass-listattendancerecord___18 nt(selectaclass-listattendancerecord___18)
+nt(openstudentattendancerecords___17) -> selectaneditablestudent-record___19 nt(selectaneditablestudent-record___19)
+nt(submitattendancerecordupdate___20) -> <epsilon>
+nt(selectaclass-listattendancerecord___18) -> editattendancestatus___21 nt(editattendancestatus___21)
+nt(selectaneditablestudent-record___19) -> editattendancestatus___21 nt(editattendancestatus___21)
+nt(editattendancestatus___21) -> submitattendancerecordupdate___20 nt(submitattendancerecordupdate___20)
+nt(addnewschedule___22) -> enterthedaysoftheclass___23 nt(enterthedaysoftheclass___23)
+nt(enterthedaysoftheclass___23) -> enterthehoursoftheclass___24 nt(enterthehoursoftheclass___24)
+nt(addnewschedule___22) -> enterthehoursoftheclass___24 nt(enterthehoursoftheclass___24)
+nt(enterthehoursoftheclass___24) -> enterthedaysoftheclass___23 nt(enterthedaysoftheclass___23)
+nt(enterthehoursoftheclass___24) -> submittheclassschedule___25 nt(submittheclassschedule___25)
+nt(enterthedaysoftheclass___23) -> submittheclassschedule___25 nt(submittheclassschedule___25)
+nt(enterthedaysoftheclass___23) -> enterthedaysoftheclass___23 nt(enterthedaysoftheclass___23)
+nt(enterthehoursoftheclass___24) -> enterthehoursoftheclass___24 nt(enterthehoursoftheclass___24)
+nt(turneditingon___16) -> addnewschedule___22 nt(addnewschedule___22)
+nt(submittheclassschedule___25) -> <epsilon>
+nt(monitorcurrentattendancestatus___26) -> <epsilon>
+nt(openmyattendancerecords___14) -> monitorcurrentattendancestatus___26 nt(monitorcurrentattendancestatus___26)
+nt(deleteclass___27) -> confirmdeletion___28 nt(confirmdeletion___28)
+nt(confirmdeletion___28) -> <epsilon>
+nt(turneditingon___16) -> selectthedeletableclass___29 nt(selectthedeletableclass___29)
+nt(selectthedeletableclass___29) -> deleteclass___27 nt(deleteclass___27)
+nt(confirmdeletion___28) -> selectthedeletableclass___29 nt(selectthedeletableclass___29)
+nt(putyourfingertothefingerprintscanner___30) -> putyourfingertothefingerprintscanner___30 nt(putyourfingertothefingerprintscanner___30)
+nt(submitattendance___2) -> putyourfingertothefingerprintscanner___30 nt(putyourfingertothefingerprintscanner___30)
+nt(putyourfingertothefingerprintscanner___30) -> confirmyouridentity___3 nt(confirmyouridentity___3)

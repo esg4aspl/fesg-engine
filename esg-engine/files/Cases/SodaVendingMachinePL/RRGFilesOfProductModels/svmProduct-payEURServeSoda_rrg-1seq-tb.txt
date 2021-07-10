@@ -1,0 +1,10 @@
+S -> [___0 nt([___0)
+nt([___0) -> prompt___5 nt(prompt___5)
+nt(]___1) -> <epsilon>
+nt(select___2) -> serveSoda___3 nt(serveSoda___3)
+nt(serveSoda___3) -> ]___1 nt(]___1)
+nt(payEUR___4) -> select___2 nt(select___2)
+nt(payEUR___4) -> cancel___6 nt(cancel___6)
+nt(prompt___5) -> payEUR___4 nt(payEUR___4)
+nt(cancel___6) -> returnMoney___7 nt(returnMoney___7)
+nt(returnMoney___7) -> ]___1 nt(]___1)

@@ -1,0 +1,4 @@
+getbalance
+selectdeposit enterdepositamount putmoney getbalance selectdeposit enterdepositamount putmoney
+selectwithdraw enterwithdrawamount takemoney getbalance selectwithdraw enterwithdrawamount takemoney
+selectwithdraw cancelwithdraw

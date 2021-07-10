@@ -1,0 +1,58 @@
+Number of nodes: 16
+Number of edges: 28
+Number of CESs: 59
+Number of events: 586
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+2	enter receiver's email address, enter email subject, enter email body
+24	enter receiver's email address, enter email subject, enter receiver's email address
+4	enter receiver's email address, enter email subject, enter email subject
+12	enter email subject, enter email body, enter receiver's email address
+12	enter email subject, enter email body, enter email body
+14	enter email subject, enter email body, enter email subject
+3	compose new email, enter receiver's email address, enter email subject
+1	compose new email, enter receiver's email address, send email
+2	compose new email, enter receiver's email address, enter receiver's email address
+1	compose new email, enter receiver's email address, get alias email addresses of receiver
+1	compose new email, enter receiver's email address, get receiver's public key
+1	compose new email, enter receiver's email address, sign mail
+2	enter receiver's email address, enter receiver's email address, enter email subject
+12	enter receiver's email address, enter receiver's email address, send email
+12	enter receiver's email address, enter receiver's email address, enter receiver's email address
+2	enter receiver's email address, enter receiver's email address, get alias email addresses of receiver
+2	enter receiver's email address, enter receiver's email address, get receiver's public key
+2	enter receiver's email address, enter receiver's email address, sign mail
+29	compose new email, enter email subject, enter email body
+3	compose new email, enter email subject, enter receiver's email address
+6	compose new email, enter email subject, enter email subject
+22	enter email subject, enter receiver's email address, enter email subject
+15	enter email subject, enter receiver's email address, send email
+7	enter email subject, enter receiver's email address, enter receiver's email address
+2	enter email subject, enter receiver's email address, get alias email addresses of receiver
+4	enter email subject, enter receiver's email address, get receiver's public key
+2	enter email subject, enter receiver's email address, sign mail
+2	compose new email, enter email body, enter receiver's email address
+6	compose new email, enter email body, enter email body
+2	compose new email, enter email body, enter email subject
+4	enter email body, enter receiver's email address, enter email subject
+2	enter email body, enter receiver's email address, send email
+11	enter email body, enter receiver's email address, enter receiver's email address
+3	enter email body, enter receiver's email address, get alias email addresses of receiver
+4	enter email body, enter receiver's email address, get receiver's public key
+3	enter email body, enter receiver's email address, sign mail
+2	enter email subject, enter email subject, enter email body
+11	enter email subject, enter email subject, enter receiver's email address
+15	enter email subject, enter email subject, enter email subject
+13	enter email body, enter email body, enter receiver's email address
+2	enter email body, enter email body, enter email body
+5	enter email body, enter email body, enter email subject
+6	enter email body, enter email subject, enter email body
+13	enter email body, enter email subject, enter receiver's email address
+3	enter email body, enter email subject, enter email subject
+8	enter receiver's email address, get alias email addresses of receiver, send email
+1	create an addressbook for a receiver, enter the receiver's email address, enter alias email addresses of receiver
+11	enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key
+11	get receiver's public key, encrypt mail with receiver's public key, send email
+8	enter receiver's email address, sign mail, send email
+0	Number of uncovered edges 

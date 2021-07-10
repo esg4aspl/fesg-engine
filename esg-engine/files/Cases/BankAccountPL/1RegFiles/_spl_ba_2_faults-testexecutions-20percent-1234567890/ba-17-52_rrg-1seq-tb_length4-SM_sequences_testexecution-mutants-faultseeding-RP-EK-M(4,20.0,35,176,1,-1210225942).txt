@@ -1,0 +1,35 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+2	1	2	2	1	6	1	omitsequence,old,6/18	selectwithdraw___6,enterwithdrawamount___7,false,false
+4	2	2	2	1	18	2	omitterminal,old,6/18	selectwithdraw___6:enterwithdrawamount___7,false,false
+7	3	3	3	1	9	1	omitterminal,old,13/16	confirmdailylimitexcess___14,false,false
+12	4	5	5	1	21	3	omitsequence,old,22/26	enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7,confirmdailylimitexcess___14:enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+23	5	11	6	2	5	1	omitterminal,old,8/16	canceldeposit___9,false,false
+29	6	6	6	2	12	2	omitterminal,old,9/18	selectdeposit___3:canceldeposit___9,false,false
+35	7	6	6	2	24	3	omitsequence,old,17/26	takemoney___8:getbalance___2:selectdeposit___3,getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+41	8	6	6	2	25	3	omitterminal,old,2/20	getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+49	9	8	2	3	15	2	omitterminal,old,2/18	selectdeposit___3:enterdepositamount___4,false,false
+51	10	2	2	3	17	2	omitterminal,old,3/18	enterdepositamount___4:putmoney___5,false,false
+54	11	3	3	3	3	1	omitterminal,old,4/16	putmoney___5,false,false
+57	12	3	3	3	4	1	omitsequence,old,3/18	enterdepositamount___4,putmoney___5,false,false
+62	13	5	5	3	19	3	omitsequence,old,4/26	enterdepositamount___4:putmoney___5:getbalance___2,putmoney___5:getbalance___2:selectwithdraw___6,false,false
+68	14	6	6	3	26	3	omitterminal,old,8/20	getbalance___2:selectwithdraw___6:cancelwithdraw___13,false,false
+74	15	6	6	3	34	4	omitterminal,old,8/26	putmoney___5:getbalance___2:selectwithdraw___6:cancelwithdraw___13,false,false
+85	16	11	5	4	14	2	omitsequence,old,5/20	putmoney___5:getbalance___2,getbalance___2:selectdeposit___3,false,false
+91	17	6	6	4	22	3	omitsequence,old,6/26	putmoney___5:getbalance___2:selectdeposit___3,getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+103	18	12	6	5	32	4	omitsequence,old,21/32	enterwithdrawamount___7:takemoney___8:getbalance___2:selectwithdraw___6,takemoney___8:getbalance___2:selectwithdraw___6:cancelwithdraw___13,false,false
+115	19	12	6	6	31	4	omitsequence,old,27/32	enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7:confirmdailylimitexcess___14,confirmdailylimitexcess___14:enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7,false,false
+123	20	8	8	6	30	4	omitsequence,old,25/32	enterwithdrawamount___7:confirmdailylimitexcess___14:enterwithdrawamount___7:takemoney___8,confirmdailylimitexcess___14:enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+134	21	11	11	6	20	3	omitsequence,old,10/26	getbalance___2:selectwithdraw___6:enterwithdrawamount___7,selectwithdraw___6:enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+148	22	14	14	6	10	2	omitterminal,old,14/18	confirmdailylimitexcess___14:cancelwithdraw___13,false,false
+162	23	14	14	6	16	2	omitsequence,old,15/20	enterwithdrawamount___7:confirmdailylimitexcess___14,confirmdailylimitexcess___14:cancelwithdraw___13,false,false
+176	24	14	14	6	27	3	omitterminal,old,15/20	enterwithdrawamount___7:confirmdailylimitexcess___14:cancelwithdraw___13,false,false
+198	25	22	8	7	29	4	omitsequence,old,1/32	getbalance___2:selectdeposit___3:enterdepositamount___4:putmoney___5,selectdeposit___3:enterdepositamount___4:putmoney___5:getbalance___2,false,false
+209	26	11	11	7	33	4	omitsequence,old,10/32	putmoney___5:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,getbalance___2:selectwithdraw___6:enterwithdrawamount___7:confirmdailylimitexcess___14,false,false
+228	27	19	3	9	1	1	omitsequence,old,17/18	confirminterestrateapproved___11,enterdaysleft___16,false,false
+232	28	4	4	9	23	3	omitsequence,old,20/26	requestaninterestrate___10:confirminterestrateapproved___11:enterdaysleft___16,confirminterestrateapproved___11:enterdaysleft___16:getestimatedinterestfordaysleft___17,false,false
+250	29	18	6	12	28	4	omitsequence,old,4/32	enterdepositamount___4:putmoney___5:getbalance___2:selectdeposit___3,putmoney___5:getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+273	30	23	1	17	2	1	omitterminal,old,14/16	enterdailywithdrawlimit___15,false,false
+275	31	2	2	17	8	1	omitsequence,old,16/18	enterdailywithdrawlimit___15,enterdailywithdrawlimit___15,false,false
+278	32	3	3	17	13	2	omitsequence,old,19/20	enterdailywithdrawlimit___15:enterdailywithdrawlimit___15,enterdailywithdrawlimit___15:enterdailywithdrawlimit___15,false,false
+282	32	4	---	17	---	---

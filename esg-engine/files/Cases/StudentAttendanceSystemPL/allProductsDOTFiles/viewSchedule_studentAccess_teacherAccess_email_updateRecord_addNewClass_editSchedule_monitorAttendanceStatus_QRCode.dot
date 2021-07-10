@@ -1,0 +1,80 @@
+digraph G {
+rankdir = LR
+label = "viewSchedule_studentAccess_teacherAccess_email_updateRecord_addNewClass_editSchedule_monitorAttendanceStatus_QRCode";
+esg2379_vertex0 -> esg2379_vertex2;
+esg2379_vertex3 -> esg2379_vertex1;
+esg2379_vertex0 -> esg2379_vertex4;
+esg2379_vertex4 -> esg2379_vertex5;
+esg2379_vertex6 -> esg2379_vertex1;
+esg2379_vertex8 -> esg2379_vertex9;
+esg2379_vertex9 -> esg2379_vertex1;
+esg2379_vertex7 -> esg2379_vertex8;
+esg2379_vertex10 -> esg2379_vertex11;
+esg2379_vertex4 -> esg2379_vertex10;
+esg2379_vertex10 -> esg2379_vertex7;
+esg2379_vertex11 -> esg2379_vertex7;
+esg2379_vertex4 -> esg2379_vertex12;
+esg2379_vertex12 -> esg2379_vertex13;
+esg2379_vertex13 -> esg2379_vertex14;
+esg2379_vertex13 -> esg2379_vertex7;
+esg2379_vertex14 -> esg2379_vertex7;
+esg2379_vertex5 -> esg2379_vertex15;
+esg2379_vertex15 -> esg2379_vertex6;
+esg2379_vertex14 -> esg2379_vertex16;
+esg2379_vertex14 -> esg2379_vertex17;
+esg2379_vertex18 -> esg2379_vertex1;
+esg2379_vertex16 -> esg2379_vertex19;
+esg2379_vertex17 -> esg2379_vertex19;
+esg2379_vertex19 -> esg2379_vertex18;
+esg2379_vertex20 -> esg2379_vertex21;
+esg2379_vertex21 -> esg2379_vertex22;
+esg2379_vertex20 -> esg2379_vertex22;
+esg2379_vertex22 -> esg2379_vertex21;
+esg2379_vertex22 -> esg2379_vertex23;
+esg2379_vertex21 -> esg2379_vertex23;
+esg2379_vertex21 -> esg2379_vertex21;
+esg2379_vertex22 -> esg2379_vertex22;
+esg2379_vertex13 -> esg2379_vertex20;
+esg2379_vertex23 -> esg2379_vertex1;
+esg2379_vertex24 -> esg2379_vertex25;
+esg2379_vertex25 -> esg2379_vertex24;
+esg2379_vertex24 -> esg2379_vertex24;
+esg2379_vertex25 -> esg2379_vertex25;
+esg2379_vertex13 -> esg2379_vertex26;
+esg2379_vertex26 -> esg2379_vertex24;
+esg2379_vertex26 -> esg2379_vertex25;
+esg2379_vertex27 -> esg2379_vertex1;
+esg2379_vertex11 -> esg2379_vertex27;
+esg2379_vertex28 -> esg2379_vertex28;
+esg2379_vertex2 -> esg2379_vertex28;
+esg2379_vertex28 -> esg2379_vertex3;
+esg2379_vertex0 [label = "["]
+esg2379_vertex2 [label = "submit attendance"]
+esg2379_vertex3 [label = "confirm your identity"]
+esg2379_vertex1 [label = "]"]
+esg2379_vertex4 [label = "log in"]
+esg2379_vertex5 [label = "open notification settings"]
+esg2379_vertex6 [label = "confirm notification settings"]
+esg2379_vertex8 [label = "select the existing schedule"]
+esg2379_vertex9 [label = "view schedule"]
+esg2379_vertex7 [label = "open class records"]
+esg2379_vertex10 [label = "access as a student"]
+esg2379_vertex11 [label = "open my attendance records"]
+esg2379_vertex12 [label = "access as a teacher"]
+esg2379_vertex13 [label = "turn editing on"]
+esg2379_vertex14 [label = "open student attendance records"]
+esg2379_vertex15 [label = "receive notifications as Email"]
+esg2379_vertex16 [label = "select a class-list attendance record"]
+esg2379_vertex17 [label = "select an editable student-record"]
+esg2379_vertex18 [label = "submit attendance record update"]
+esg2379_vertex19 [label = "edit attendance status"]
+esg2379_vertex20 [label = "add new class"]
+esg2379_vertex21 [label = "enter the name of the class"]
+esg2379_vertex22 [label = "enter the class detail"]
+esg2379_vertex23 [label = "submit the class"]
+esg2379_vertex24 [label = "update the days of the class"]
+esg2379_vertex25 [label = "update the hours of the class"]
+esg2379_vertex26 [label = "select the editable schedule"]
+esg2379_vertex27 [label = "monitor current attendance status"]
+esg2379_vertex28 [label = "show the QR code to the QR code reader"]
+}

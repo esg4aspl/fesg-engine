@@ -1,0 +1,44 @@
+Number of nodes: 9
+Number of edges: 36
+Number of CESs: 33
+Number of events: 385
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+4	select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit
+4	select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw
+5	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit
+3	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw
+3	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount
+1	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, cancel deposit
+3	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount
+1	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, cancel withdraw
+4	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+1	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+2	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+1	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+8	get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance
+8	get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance
+8	select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit
+6	select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw
+5	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit
+4	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw
+7	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount
+1	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, cancel deposit
+5	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount
+1	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, cancel withdraw
+4	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+1	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+3	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+1	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+7	get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance
+4	get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance
+7	take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money
+5	take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money
+4	take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+3	take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+3	put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money
+3	put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money
+4	put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+2	put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+0	Number of uncovered edges 

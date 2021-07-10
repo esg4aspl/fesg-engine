@@ -1,0 +1,18 @@
+total fault counts (sas-1562-6361_rrg-1seq-tb_mutantcounts-faultseeding(4).txt)
+m=2	m=3	m=4	m=5	total
+85	142	251	457	935
+
+
+seeded fault counts (sas-1562-6361_rrg-1seq-tb_mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt)
+m=2	m=3	m=4	m=5	total
+47	47	47	46	187
+
+
+revealed fault counts
+m=2	m=3	m=4	m=5	total
+47	32	19	12	110	sas-1562-6361_rrg-1seq-tb_length2-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt
+47	32	19	12	110	sas-1562-6361_rrg-1seq-tb_length2-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt
+47	47	35	26	155	sas-1562-6361_rrg-1seq-tb_length3-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt
+47	47	35	26	155	sas-1562-6361_rrg-1seq-tb_length3-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt
+47	47	47	33	174	sas-1562-6361_rrg-1seq-tb_length4-INC_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt
+47	47	47	33	174	sas-1562-6361_rrg-1seq-tb_length4-SM_sequences_testexecution-mutants-faultseeding-RP-EK-M(4,20.0,187,935,1,-1210225942).txt

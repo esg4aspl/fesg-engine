@@ -1,0 +1,40 @@
+4 : log_in, open_notification_settings, receive_notifications_as_SMS, confirm_notification_settings
+5 : log_in, access_as_a_student, open_class_records, select_the_existing_schedule, view_schedule
+6 : log_in, access_as_a_student, open_my_attendance_records, open_class_records, select_the_existing_schedule, view_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, open_class_records, select_the_existing_schedule, view_schedule
+7 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, open_class_records, select_the_existing_schedule, view_schedule
+7 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, select_an_editable_student-record, edit_attendance_status, submit_attendance_record_update
+7 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, select_a_class-list_attendance_record, edit_attendance_status, submit_attendance_record_update
+10 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_name_of_the_class, submit_the_class
+9 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_class_detail, enter_the_class_detail, enter_the_class_detail, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_name_of_the_class, submit_the_class
+13 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_class_detail, enter_the_class_detail, enter_the_class_detail, enter_the_name_of_the_class, enter_the_name_of_the_class, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_class_detail, submit_the_class
+8 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_class_detail, enter_the_name_of_the_class, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_name_of_the_class, submit_the_class
+8 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_class_detail, enter_the_class_detail, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_class_detail, submit_the_class
+8 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_class_detail, submit_the_class
+6 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, submit_the_class
+6 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, submit_the_class
+11 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_class_detail, enter_the_name_of_the_class, enter_the_class_detail, enter_the_class_detail, enter_the_name_of_the_class, enter_the_class_detail, submit_the_class
+13 : log_in, access_as_a_teacher, turn_editing_on, add_new_class, enter_the_name_of_the_class, enter_the_class_detail, enter_the_name_of_the_class, enter_the_name_of_the_class, enter_the_class_detail, enter_the_name_of_the_class, enter_the_class_detail, enter_the_name_of_the_class, submit_the_class
+10 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_class_detail, update_the_class_detail, update_the_class_detail, update_the_class_detail, submit_the_class
+10 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_name_of_the_class, update_the_name_of_the_class, update_the_name_of_the_class, update_the_name_of_the_class, submit_the_class
+10 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_class_detail, update_the_class_detail, update_the_name_of_the_class, update_the_name_of_the_class, submit_the_class
+10 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_name_of_the_class, update_the_name_of_the_class, update_the_class_detail, update_the_class_detail, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_name_of_the_class, submit_the_class
+6 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_name_of_the_class, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_class_detail, submit_the_class
+6 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, submit_the_class
+7 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_class_detail, submit_the_class
+8 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_class_detail, update_the_name_of_the_class, submit_the_class
+8 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_name_of_the_class, update_the_class_detail, submit_the_class
+11 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_class_detail, update_the_name_of_the_class, update_the_class_detail, update_the_class_detail, update_the_name_of_the_class, update_the_class_detail, submit_the_class
+13 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_class, update_the_name_of_the_class, update_the_class_detail, update_the_name_of_the_class, update_the_name_of_the_class, update_the_class_detail, update_the_name_of_the_class, update_the_class_detail, update_the_name_of_the_class, submit_the_class
+6 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, select_a_class-list_attendance_record, trace_attendance_activity_of_the_class
+4 : submit_attendance, put_your_finger_to_the_fingerprint_scanner, put_your_finger_to_the_fingerprint_scanner, confirm_your_identity
+3 : submit_attendance, put_your_finger_to_the_fingerprint_scanner, confirm_your_identity
+6 : submit_attendance, put_your_finger_to_the_fingerprint_scanner, put_your_finger_to_the_fingerprint_scanner, put_your_finger_to_the_fingerprint_scanner, put_your_finger_to_the_fingerprint_scanner, confirm_your_identity
+5 : log_in, access_as_a_student, open_my_attendance_records, select_the_existing_record, view_record

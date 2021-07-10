@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="StudentAttendanceSystem">
+			<or abstract="true" mandatory="true" name="userAccess">
+				<feature name="studentAccess"/>
+				<feature name="teacherAccess"/>
+			</or>
+			<alt abstract="true" mandatory="true" name="submitAttandanceMethod">
+				<feature name="accessCard"/>
+				<feature name="barcode"/>
+				<feature name="fingerprint"/>
+				<feature name="QRCode"/>
+			</alt>
+			<alt abstract="true" mandatory="true" name="notification">
+				<feature name="email"/>
+				<feature name="SMS"/>
+			</alt>
+			<or abstract="true" mandatory="true" name="recordInformation">
+				<feature name="viewRecord"/>
+				<feature name="updateRecord"/>
+				<feature name="monitorAttendanceStatus"/>
+				<feature name="traceAttendanceActivity"/>
+			</or>
+			<or abstract="true" mandatory="true" name="classManagement">
+				<feature name="viewClass"/>
+				<feature name="addNewClass"/>
+				<feature name="updateClassDetail"/>
+				<feature name="deleteClass"/>
+			</or>
+			<or abstract="true" mandatory="true" name="ClassSchedule">
+				<feature name="viewSchedule"/>
+				<feature name="addNewSchedule"/>
+				<feature name="editSchedule"/>
+				<feature name="assignNewSchedule"/>
+			</or>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<conj>
+					<var>addNewClass</var>
+					<conj>
+						<var>addNewSchedule</var>
+						<conj>
+							<var>deleteClass</var>
+							<conj>
+								<var>editSchedule</var>
+								<var>updateRecord</var>
+							</conj>
+						</conj>
+					</conj>
+				</conj>
+				<var>teacherAccess</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>assignNewSchedule</var>
+				<conj>
+					<var>updateClassDetail</var>
+					<conj>
+						<var>editSchedule</var>
+						<var>addNewSchedule</var>
+					</conj>
+				</conj>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<conj>
+					<var>viewRecord</var>
+					<var>monitorAttendanceStatus</var>
+				</conj>
+				<var>studentAccess</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>traceAttendanceActivity</var>
+				<var>updateRecord</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>updateClassDetail</var>
+				<conj>
+					<var>teacherAccess</var>
+					<var>addNewClass</var>
+				</conj>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>studentAccess</var>
+				<disj>
+					<var>viewSchedule</var>
+					<var>viewClass</var>
+				</disj>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>teacherAccess</var>
+				<disj>
+					<var>viewSchedule</var>
+					<var>viewClass</var>
+				</disj>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>editSchedule</var>
+				<var>addNewSchedule</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>accessCard</var>
+				<var>email</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>QRCode</var>
+				<var>email</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>barcode</var>
+				<var>SMS</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>fingerprint</var>
+				<var>SMS</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

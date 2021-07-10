@@ -1,0 +1,20 @@
+Scenario ID,Existing Product,EP # of Features,EP Features,Product Under Consideration ID,PUC Name,PUC # Features,PUC Features,Increment,
+4,baseProduct,1,,12,sign,2,sign,sign
+1,baseProduct,1,,2,autoresponder,2,autoresponder,autoresponder
+3,baseProduct,1,,8,encrypt,2,encrypt,encrypt
+2,baseProduct,1,,4,forward,2,forward,forward
+26,encrypt,2,encrypt,20,encrypt_sign,3,encrypt; sign,sign
+9,autoresponder,2,autoresponder,3,addressbook_autoresponder,3,addressbook; autoresponder,addressbook
+33,sign,2,sign,14,autoresponder_sign,3,autoresponder; sign,autoresponder
+34,sign,2,sign,16,forward_sign,3,forward; sign,forward
+6,addressbook,2,addressbook,5,addressbook_forward,3,addressbook; forward,forward
+8,addressbook,2,addressbook,13,addressbook_sign,3,addressbook; sign,sign
+7,addressbook,2,addressbook,9,addressbook_encrypt,3,addressbook; encrypt,encrypt
+49,encrypt_sign,3,encrypt; sign,22,autoresponder_encrypt_sign,4,autoresponder; encrypt; sign,autoresponder
+40,autoresponder_sign,3,autoresponder; sign,18,autoresponder_forward_sign,4,autoresponder; forward; sign,forward
+36,addressbook_sign,3,addressbook; sign,15,addressbook_autoresponder_sign,4,addressbook; autoresponder; sign,autoresponder
+14,addressbook_autoresponder,3,addressbook; autoresponder,11,addressbook_autoresponder_encrypt,4,addressbook; autoresponder; encrypt,encrypt
+21,autoresponder_forward,3,autoresponder; forward,7,addressbook_autoresponder_forward,4,addressbook; autoresponder; forward,addressbook
+48,encrypt_sign,3,encrypt; sign,21,addressbook_encrypt_sign,4,addressbook; encrypt; sign,addressbook
+23,addressbook_autoresponder_forward,4,addressbook; autoresponder; forward,19,addressbook_autoresponder_forward_sign,5,addressbook; autoresponder; forward; sign,sign
+51,autoresponder_encrypt_sign,4,autoresponder; encrypt; sign,23,addressbook_autoresponder_encrypt_sign,5,addressbook; autoresponder; encrypt; sign,addressbook

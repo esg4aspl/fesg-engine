@@ -1,0 +1,16 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+2	1	2	2	1	10	2	omitterminal,old,9/10	enteracreditamount___9:confirmcreditapproved___10,false,false
+6	2	4	2	2	2	1	omitterminal,old,6/10	enterwithdrawamount___7,false,false
+8	3	2	2	2	14	3	omitterminal,old,8/10	enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+11	4	3	3	2	4	1	omitsequence,old,7/10	enterwithdrawamount___7,takemoney___8,false,false
+14	5	3	3	2	7	2	omitsequence,old,7/10	selectwithdraw___6:enterwithdrawamount___7,enterwithdrawamount___7:takemoney___8,false,false
+19	6	5	5	2	11	3	omitterminal,old,6/10	getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+24	7	5	5	2	12	3	omitsequence,old,10/12	enterwithdrawamount___7:takemoney___8:getbalance___2,takemoney___8:getbalance___2:selectwithdraw___6,false,false
+29	8	5	5	2	15	4	omitterminal,old,12/12	takemoney___8:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+37	9	8	1	3	6	2	omitterminal,old,2/10	selectdeposit___3:enterdepositamount___4,false,false
+39	10	2	2	3	1	1	omitterminal,old,3/10	enterdepositamount___4,false,false
+41	11	2	2	3	9	2	omitterminal,old,3/10	enterdepositamount___4:putmoney___5,false,false
+44	12	3	3	3	3	1	omitterminal,old,4/10	putmoney___5,false,false
+54	13	10	2	5	5	1	omitterminal,old,10/10	confirmcreditdisapproved___11,false,false
+56	13	2	---	5	---	---

@@ -1,0 +1,127 @@
+Number of nodes: 30
+Number of edges: 119
+Number of CESs: 46
+Number of events: 344
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	access as a teacher, turn editing on, open class records, select the existing schedule
+2	access as a teacher, turn editing on, open class records, select the existing class
+1	access as a teacher, turn editing on, select the deletable class, delete class
+7	access as a teacher, turn editing on, add new class, enter the name of the class
+7	access as a teacher, turn editing on, add new class, enter the class detail
+7	access as a teacher, turn editing on, select the editable class, update the name of the class
+7	access as a teacher, turn editing on, select the editable class, update the class detail
+3	access as a teacher, turn editing on, open student attendance records, open class records
+2	access as a teacher, turn editing on, open student attendance records, select a class-list attendance record
+1	access as a teacher, turn editing on, open student attendance records, select an editable student-record
+3	log in, access as a teacher, turn editing on, open class records
+1	log in, access as a teacher, turn editing on, select the deletable class
+14	log in, access as a teacher, turn editing on, add new class
+14	log in, access as a teacher, turn editing on, select the editable class
+6	log in, access as a teacher, turn editing on, open student attendance records
+1	turn editing on, open class records, select the existing schedule, view schedule
+2	turn editing on, open class records, select the existing class, view class
+1	delete class, confirm deletion, select the deletable class, delete class
+1	select the deletable class, delete class, confirm deletion, select the deletable class
+1	confirm deletion, select the deletable class, delete class, confirm deletion
+1	turn editing on, select the deletable class, delete class, confirm deletion
+1	add new class, enter the name of the class, enter the class detail, enter the name of the class
+1	add new class, enter the name of the class, enter the class detail, submit the class
+1	add new class, enter the name of the class, enter the class detail, enter the class detail
+1	add new class, enter the name of the class, enter the name of the class, enter the class detail
+1	add new class, enter the name of the class, enter the name of the class, submit the class
+1	add new class, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the name of the class, enter the class detail
+1	enter the name of the class, enter the class detail, enter the name of the class, submit the class
+1	enter the name of the class, enter the class detail, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the class detail, enter the name of the class
+1	enter the name of the class, enter the class detail, enter the class detail, submit the class
+1	enter the name of the class, enter the class detail, enter the class detail, enter the class detail
+1	add new class, enter the class detail, enter the name of the class, enter the class detail
+1	add new class, enter the class detail, enter the name of the class, submit the class
+1	add new class, enter the class detail, enter the name of the class, enter the name of the class
+1	add new class, enter the class detail, enter the class detail, enter the name of the class
+1	add new class, enter the class detail, enter the class detail, submit the class
+1	add new class, enter the class detail, enter the class detail, enter the class detail
+1	enter the class detail, enter the name of the class, enter the class detail, enter the name of the class
+1	enter the class detail, enter the name of the class, enter the class detail, submit the class
+1	enter the class detail, enter the name of the class, enter the class detail, enter the class detail
+1	enter the class detail, enter the name of the class, enter the name of the class, enter the class detail
+1	enter the class detail, enter the name of the class, enter the name of the class, submit the class
+1	enter the class detail, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the name of the class, enter the name of the class, enter the class detail, enter the name of the class
+1	enter the name of the class, enter the name of the class, enter the class detail, submit the class
+1	enter the name of the class, enter the name of the class, enter the class detail, enter the class detail
+1	enter the name of the class, enter the name of the class, enter the name of the class, enter the class detail
+1	enter the name of the class, enter the name of the class, enter the name of the class, submit the class
+1	enter the name of the class, enter the name of the class, enter the name of the class, enter the name of the class
+1	enter the class detail, enter the class detail, enter the name of the class, enter the class detail
+1	enter the class detail, enter the class detail, enter the name of the class, submit the class
+1	enter the class detail, enter the class detail, enter the name of the class, enter the name of the class
+1	enter the class detail, enter the class detail, enter the class detail, enter the name of the class
+1	enter the class detail, enter the class detail, enter the class detail, submit the class
+1	enter the class detail, enter the class detail, enter the class detail, enter the class detail
+3	turn editing on, add new class, enter the name of the class, enter the class detail
+1	turn editing on, add new class, enter the name of the class, submit the class
+3	turn editing on, add new class, enter the name of the class, enter the name of the class
+3	turn editing on, add new class, enter the class detail, enter the name of the class
+1	turn editing on, add new class, enter the class detail, submit the class
+3	turn editing on, add new class, enter the class detail, enter the class detail
+1	update the name of the class, update the class detail, update the name of the class, update the class detail
+1	update the name of the class, update the class detail, update the name of the class, update the name of the class
+1	update the name of the class, update the class detail, update the name of the class, submit the class
+1	update the name of the class, update the class detail, update the class detail, update the name of the class
+1	update the name of the class, update the class detail, update the class detail, update the class detail
+1	update the name of the class, update the class detail, update the class detail, submit the class
+1	update the class detail, update the name of the class, update the class detail, update the name of the class
+1	update the class detail, update the name of the class, update the class detail, update the class detail
+1	update the class detail, update the name of the class, update the class detail, submit the class
+1	update the class detail, update the name of the class, update the name of the class, update the class detail
+1	update the class detail, update the name of the class, update the name of the class, update the name of the class
+1	update the class detail, update the name of the class, update the name of the class, submit the class
+1	update the name of the class, update the name of the class, update the class detail, update the name of the class
+1	update the name of the class, update the name of the class, update the class detail, update the class detail
+1	update the name of the class, update the name of the class, update the class detail, submit the class
+1	update the name of the class, update the name of the class, update the name of the class, update the class detail
+1	update the name of the class, update the name of the class, update the name of the class, update the name of the class
+1	update the name of the class, update the name of the class, update the name of the class, submit the class
+1	update the class detail, update the class detail, update the name of the class, update the class detail
+1	update the class detail, update the class detail, update the name of the class, update the name of the class
+1	update the class detail, update the class detail, update the name of the class, submit the class
+1	update the class detail, update the class detail, update the class detail, update the name of the class
+1	update the class detail, update the class detail, update the class detail, update the class detail
+1	update the class detail, update the class detail, update the class detail, submit the class
+1	select the editable class, update the name of the class, update the class detail, update the name of the class
+1	select the editable class, update the name of the class, update the class detail, update the class detail
+1	select the editable class, update the name of the class, update the class detail, submit the class
+1	select the editable class, update the name of the class, update the name of the class, update the class detail
+1	select the editable class, update the name of the class, update the name of the class, update the name of the class
+1	select the editable class, update the name of the class, update the name of the class, submit the class
+1	select the editable class, update the class detail, update the name of the class, update the class detail
+1	select the editable class, update the class detail, update the name of the class, update the name of the class
+1	select the editable class, update the class detail, update the name of the class, submit the class
+1	select the editable class, update the class detail, update the class detail, update the name of the class
+1	select the editable class, update the class detail, update the class detail, update the class detail
+1	select the editable class, update the class detail, update the class detail, submit the class
+3	turn editing on, select the editable class, update the name of the class, update the class detail
+3	turn editing on, select the editable class, update the name of the class, update the name of the class
+1	turn editing on, select the editable class, update the name of the class, submit the class
+3	turn editing on, select the editable class, update the class detail, update the name of the class
+3	turn editing on, select the editable class, update the class detail, update the class detail
+1	turn editing on, select the editable class, update the class detail, submit the class
+1	put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner
+1	put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, confirm your identity
+1	submit attendance, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner
+1	submit attendance, put your finger to the fingerprint scanner, put your finger to the fingerprint scanner, confirm your identity
+2	log in, open notification settings, receive notifications as Email, confirm notification settings
+1	turn editing on, open student attendance records, open class records, select the existing schedule
+2	turn editing on, open student attendance records, open class records, select the existing class
+1	turn editing on, open student attendance records, select a class-list attendance record, edit attendance status
+1	turn editing on, open student attendance records, select a class-list attendance record, trace attendance activity of the class
+1	turn editing on, open student attendance records, select an editable student-record, edit attendance status
+1	open student attendance records, open class records, select the existing schedule, view schedule
+2	open student attendance records, open class records, select the existing class, view class
+1	open student attendance records, select a class-list attendance record, edit attendance status, submit attendance record update
+1	open student attendance records, select an editable student-record, edit attendance status, submit attendance record update
+0	Number of uncovered edges 

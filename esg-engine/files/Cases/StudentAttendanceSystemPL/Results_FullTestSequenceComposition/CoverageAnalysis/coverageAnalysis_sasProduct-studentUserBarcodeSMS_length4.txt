@@ -1,0 +1,29 @@
+Number of nodes: 18
+Number of edges: 21
+Number of CESs: 17
+Number of events: 81
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	show the barcode to the barcodereader, show the barcode to the barcodereader, show the barcode to the barcodereader, show the barcode to the barcodereader
+1	show the barcode to the barcodereader, show the barcode to the barcodereader, show the barcode to the barcodereader, enter barcode manually
+1	show the barcode to the barcodereader, show the barcode to the barcodereader, show the barcode to the barcodereader, confirm your identity
+2	show the barcode to the barcodereader, show the barcode to the barcodereader, enter barcode manually, confirm your identity
+2	submit attendance, show the barcode to the barcodereader, show the barcode to the barcodereader, show the barcode to the barcodereader
+1	submit attendance, show the barcode to the barcodereader, show the barcode to the barcodereader, enter barcode manually
+1	submit attendance, show the barcode to the barcodereader, show the barcode to the barcodereader, confirm your identity
+1	submit attendance, show the barcode to the barcodereader, enter barcode manually, confirm your identity
+2	log in, access as a student, open class records, select the existing class
+1	log in, access as a student, open class records, select the existing schedule
+3	log in, access as a student, open my attendance records, open class records
+1	log in, access as a student, open my attendance records, select the existing record
+1	log in, access as a student, open my attendance records, monitor current attendance status
+2	access as a student, open class records, select the existing class, view class
+1	access as a student, open class records, select the existing schedule, view schedule
+2	access as a student, open my attendance records, open class records, select the existing class
+1	access as a student, open my attendance records, open class records, select the existing schedule
+1	access as a student, open my attendance records, select the existing record, view record
+2	open my attendance records, open class records, select the existing class, view class
+1	open my attendance records, open class records, select the existing schedule, view schedule
+2	log in, open notification settings, receive notifications as SMS, confirm notification settings
+0	Number of uncovered edges 

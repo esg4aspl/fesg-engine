@@ -1,0 +1,39 @@
+Number of nodes: 12
+Number of edges: 31
+Number of CESs: 13
+Number of events: 90
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+4	display board, enter player1 pawn diagonal forward left jump move
+2	enter player1 pawn diagonal forward left jump move, display board
+3	display board, enter player1 pawn diagonal forward right jump move
+1	enter player1 pawn diagonal forward right jump move, display board
+2	display board, enter player2 pawn diagonal forward left march move
+1	enter player2 pawn diagonal forward left march move, display board
+2	display board, enter player2 pawn diagonal forward right march move
+1	enter player2 pawn diagonal forward right march move, display board
+13	display board, announce winner
+1	enter player1 pawn diagonal forward left jump move, display error message
+1	enter player1 pawn diagonal forward right jump move, display error message
+1	enter player2 pawn diagonal forward left march move, display error message
+1	enter player2 pawn diagonal forward right march move, display error message
+8	display error message, display board
+1	enter player1 pawn diagonal forward left march move, display board
+2	display board, enter player1 pawn diagonal forward left march move
+1	enter player1 pawn diagonal forward right march move, display board
+2	display board, enter player1 pawn diagonal forward right march move
+1	enter player1 pawn diagonal forward left march move, display error message
+1	enter player1 pawn diagonal forward right march move, display error message
+5	display board, enter player2 pawn diagonal forward left jump move
+3	enter player2 pawn diagonal forward left jump move, display board
+6	display board, enter player2 pawn diagonal forward right jump move
+4	enter player2 pawn diagonal forward right jump move, display board
+1	enter player2 pawn diagonal forward right jump move, display error message
+1	enter player2 pawn diagonal forward left jump move, display error message
+4	capture opponent piece, display board
+1	enter player2 pawn diagonal forward left jump move, capture opponent piece
+1	enter player2 pawn diagonal forward right jump move, capture opponent piece
+1	enter player1 pawn diagonal forward left jump move, capture opponent piece
+1	enter player1 pawn diagonal forward right jump move, capture opponent piece
+0	Number of uncovered edges 

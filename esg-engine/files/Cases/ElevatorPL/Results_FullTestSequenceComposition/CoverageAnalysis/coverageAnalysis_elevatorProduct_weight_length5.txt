@@ -1,0 +1,29 @@
+Number of nodes: 7
+Number of edges: 21
+Number of CESs: 23
+Number of events: 186
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+2	push button to call elevator, wait leaving people, enter elevator, trigger sensor with increasing weight, press target floor button
+1	wait leaving people, enter elevator, trigger sensor with increasing weight, press target floor button, leave elevator
+1	wait leaving people, enter elevator, trigger sensor with increasing weight, press target floor button, press target floor button
+2	push button to call elevator, enter elevator, trigger sensor with increasing weight, press target floor button, leave elevator
+5	push button to call elevator, enter elevator, trigger sensor with increasing weight, press target floor button, press target floor button
+1	press target floor button, press target floor button, press target floor button, leave elevator, trigger sensor with decreasing weight
+4	press target floor button, press target floor button, press target floor button, press target floor button, leave elevator
+4	press target floor button, press target floor button, press target floor button, press target floor button, press target floor button
+2	push button to call elevator, push button to call elevator, wait leaving people, enter elevator, trigger sensor with increasing weight
+4	push button to call elevator, push button to call elevator, enter elevator, trigger sensor with increasing weight, press target floor button
+4	push button to call elevator, push button to call elevator, push button to call elevator, wait leaving people, enter elevator
+2	push button to call elevator, push button to call elevator, push button to call elevator, enter elevator, trigger sensor with increasing weight
+4	push button to call elevator, push button to call elevator, push button to call elevator, push button to call elevator, wait leaving people
+4	push button to call elevator, push button to call elevator, push button to call elevator, push button to call elevator, enter elevator
+7	push button to call elevator, push button to call elevator, push button to call elevator, push button to call elevator, push button to call elevator
+1	enter elevator, trigger sensor with increasing weight, press target floor button, leave elevator, trigger sensor with decreasing weight
+3	enter elevator, trigger sensor with increasing weight, press target floor button, press target floor button, leave elevator
+3	enter elevator, trigger sensor with increasing weight, press target floor button, press target floor button, press target floor button
+1	trigger sensor with increasing weight, press target floor button, press target floor button, leave elevator, trigger sensor with decreasing weight
+2	trigger sensor with increasing weight, press target floor button, press target floor button, press target floor button, leave elevator
+1	trigger sensor with increasing weight, press target floor button, press target floor button, press target floor button, press target floor button
+0	Number of uncovered edges 

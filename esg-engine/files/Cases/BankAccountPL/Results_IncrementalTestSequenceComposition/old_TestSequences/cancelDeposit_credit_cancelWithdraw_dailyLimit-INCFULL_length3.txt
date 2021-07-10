@@ -1,0 +1,19 @@
+17 : select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money
+15 : select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_deposit, get_balance, select_deposit, enter_deposit_amount, select_deposit, enter_deposit_amount, put_money
+2 : enter_a_credit_amount, confirm_credit_disapproved
+2 : enter_a_credit_amount, confirm_credit_approved
+15 : select_deposit, enter_deposit_amount, put_money, get_balance, put_money, get_balance, select_withdraw, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money
+18 : get_balance, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_withdraw, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money
+10 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, get_balance, select_deposit, cancel_deposit, select_deposit, cancel_deposit
+2 : select_deposit, cancel_deposit
+10 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, get_balance, select_withdraw, cancel_withdraw, select_withdraw, cancel_withdraw
+2 : select_withdraw, cancel_withdraw
+1 : enter_daily_withdraw_limit
+11 : enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit
+2 : enter_daily_withdraw_limit, enter_daily_withdraw_limit
+11 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess
+7 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money
+10 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, cancel_withdraw, confirm_daily_limit_excess, cancel_withdraw
+9 : select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+8 : select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money, get_balance, select_withdraw, cancel_withdraw
+25 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, take_money, enter_withdraw_amount, take_money, get_balance, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, enter_deposit_amount, put_money

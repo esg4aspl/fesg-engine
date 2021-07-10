@@ -1,0 +1,107 @@
+digraph G {
+rankdir = LR
+label = "studentAccess_teacherAccess_SMS_updateRecord_addNewClass_updateClassDetail_addNewSchedule_viewRecord_monitorAttendanceStatus_traceAttendanceActivity_deleteClass_fingerprint";
+esg1_vertex0 -> esg1_vertex2;
+esg1_vertex3 -> esg1_vertex1;
+esg1_vertex0 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex6 -> esg1_vertex1;
+esg1_vertex8 -> esg1_vertex9;
+esg1_vertex4 -> esg1_vertex8;
+esg1_vertex8 -> esg1_vertex7;
+esg1_vertex9 -> esg1_vertex7;
+esg1_vertex4 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex11 -> esg1_vertex7;
+esg1_vertex12 -> esg1_vertex7;
+esg1_vertex5 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex6;
+esg1_vertex12 -> esg1_vertex14;
+esg1_vertex12 -> esg1_vertex15;
+esg1_vertex16 -> esg1_vertex1;
+esg1_vertex14 -> esg1_vertex17;
+esg1_vertex15 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex16;
+esg1_vertex18 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex20;
+esg1_vertex18 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex19;
+esg1_vertex20 -> esg1_vertex21;
+esg1_vertex19 -> esg1_vertex21;
+esg1_vertex19 -> esg1_vertex19;
+esg1_vertex20 -> esg1_vertex20;
+esg1_vertex11 -> esg1_vertex18;
+esg1_vertex21 -> esg1_vertex1;
+esg1_vertex11 -> esg1_vertex22;
+esg1_vertex23 -> esg1_vertex24;
+esg1_vertex24 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex21;
+esg1_vertex24 -> esg1_vertex21;
+esg1_vertex23 -> esg1_vertex23;
+esg1_vertex24 -> esg1_vertex24;
+esg1_vertex22 -> esg1_vertex23;
+esg1_vertex22 -> esg1_vertex24;
+esg1_vertex25 -> esg1_vertex26;
+esg1_vertex26 -> esg1_vertex27;
+esg1_vertex25 -> esg1_vertex27;
+esg1_vertex27 -> esg1_vertex26;
+esg1_vertex27 -> esg1_vertex28;
+esg1_vertex26 -> esg1_vertex28;
+esg1_vertex26 -> esg1_vertex26;
+esg1_vertex27 -> esg1_vertex27;
+esg1_vertex11 -> esg1_vertex25;
+esg1_vertex28 -> esg1_vertex1;
+esg1_vertex29 -> esg1_vertex30;
+esg1_vertex9 -> esg1_vertex29;
+esg1_vertex30 -> esg1_vertex1;
+esg1_vertex31 -> esg1_vertex1;
+esg1_vertex9 -> esg1_vertex31;
+esg1_vertex14 -> esg1_vertex32;
+esg1_vertex32 -> esg1_vertex1;
+esg1_vertex33 -> esg1_vertex34;
+esg1_vertex34 -> esg1_vertex1;
+esg1_vertex11 -> esg1_vertex35;
+esg1_vertex35 -> esg1_vertex33;
+esg1_vertex34 -> esg1_vertex35;
+esg1_vertex36 -> esg1_vertex36;
+esg1_vertex2 -> esg1_vertex36;
+esg1_vertex36 -> esg1_vertex3;
+esg1_vertex0 [label = "["]
+esg1_vertex2 [label = "submit attendance"]
+esg1_vertex3 [label = "confirm your identity"]
+esg1_vertex1 [label = "]"]
+esg1_vertex4 [label = "log in"]
+esg1_vertex5 [label = "open notification settings"]
+esg1_vertex6 [label = "confirm notification settings"]
+esg1_vertex8 [label = "access as a student"]
+esg1_vertex9 [label = "open my attendance records"]
+esg1_vertex7 [label = "open class records"]
+esg1_vertex10 [label = "access as a teacher"]
+esg1_vertex11 [label = "turn editing on"]
+esg1_vertex12 [label = "open student attendance records"]
+esg1_vertex13 [label = "receive notifications as SMS"]
+esg1_vertex14 [label = "select a class-list attendance record"]
+esg1_vertex15 [label = "select an editable student-record"]
+esg1_vertex16 [label = "submit attendance record update"]
+esg1_vertex17 [label = "edit attendance status"]
+esg1_vertex18 [label = "add new class"]
+esg1_vertex19 [label = "enter the name of the class"]
+esg1_vertex20 [label = "enter the class detail"]
+esg1_vertex21 [label = "submit the class"]
+esg1_vertex22 [label = "select the editable class"]
+esg1_vertex23 [label = "update the name of the class"]
+esg1_vertex24 [label = "update the class detail"]
+esg1_vertex25 [label = "add new schedule"]
+esg1_vertex26 [label = "enter the days of the class"]
+esg1_vertex27 [label = "enter the hours of the class"]
+esg1_vertex28 [label = "submit the class schedule"]
+esg1_vertex29 [label = "select the existing record"]
+esg1_vertex30 [label = "view record"]
+esg1_vertex31 [label = "monitor current attendance status"]
+esg1_vertex32 [label = "trace attendance activity of the class"]
+esg1_vertex33 [label = "delete class"]
+esg1_vertex34 [label = "confirm deletion"]
+esg1_vertex35 [label = "select the deletable class"]
+esg1_vertex36 [label = "put your finger to the fingerprint scanner"]
+}

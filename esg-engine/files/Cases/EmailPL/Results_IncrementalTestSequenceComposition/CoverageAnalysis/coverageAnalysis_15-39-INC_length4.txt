@@ -1,0 +1,127 @@
+Number of nodes: 16
+Number of edges: 30
+Number of CESs: 63
+Number of events: 427
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+2	enter receiver's email address, enter email subject, enter email body, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter email body, enter email body
+2	enter receiver's email address, enter email subject, enter email body, enter email subject
+1	enter receiver's email address, enter email subject, enter receiver's email address, enter email subject
+7	enter receiver's email address, enter email subject, enter receiver's email address, send email
+1	enter receiver's email address, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter receiver's email address, get alias email addresses of receiver
+1	enter receiver's email address, enter email subject, enter receiver's email address, sign mail
+1	enter receiver's email address, enter email subject, enter email subject, enter email body
+3	enter receiver's email address, enter email subject, enter email subject, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter email subject, enter email subject
+1	enter email subject, enter email body, enter receiver's email address, enter email subject
+4	enter email subject, enter email body, enter receiver's email address, send email
+1	enter email subject, enter email body, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter email body, enter receiver's email address, get alias email addresses of receiver
+1	enter email subject, enter email body, enter receiver's email address, sign mail
+2	enter email subject, enter email body, enter email body, enter receiver's email address
+1	enter email subject, enter email body, enter email body, enter email body
+1	enter email subject, enter email body, enter email body, enter email subject
+1	enter email subject, enter email body, enter email subject, enter email body
+2	enter email subject, enter email body, enter email subject, enter receiver's email address
+2	enter email subject, enter email body, enter email subject, enter email subject
+1	compose new email, enter receiver's email address, enter email subject, enter email body
+1	compose new email, enter receiver's email address, enter email subject, enter receiver's email address
+1	compose new email, enter receiver's email address, enter email subject, enter email subject
+1	compose new email, enter receiver's email address, enter receiver's email address, enter email subject
+1	compose new email, enter receiver's email address, enter receiver's email address, send email
+1	compose new email, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	compose new email, enter receiver's email address, enter receiver's email address, get alias email addresses of receiver
+1	compose new email, enter receiver's email address, enter receiver's email address, sign mail
+1	compose new email, enter receiver's email address, get alias email addresses of receiver, send email
+1	compose new email, enter receiver's email address, sign mail, send email
+1	enter receiver's email address, enter receiver's email address, enter email subject, enter email body
+3	enter receiver's email address, enter receiver's email address, enter email subject, enter receiver's email address
+1	enter receiver's email address, enter receiver's email address, enter email subject, enter email subject
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, enter email subject
+2	enter receiver's email address, enter receiver's email address, enter receiver's email address, send email
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, get alias email addresses of receiver
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, sign mail
+4	enter receiver's email address, enter receiver's email address, get alias email addresses of receiver, send email
+5	enter receiver's email address, enter receiver's email address, sign mail, send email
+1	compose new email, enter email subject, enter email body, enter receiver's email address
+1	compose new email, enter email subject, enter email body, enter email body
+1	compose new email, enter email subject, enter email body, enter email subject
+1	compose new email, enter email subject, enter receiver's email address, enter email subject
+1	compose new email, enter email subject, enter receiver's email address, send email
+1	compose new email, enter email subject, enter receiver's email address, enter receiver's email address
+1	compose new email, enter email subject, enter receiver's email address, get alias email addresses of receiver
+1	compose new email, enter email subject, enter receiver's email address, sign mail
+1	compose new email, enter email subject, enter email subject, enter email body
+1	compose new email, enter email subject, enter email subject, enter receiver's email address
+1	compose new email, enter email subject, enter email subject, enter email subject
+2	enter email subject, enter receiver's email address, enter email subject, enter email body
+5	enter email subject, enter receiver's email address, enter email subject, enter receiver's email address
+2	enter email subject, enter receiver's email address, enter email subject, enter email subject
+2	enter email subject, enter receiver's email address, enter receiver's email address, enter email subject
+3	enter email subject, enter receiver's email address, enter receiver's email address, send email
+3	enter email subject, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter receiver's email address, enter receiver's email address, get alias email addresses of receiver
+2	enter email subject, enter receiver's email address, enter receiver's email address, sign mail
+4	enter email subject, enter receiver's email address, get alias email addresses of receiver, send email
+5	enter email subject, enter receiver's email address, sign mail, send email
+2	compose new email, enter email body, enter receiver's email address, enter email subject
+1	compose new email, enter email body, enter receiver's email address, send email
+3	compose new email, enter email body, enter receiver's email address, enter receiver's email address
+1	compose new email, enter email body, enter receiver's email address, get alias email addresses of receiver
+1	compose new email, enter email body, enter receiver's email address, sign mail
+3	compose new email, enter email body, enter email body, enter receiver's email address
+1	compose new email, enter email body, enter email body, enter email body
+1	compose new email, enter email body, enter email body, enter email subject
+3	compose new email, enter email body, enter email subject, enter email body
+6	compose new email, enter email body, enter email subject, enter receiver's email address
+13	compose new email, enter email body, enter email subject, enter email subject
+1	enter email body, enter receiver's email address, enter email subject, enter email body
+2	enter email body, enter receiver's email address, enter email subject, enter receiver's email address
+1	enter email body, enter receiver's email address, enter email subject, enter email subject
+1	enter email body, enter receiver's email address, enter receiver's email address, enter email subject
+1	enter email body, enter receiver's email address, enter receiver's email address, send email
+1	enter email body, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter email body, enter receiver's email address, enter receiver's email address, get alias email addresses of receiver
+1	enter email body, enter receiver's email address, enter receiver's email address, sign mail
+3	enter email body, enter receiver's email address, get alias email addresses of receiver, send email
+3	enter email body, enter receiver's email address, sign mail, send email
+2	enter email subject, enter email subject, enter email body, enter receiver's email address
+1	enter email subject, enter email subject, enter email body, enter email body
+1	enter email subject, enter email subject, enter email body, enter email subject
+5	enter email subject, enter email subject, enter receiver's email address, enter email subject
+6	enter email subject, enter email subject, enter receiver's email address, send email
+6	enter email subject, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter email subject, enter receiver's email address, get alias email addresses of receiver
+2	enter email subject, enter email subject, enter receiver's email address, sign mail
+1	enter email subject, enter email subject, enter email subject, enter email body
+13	enter email subject, enter email subject, enter email subject, enter receiver's email address
+1	enter email subject, enter email subject, enter email subject, enter email subject
+1	enter email body, enter email body, enter receiver's email address, enter email subject
+2	enter email body, enter email body, enter receiver's email address, send email
+1	enter email body, enter email body, enter receiver's email address, enter receiver's email address
+1	enter email body, enter email body, enter receiver's email address, get alias email addresses of receiver
+1	enter email body, enter email body, enter receiver's email address, sign mail
+1	enter email body, enter email body, enter email body, enter receiver's email address
+1	enter email body, enter email body, enter email body, enter email body
+1	enter email body, enter email body, enter email body, enter email subject
+1	enter email body, enter email body, enter email subject, enter email body
+1	enter email body, enter email body, enter email subject, enter receiver's email address
+1	enter email body, enter email body, enter email subject, enter email subject
+3	enter email body, enter email subject, enter email body, enter receiver's email address
+1	enter email body, enter email subject, enter email body, enter email body
+1	enter email body, enter email subject, enter email body, enter email subject
+2	enter email body, enter email subject, enter receiver's email address, enter email subject
+2	enter email body, enter email subject, enter receiver's email address, send email
+3	enter email body, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter email body, enter email subject, enter receiver's email address, get alias email addresses of receiver
+1	enter email body, enter email subject, enter receiver's email address, sign mail
+1	enter email body, enter email subject, enter email subject, enter email body
+3	enter email body, enter email subject, enter email subject, enter receiver's email address
+12	enter email body, enter email subject, enter email subject, enter email subject
+1	enter email autoresponse date interval, enter autoresponse email body, enter email autoresponse date interval, enter autoresponse email body
+2	enter autoresponse email body, enter email autoresponse date interval, enter autoresponse email body, enter email autoresponse date interval
+0	Number of uncovered edges 

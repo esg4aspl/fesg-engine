@@ -1,0 +1,7 @@
+getbalance
+selectdeposit enterdepositamount putmoney getbalance selectdeposit enterdepositamount putmoney
+selectwithdraw enterwithdrawamount takemoney getbalance selectwithdraw enterwithdrawamount takemoney
+requestaninterestrate confirminterestratedisapproved
+selectdeposit canceldeposit
+requestaninterestrate confirminterestrateapproved enterdaysleft getestimatedinterestfordaysleft
+selectwithdraw cancelwithdraw

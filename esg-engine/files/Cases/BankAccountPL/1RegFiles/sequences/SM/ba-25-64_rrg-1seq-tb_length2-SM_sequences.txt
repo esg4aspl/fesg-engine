@@ -1,0 +1,7 @@
+requestaninterestrate confirminterestrateapproved
+enteracreditamount confirmcreditdisapproved
+enteracreditamount confirmcreditapproved
+selectwithdraw enterwithdrawamount takemoney getbalance selectwithdraw enterwithdrawamount takemoney
+selectdeposit enterdepositamount putmoney getbalance selectdeposit enterdepositamount putmoney
+getbalance
+requestaninterestrate confirminterestratedisapproved

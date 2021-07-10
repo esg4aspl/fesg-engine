@@ -1,0 +1,3 @@
+[ selectwithdraw enterwithdrawamount takemoney ]
+[ selectdeposit enterdepositamount putmoney getbalance selectdeposit enterdepositamount putmoney ]
+[ getbalance selectwithdraw enterwithdrawamount takemoney getbalance ]

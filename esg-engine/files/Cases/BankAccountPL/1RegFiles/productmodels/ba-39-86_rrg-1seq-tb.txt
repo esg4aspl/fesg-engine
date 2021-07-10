@@ -1,0 +1,30 @@
+nt(getbalance___2) -> <epsilon>
+S -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectdeposit___3 nt(selectdeposit___3)
+S -> selectdeposit___3 nt(selectdeposit___3)
+nt(selectdeposit___3) -> enterdepositamount___4 nt(enterdepositamount___4)
+nt(enterdepositamount___4) -> putmoney___5 nt(putmoney___5)
+nt(putmoney___5) -> <epsilon>
+nt(putmoney___5) -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectwithdraw___6 nt(selectwithdraw___6)
+S -> selectwithdraw___6 nt(selectwithdraw___6)
+nt(selectwithdraw___6) -> enterwithdrawamount___7 nt(enterwithdrawamount___7)
+nt(enterwithdrawamount___7) -> takemoney___8 nt(takemoney___8)
+nt(takemoney___8) -> <epsilon>
+nt(takemoney___8) -> getbalance___2 nt(getbalance___2)
+nt(selectdeposit___3) -> canceldeposit___9 nt(canceldeposit___9)
+nt(canceldeposit___9) -> <epsilon>
+S -> enteracreditamount___10 nt(enteracreditamount___10)
+nt(confirmcreditapproved___11) -> <epsilon>
+nt(enteracreditamount___10) -> confirmcreditapproved___11 nt(confirmcreditapproved___11)
+nt(enteracreditamount___10) -> confirmcreditdisapproved___12 nt(confirmcreditdisapproved___12)
+nt(confirmcreditdisapproved___12) -> <epsilon>
+nt(selectwithdraw___6) -> cancelwithdraw___13 nt(cancelwithdraw___13)
+nt(cancelwithdraw___13) -> <epsilon>
+nt(enterwithdrawamount___7) -> confirmdailylimitexcess___14 nt(confirmdailylimitexcess___14)
+nt(confirmdailylimitexcess___14) -> cancelwithdraw___13 nt(cancelwithdraw___13)
+nt(confirmdailylimitexcess___14) -> enterwithdrawamount___7 nt(enterwithdrawamount___7)
+S -> enterdailywithdrawlimit___15 nt(enterdailywithdrawlimit___15)
+nt(enterdailywithdrawlimit___15) -> <epsilon>
+nt(enterdailywithdrawlimit___15) -> enterdailywithdrawlimit___15 nt(enterdailywithdrawlimit___15)
+nt(confirmdailylimitexcess___14) -> <epsilon>

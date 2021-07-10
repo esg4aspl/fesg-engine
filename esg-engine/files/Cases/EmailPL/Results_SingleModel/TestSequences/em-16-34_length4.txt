@@ -1,0 +1,30 @@
+5 : compose_new_email, enter_email_body, enter_receiver's_email_address, sign_mail, send_email
+5 : compose_new_email, enter_receiver's_email_address, enter_receiver's_email_address, sign_mail, send_email
+8 : compose_new_email, enter_email_body, enter_email_body, enter_email_subject, enter_email_subject, enter_email_subject, enter_receiver's_email_address, send_email
+6 : compose_new_email, enter_email_body, enter_email_subject, enter_email_subject, enter_receiver's_email_address, send_email
+7 : compose_new_email, enter_receiver's_email_address, enter_email_subject, enter_email_subject, enter_receiver's_email_address, sign_mail, send_email
+6 : compose_new_email, enter_receiver's_email_address, enter_receiver's_email_address, enter_receiver's_email_address, sign_mail, send_email
+6 : compose_new_email, enter_email_body, enter_receiver's_email_address, enter_receiver's_email_address, sign_mail, send_email
+9 : compose_new_email, enter_email_subject, enter_email_subject, enter_email_subject, enter_email_subject, enter_receiver's_email_address, enter_receiver's_email_address, sign_mail, send_email
+5 : compose_new_email, enter_email_subject, enter_email_subject, enter_receiver's_email_address, send_email
+5 : compose_new_email, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, send_email
+4 : compose_new_email, enter_email_body, enter_receiver's_email_address, send_email
+7 : compose_new_email, enter_email_subject, enter_email_body, enter_email_body, enter_receiver's_email_address, sign_mail, send_email
+4 : compose_new_email, enter_receiver's_email_address, enter_receiver's_email_address, send_email
+5 : compose_new_email, enter_email_subject, enter_receiver's_email_address, sign_mail, send_email
+10 : compose_new_email, enter_email_body, enter_email_body, enter_email_body, enter_email_subject, enter_receiver's_email_address, enter_receiver's_email_address, enter_receiver's_email_address, enter_receiver's_email_address, send_email
+5 : compose_new_email, enter_email_subject, enter_receiver's_email_address, enter_receiver's_email_address, send_email
+5 : compose_new_email, enter_email_body, enter_email_subject, enter_receiver's_email_address, send_email
+4 : compose_new_email, enter_email_subject, enter_receiver's_email_address, send_email
+4 : open_mailbox, select_email, enter_forward_receiver's_email_address, send_email
+13 : compose_new_email, enter_email_body, enter_email_subject, enter_email_body, enter_email_subject, enter_email_subject, enter_email_body, enter_receiver's_email_address, enter_receiver's_email_address, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, send_email
+6 : compose_new_email, enter_email_body, enter_email_body, enter_receiver's_email_address, enter_receiver's_email_address, send_email
+13 : compose_new_email, enter_email_body, enter_receiver's_email_address, enter_email_subject, enter_email_subject, enter_email_subject, enter_email_body, enter_email_subject, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, sign_mail, send_email
+12 : compose_new_email, enter_email_subject, enter_email_subject, enter_email_body, enter_email_body, enter_email_subject, enter_email_body, enter_email_body, enter_email_body, enter_email_body, enter_receiver's_email_address, send_email
+14 : compose_new_email, enter_email_subject, enter_receiver's_email_address, enter_email_subject, enter_email_subject, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, enter_receiver's_email_address, enter_email_subject, enter_email_subject, enter_email_body, enter_receiver's_email_address, send_email
+6 : compose_new_email, enter_email_subject, enter_email_body, enter_receiver's_email_address, sign_mail, send_email
+4 : compose_new_email, enter_receiver's_email_address, sign_mail, send_email
+6 : compose_new_email, enter_receiver's_email_address, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, send_email
+3 : compose_new_email, enter_receiver's_email_address, send_email
+21 : compose_new_email, enter_receiver's_email_address, enter_email_subject, enter_email_body, enter_receiver's_email_address, enter_receiver's_email_address, enter_email_subject, enter_email_body, enter_email_subject, enter_email_body, enter_receiver's_email_address, enter_email_subject, enter_receiver's_email_address, enter_email_subject, enter_email_body, enter_email_body, enter_receiver's_email_address, enter_email_subject, enter_email_body, enter_receiver's_email_address, send_email
+7 : compose_new_email, enter_email_subject, enter_email_body, enter_email_subject, enter_receiver's_email_address, sign_mail, send_email

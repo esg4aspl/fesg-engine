@@ -1,0 +1,20 @@
+7 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+2 : request_an_interest_rate, confirm_interest_rate_disapproved
+2 : request_an_interest_rate, confirm_interest_rate_approved
+3 : enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit
+1 : enter_daily_withdraw_limit
+11 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, take_money
+2 : select_deposit, cancel_deposit
+6 : select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, cancel_deposit
+2 : select_withdraw, cancel_withdraw
+6 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, cancel_withdraw
+4 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, cancel_withdraw
+5 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, take_money
+6 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, cancel_withdraw
+7 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money
+4 : get_balance, select_deposit, enter_deposit_amount, put_money
+3 : select_deposit, enter_deposit_amount, put_money
+3 : select_withdraw, enter_withdraw_amount, take_money
+2 : enter_a_credit_amount, confirm_credit_disapproved
+2 : enter_a_credit_amount, confirm_credit_approved
+7 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, take_money

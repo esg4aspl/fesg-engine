@@ -1,0 +1,25 @@
+Number of nodes: 17
+Number of edges: 27
+Number of CESs: 14
+Number of events: 153
+Number of uncovered edges: 3
+Coverage: 76.92307692307692
+Number of coverage	Edge
+3	get balance, select deposit, enter deposit amount, put money
+5	select deposit, enter deposit amount, put money, get balance
+1	enter deposit amount, put money, get balance, select deposit
+1	enter deposit amount, put money, get balance, select withdraw
+1	put money, get balance, select deposit, enter deposit amount
+1	put money, get balance, select withdraw, enter withdraw amount
+1	get balance, select withdraw, enter withdraw amount, take money
+3	select withdraw, enter withdraw amount, take money, get balance
+0	enter withdraw amount, take money, get balance, select deposit
+0	enter withdraw amount, take money, get balance, select withdraw
+1	take money, get balance, select deposit, enter deposit amount
+0	take money, get balance, select withdraw, enter withdraw amount
+1	request an interest rate, confirm interest rate approved, enter days left, get estimated interest for days left
+3	Number of uncovered edges 
+Uncovered edges: 
+enter withdraw amount, take money, get balance, select deposit
+enter withdraw amount, take money, get balance, select withdraw
+take money, get balance, select withdraw, enter withdraw amount

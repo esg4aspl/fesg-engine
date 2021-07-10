@@ -1,0 +1,25 @@
+Number of nodes: 11
+Number of edges: 21
+Number of CESs: 6
+Number of events: 30
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	enter receiver's email address, enter email subject
+1	enter email subject, enter email body
+2	open mailbox, select email
+1	compose new email, enter receiver's email address
+3	enter receiver's email address, send email
+1	enter receiver's email address, enter receiver's email address
+2	compose new email, enter email subject
+3	enter email subject, enter receiver's email address
+1	compose new email, enter email body
+1	enter email body, enter receiver's email address
+2	enter email subject, enter email subject
+1	enter email body, enter email body
+1	enter email body, enter email subject
+1	select email, enter forward receiver's email address
+1	enter forward receiver's email address, send email
+1	enter receiver's email address, sign mail
+1	sign mail, send email
+0	Number of uncovered edges 

@@ -1,0 +1,60 @@
+digraph G {
+rankdir = LR
+label = "interest_cancelWithdraw_dailyLimit_interestEstimation_overdraft";
+esg20_vertex2 -> esg20_vertex1;
+esg20_vertex0 -> esg20_vertex2;
+esg20_vertex2 -> esg20_vertex3;
+esg20_vertex0 -> esg20_vertex3;
+esg20_vertex3 -> esg20_vertex4;
+esg20_vertex4 -> esg20_vertex5;
+esg20_vertex5 -> esg20_vertex1;
+esg20_vertex5 -> esg20_vertex2;
+esg20_vertex2 -> esg20_vertex6;
+esg20_vertex0 -> esg20_vertex6;
+esg20_vertex6 -> esg20_vertex7;
+esg20_vertex7 -> esg20_vertex8;
+esg20_vertex8 -> esg20_vertex1;
+esg20_vertex8 -> esg20_vertex2;
+esg20_vertex0 -> esg20_vertex9;
+esg20_vertex10 -> esg20_vertex1;
+esg20_vertex9 -> esg20_vertex10;
+esg20_vertex9 -> esg20_vertex11;
+esg20_vertex11 -> esg20_vertex1;
+esg20_vertex6 -> esg20_vertex12;
+esg20_vertex12 -> esg20_vertex1;
+esg20_vertex7 -> esg20_vertex13;
+esg20_vertex13 -> esg20_vertex12;
+esg20_vertex13 -> esg20_vertex7;
+esg20_vertex0 -> esg20_vertex14;
+esg20_vertex14 -> esg20_vertex1;
+esg20_vertex14 -> esg20_vertex14;
+esg20_vertex13 -> esg20_vertex1;
+esg20_vertex10 -> esg20_vertex15;
+esg20_vertex15 -> esg20_vertex16;
+esg20_vertex16 -> esg20_vertex1;
+esg20_vertex13 -> esg20_vertex17;
+esg20_vertex0 -> esg20_vertex18;
+esg20_vertex18 -> esg20_vertex1;
+esg20_vertex18 -> esg20_vertex18;
+esg20_vertex17 -> esg20_vertex12;
+esg20_vertex17 -> esg20_vertex1;
+esg20_vertex2 [label = "get balance"]
+esg20_vertex1 [label = "]"]
+esg20_vertex0 [label = "["]
+esg20_vertex3 [label = "select deposit"]
+esg20_vertex4 [label = "enter deposit amount"]
+esg20_vertex5 [label = "put money"]
+esg20_vertex6 [label = "select withdraw"]
+esg20_vertex7 [label = "enter withdraw amount"]
+esg20_vertex8 [label = "take money"]
+esg20_vertex9 [label = "request an interest rate"]
+esg20_vertex10 [label = "confirm interest rate approved"]
+esg20_vertex11 [label = "confirm interest rate disapproved"]
+esg20_vertex12 [label = "cancel withdraw"]
+esg20_vertex13 [label = "confirm daily limit excess"]
+esg20_vertex14 [label = "enter daily withdraw limit"]
+esg20_vertex15 [label = "enter days left"]
+esg20_vertex16 [label = "get estimated interest for days left"]
+esg20_vertex17 [label = "confirm overdraft limit excess"]
+esg20_vertex18 [label = "enter overdraft limit"]
+}

@@ -1,0 +1,33 @@
+nt(getbalance___2) -> <epsilon>
+S -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectdeposit___3 nt(selectdeposit___3)
+S -> selectdeposit___3 nt(selectdeposit___3)
+nt(selectdeposit___3) -> enterdepositamount___4 nt(enterdepositamount___4)
+nt(enterdepositamount___4) -> putmoney___5 nt(putmoney___5)
+nt(putmoney___5) -> <epsilon>
+nt(putmoney___5) -> getbalance___2 nt(getbalance___2)
+nt(getbalance___2) -> selectwithdraw___6 nt(selectwithdraw___6)
+S -> selectwithdraw___6 nt(selectwithdraw___6)
+nt(selectwithdraw___6) -> enterwithdrawamount___7 nt(enterwithdrawamount___7)
+nt(enterwithdrawamount___7) -> takemoney___8 nt(takemoney___8)
+nt(takemoney___8) -> <epsilon>
+nt(takemoney___8) -> getbalance___2 nt(getbalance___2)
+S -> enteracreditamount___9 nt(enteracreditamount___9)
+nt(confirmcreditapproved___10) -> <epsilon>
+nt(enteracreditamount___9) -> confirmcreditapproved___10 nt(confirmcreditapproved___10)
+nt(enteracreditamount___9) -> confirmcreditdisapproved___11 nt(confirmcreditdisapproved___11)
+nt(confirmcreditdisapproved___11) -> <epsilon>
+S -> requestaninterestrate___12 nt(requestaninterestrate___12)
+nt(confirminterestrateapproved___13) -> <epsilon>
+nt(requestaninterestrate___12) -> confirminterestrateapproved___13 nt(confirminterestrateapproved___13)
+nt(requestaninterestrate___12) -> confirminterestratedisapproved___14 nt(confirminterestratedisapproved___14)
+nt(confirminterestratedisapproved___14) -> <epsilon>
+nt(selectwithdraw___6) -> cancelwithdraw___15 nt(cancelwithdraw___15)
+nt(cancelwithdraw___15) -> <epsilon>
+nt(enterwithdrawamount___7) -> confirmdailylimitexcess___16 nt(confirmdailylimitexcess___16)
+nt(confirmdailylimitexcess___16) -> cancelwithdraw___15 nt(cancelwithdraw___15)
+nt(confirmdailylimitexcess___16) -> enterwithdrawamount___7 nt(enterwithdrawamount___7)
+S -> enterdailywithdrawlimit___17 nt(enterdailywithdrawlimit___17)
+nt(enterdailywithdrawlimit___17) -> <epsilon>
+nt(enterdailywithdrawlimit___17) -> enterdailywithdrawlimit___17 nt(enterdailywithdrawlimit___17)
+nt(confirmdailylimitexcess___16) -> <epsilon>

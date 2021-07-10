@@ -1,0 +1,27 @@
+digraph G {
+rankdir = LR
+label = "baseProduct";
+esg0_vertex2 -> esg0_vertex1;
+esg0_vertex0 -> esg0_vertex2;
+esg0_vertex2 -> esg0_vertex3;
+esg0_vertex0 -> esg0_vertex3;
+esg0_vertex3 -> esg0_vertex4;
+esg0_vertex4 -> esg0_vertex5;
+esg0_vertex5 -> esg0_vertex1;
+esg0_vertex5 -> esg0_vertex2;
+esg0_vertex2 -> esg0_vertex6;
+esg0_vertex0 -> esg0_vertex6;
+esg0_vertex6 -> esg0_vertex7;
+esg0_vertex7 -> esg0_vertex8;
+esg0_vertex8 -> esg0_vertex1;
+esg0_vertex8 -> esg0_vertex2;
+esg0_vertex2 [label = "get balance"]
+esg0_vertex1 [label = "]"]
+esg0_vertex0 [label = "["]
+esg0_vertex3 [label = "select deposit"]
+esg0_vertex4 [label = "enter deposit amount"]
+esg0_vertex5 [label = "put money"]
+esg0_vertex6 [label = "select withdraw"]
+esg0_vertex7 [label = "enter withdraw amount"]
+esg0_vertex8 [label = "take money"]
+}

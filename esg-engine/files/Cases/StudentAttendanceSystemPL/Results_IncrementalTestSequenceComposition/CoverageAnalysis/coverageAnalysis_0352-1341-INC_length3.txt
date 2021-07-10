@@ -1,0 +1,45 @@
+Number of nodes: 29
+Number of edges: 41
+Number of CESs: 16
+Number of events: 92
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	log in, open notification settings, receive notifications as Email
+4	open class records, select the existing class, view class
+4	open class records, select the existing schedule, view schedule
+1	open notification settings, receive notifications as Email, confirm notification settings
+2	access as a student, open my attendance records, open class records
+1	access as a student, open my attendance records, select the existing record
+1	access as a student, open my attendance records, monitor current attendance status
+4	log in, access as a student, open my attendance records
+2	log in, access as a student, open class records
+1	access as a student, open class records, select the existing class
+1	access as a student, open class records, select the existing schedule
+1	open my attendance records, open class records, select the existing class
+1	open my attendance records, open class records, select the existing schedule
+7	log in, access as a teacher, turn editing on
+4	access as a teacher, turn editing on, open student attendance records
+2	access as a teacher, turn editing on, open class records
+1	access as a teacher, turn editing on, select the deletable class
+2	turn editing on, open student attendance records, open class records
+1	turn editing on, open student attendance records, select a class-list attendance record
+1	turn editing on, open student attendance records, select an editable student-record
+1	turn editing on, open class records, select the existing class
+1	turn editing on, open class records, select the existing schedule
+1	open student attendance records, open class records, select the existing class
+1	open student attendance records, open class records, select the existing schedule
+1	open student attendance records, select a class-list attendance record, edit attendance status
+1	open student attendance records, select an editable student-record, edit attendance status
+1	select a class-list attendance record, edit attendance status, submit attendance record update
+1	select an editable student-record, edit attendance status, submit attendance record update
+1	open my attendance records, select the existing record, view record
+1	delete class, confirm deletion, select the deletable class
+1	turn editing on, select the deletable class, delete class
+2	select the deletable class, delete class, confirm deletion
+1	confirm deletion, select the deletable class, delete class
+1	read the access card to the card reader, read the access card to the card reader, read the access card to the card reader
+1	read the access card to the card reader, read the access card to the card reader, confirm your identity
+1	submit attendance, read the access card to the card reader, read the access card to the card reader
+1	submit attendance, read the access card to the card reader, confirm your identity
+0	Number of uncovered edges 

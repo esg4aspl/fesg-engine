@@ -1,0 +1,36 @@
+Number of nodes: 13
+Number of edges: 25
+Number of CESs: 34
+Number of events: 360
+Number of uncovered edges: 2
+Coverage: 92.0
+Number of coverage	Edge
+6	get balance, select deposit, enter deposit amount, put money
+10	select deposit, enter deposit amount, put money, get balance
+1	enter deposit amount, put money, get balance, select deposit
+6	enter deposit amount, put money, get balance, select withdraw
+1	put money, get balance, select deposit, enter deposit amount
+0	put money, get balance, select deposit, cancel deposit
+5	put money, get balance, select withdraw, enter withdraw amount
+1	put money, get balance, select withdraw, cancel withdraw
+4	get balance, select withdraw, enter withdraw amount, take money
+0	get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+12	select withdraw, enter withdraw amount, take money, get balance
+1	select withdraw, enter withdraw amount, confirm daily limit excess, cancel withdraw
+8	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+4	enter withdraw amount, take money, get balance, select deposit
+4	enter withdraw amount, take money, get balance, select withdraw
+3	take money, get balance, select deposit, enter deposit amount
+1	take money, get balance, select deposit, cancel deposit
+2	take money, get balance, select withdraw, enter withdraw amount
+1	take money, get balance, select withdraw, cancel withdraw
+5	enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+5	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+2	confirm daily limit excess, enter withdraw amount, take money, get balance
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, cancel withdraw
+2	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+3	enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit
+2	Number of uncovered edges 
+Uncovered edges: 
+put money, get balance, select deposit, cancel deposit
+get balance, select withdraw, enter withdraw amount, confirm daily limit excess

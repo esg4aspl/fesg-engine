@@ -1,0 +1,31 @@
+Number of nodes: 17
+Number of edges: 32
+Number of CESs: 14
+Number of events: 121
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+4	enter receiver's email address, enter email subject
+4	enter email subject, enter email body
+2	open mailbox, select email
+1	compose new email, enter receiver's email address
+6	enter receiver's email address, send email
+10	enter receiver's email address, enter receiver's email address
+3	compose new email, enter email subject
+8	enter email subject, enter receiver's email address
+4	compose new email, enter email body
+6	enter email body, enter receiver's email address
+8	enter email subject, enter email subject
+2	enter email body, enter email body
+5	enter email body, enter email subject
+2	enter receiver's email address, get alias email addresses of receiver
+3	enter the receiver's email address, enter alias email addresses of receiver
+1	get alias email addresses of receiver, send email
+3	create an addressbook for a receiver, enter the receiver's email address
+1	enter email autoresponse date interval, enter autoresponse email body
+2	enter autoresponse email body, enter email autoresponse date interval
+3	select email, enter forward receiver's email address
+2	enter forward receiver's email address, send email
+2	enter receiver's email address, sign mail
+1	sign mail, send email
+0	Number of uncovered edges 

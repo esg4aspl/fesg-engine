@@ -1,0 +1,22 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+4	1	4	2	2	14	2	omitterminal,old,13/16	requestaninterestrate___13:confirminterestratedisapproved___15,false,false
+8	2	4	2	3	2	1	omitterminal,old,6/17	enterwithdrawamount___7,false,false
+10	3	2	2	3	25	4	omitterminal,old,10/17	selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+15	4	5	5	3	12	2	omitterminal,old,5/16	getbalance___2:selectwithdraw___6,false,false
+21	5	6	6	3	6	1	omitterminal,old,15/17	cancelwithdraw___16,false,false
+27	6	6	6	3	17	3	omitsequence,old,16/17	takemoney___8:getbalance___2:selectwithdraw___6,getbalance___2:selectwithdraw___6:cancelwithdraw___16,false,false
+33	7	6	6	3	23	4	omitsequence,old,16/18	enterwithdrawamount___7:takemoney___8:getbalance___2:selectwithdraw___6,takemoney___8:getbalance___2:selectwithdraw___6:cancelwithdraw___16,false,false
+41	8	8	2	4	13	2	omitterminal,old,2/16	selectdeposit___3:enterdepositamount___4,false,false
+43	9	2	2	4	15	3	omitterminal,old,4/14	enterdepositamount___4:putmoney___5:getbalance___2,false,false
+45	10	2	2	4	19	3	omitterminal,old,3/14	selectdeposit___3:enterdepositamount___4:putmoney___5,false,false
+47	11	2	2	4	21	4	omitterminal,old,2/17	selectdeposit___3:enterdepositamount___4:putmoney___5:getbalance___2,false,false
+50	12	3	3	4	1	1	omitsequence,old,3/16	enterdepositamount___4,putmoney___5,false,false
+56	13	6	6	4	8	2	omitsequence,old,2/14	getbalance___2:selectdeposit___3,selectdeposit___3:canceldeposit___9,false,false
+62	14	6	6	4	11	2	omitterminal,old,9/16	selectdeposit___3:canceldeposit___9,false,false
+69	15	7	1	5	7	1	omitterminal,old,10/17	enteracreditamount___10,false,false
+71	16	2	2	5	4	1	omitsequence,old,11/16	enteracreditamount___10,confirmcreditdisapproved___12,false,false
+73	17	2	2	5	10	2	omitterminal,old,11/16	enteracreditamount___10:confirmcreditdisapproved___12,false,false
+77	18	4	2	6	5	1	omitsequence,old,10/16	enteracreditamount___10,confirmcreditapproved___11,false,false
+89	19	12	3	10	3	1	omitsequence,old,15/16	confirminterestrateapproved___14,enterdaysleft___17,false,false
+93	19	4	---	10	---	---

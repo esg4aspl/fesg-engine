@@ -1,0 +1,41 @@
+digraph G {
+rankdir = LR
+label = "cancelDeposit_credit_cancelWithdraw";
+esg36_vertex2 -> esg36_vertex1;
+esg36_vertex0 -> esg36_vertex2;
+esg36_vertex2 -> esg36_vertex3;
+esg36_vertex0 -> esg36_vertex3;
+esg36_vertex3 -> esg36_vertex4;
+esg36_vertex4 -> esg36_vertex5;
+esg36_vertex5 -> esg36_vertex1;
+esg36_vertex5 -> esg36_vertex2;
+esg36_vertex2 -> esg36_vertex6;
+esg36_vertex0 -> esg36_vertex6;
+esg36_vertex6 -> esg36_vertex7;
+esg36_vertex7 -> esg36_vertex8;
+esg36_vertex8 -> esg36_vertex1;
+esg36_vertex8 -> esg36_vertex2;
+esg36_vertex3 -> esg36_vertex9;
+esg36_vertex9 -> esg36_vertex1;
+esg36_vertex0 -> esg36_vertex10;
+esg36_vertex11 -> esg36_vertex1;
+esg36_vertex10 -> esg36_vertex11;
+esg36_vertex10 -> esg36_vertex12;
+esg36_vertex12 -> esg36_vertex1;
+esg36_vertex6 -> esg36_vertex13;
+esg36_vertex13 -> esg36_vertex1;
+esg36_vertex2 [label = "get balance"]
+esg36_vertex1 [label = "]"]
+esg36_vertex0 [label = "["]
+esg36_vertex3 [label = "select deposit"]
+esg36_vertex4 [label = "enter deposit amount"]
+esg36_vertex5 [label = "put money"]
+esg36_vertex6 [label = "select withdraw"]
+esg36_vertex7 [label = "enter withdraw amount"]
+esg36_vertex8 [label = "take money"]
+esg36_vertex9 [label = "cancel deposit"]
+esg36_vertex10 [label = "enter a credit amount"]
+esg36_vertex11 [label = "confirm credit approved"]
+esg36_vertex12 [label = "confirm credit disapproved"]
+esg36_vertex13 [label = "cancel withdraw"]
+}

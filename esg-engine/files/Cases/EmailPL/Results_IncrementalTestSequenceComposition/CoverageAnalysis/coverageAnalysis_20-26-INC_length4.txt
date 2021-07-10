@@ -1,0 +1,126 @@
+Number of nodes: 12
+Number of edges: 22
+Number of CESs: 53
+Number of events: 357
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+2	enter receiver's email address, enter email subject, enter email body, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter email body, enter email body
+2	enter receiver's email address, enter email subject, enter email body, enter email subject
+1	enter receiver's email address, enter email subject, enter receiver's email address, enter email subject
+6	enter receiver's email address, enter email subject, enter receiver's email address, send email
+1	enter receiver's email address, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter receiver's email address, get receiver's public key
+1	enter receiver's email address, enter email subject, enter receiver's email address, sign mail
+1	enter receiver's email address, enter email subject, enter email subject, enter email body
+2	enter receiver's email address, enter email subject, enter email subject, enter receiver's email address
+1	enter receiver's email address, enter email subject, enter email subject, enter email subject
+2	enter email subject, enter email body, enter receiver's email address, enter email subject
+4	enter email subject, enter email body, enter receiver's email address, send email
+3	enter email subject, enter email body, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter email body, enter receiver's email address, get receiver's public key
+1	enter email subject, enter email body, enter receiver's email address, sign mail
+4	enter email subject, enter email body, enter email body, enter receiver's email address
+1	enter email subject, enter email body, enter email body, enter email body
+1	enter email subject, enter email body, enter email body, enter email subject
+1	enter email subject, enter email body, enter email subject, enter email body
+5	enter email subject, enter email body, enter email subject, enter receiver's email address
+1	enter email subject, enter email body, enter email subject, enter email subject
+2	compose new email, enter receiver's email address, enter email subject, enter email body
+3	compose new email, enter receiver's email address, enter email subject, enter receiver's email address
+1	compose new email, enter receiver's email address, enter email subject, enter email subject
+1	compose new email, enter receiver's email address, enter receiver's email address, enter email subject
+1	compose new email, enter receiver's email address, enter receiver's email address, send email
+3	compose new email, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	compose new email, enter receiver's email address, enter receiver's email address, get receiver's public key
+1	compose new email, enter receiver's email address, enter receiver's email address, sign mail
+1	compose new email, enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key
+1	compose new email, enter receiver's email address, sign mail, send email
+1	enter receiver's email address, enter receiver's email address, enter email subject, enter email body
+2	enter receiver's email address, enter receiver's email address, enter email subject, enter receiver's email address
+1	enter receiver's email address, enter receiver's email address, enter email subject, enter email subject
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, enter email subject
+2	enter receiver's email address, enter receiver's email address, enter receiver's email address, send email
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, get receiver's public key
+1	enter receiver's email address, enter receiver's email address, enter receiver's email address, sign mail
+4	enter receiver's email address, enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key
+4	enter receiver's email address, enter receiver's email address, sign mail, send email
+6	compose new email, enter email subject, enter email body, enter receiver's email address
+3	compose new email, enter email subject, enter email body, enter email body
+3	compose new email, enter email subject, enter email body, enter email subject
+2	compose new email, enter email subject, enter receiver's email address, enter email subject
+1	compose new email, enter email subject, enter receiver's email address, send email
+3	compose new email, enter email subject, enter receiver's email address, enter receiver's email address
+1	compose new email, enter email subject, enter receiver's email address, get receiver's public key
+1	compose new email, enter email subject, enter receiver's email address, sign mail
+1	compose new email, enter email subject, enter email subject, enter email body
+3	compose new email, enter email subject, enter email subject, enter receiver's email address
+1	compose new email, enter email subject, enter email subject, enter email subject
+1	enter email subject, enter receiver's email address, enter email subject, enter email body
+3	enter email subject, enter receiver's email address, enter email subject, enter receiver's email address
+1	enter email subject, enter receiver's email address, enter email subject, enter email subject
+1	enter email subject, enter receiver's email address, enter receiver's email address, enter email subject
+2	enter email subject, enter receiver's email address, enter receiver's email address, send email
+1	enter email subject, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter receiver's email address, enter receiver's email address, get receiver's public key
+1	enter email subject, enter receiver's email address, enter receiver's email address, sign mail
+4	enter email subject, enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key
+4	enter email subject, enter receiver's email address, sign mail, send email
+1	compose new email, enter email body, enter receiver's email address, enter email subject
+1	compose new email, enter email body, enter receiver's email address, send email
+1	compose new email, enter email body, enter receiver's email address, enter receiver's email address
+1	compose new email, enter email body, enter receiver's email address, get receiver's public key
+1	compose new email, enter email body, enter receiver's email address, sign mail
+1	compose new email, enter email body, enter email body, enter receiver's email address
+1	compose new email, enter email body, enter email body, enter email body
+1	compose new email, enter email body, enter email body, enter email subject
+1	compose new email, enter email body, enter email subject, enter email body
+1	compose new email, enter email body, enter email subject, enter receiver's email address
+1	compose new email, enter email body, enter email subject, enter email subject
+1	enter email body, enter receiver's email address, enter email subject, enter email body
+2	enter email body, enter receiver's email address, enter email subject, enter receiver's email address
+1	enter email body, enter receiver's email address, enter email subject, enter email subject
+1	enter email body, enter receiver's email address, enter receiver's email address, enter email subject
+1	enter email body, enter receiver's email address, enter receiver's email address, send email
+1	enter email body, enter receiver's email address, enter receiver's email address, enter receiver's email address
+1	enter email body, enter receiver's email address, enter receiver's email address, get receiver's public key
+1	enter email body, enter receiver's email address, enter receiver's email address, sign mail
+3	enter email body, enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key
+3	enter email body, enter receiver's email address, sign mail, send email
+2	enter email subject, enter email subject, enter email body, enter receiver's email address
+1	enter email subject, enter email subject, enter email body, enter email body
+1	enter email subject, enter email subject, enter email body, enter email subject
+1	enter email subject, enter email subject, enter receiver's email address, enter email subject
+4	enter email subject, enter email subject, enter receiver's email address, send email
+1	enter email subject, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter email subject, enter email subject, enter receiver's email address, get receiver's public key
+1	enter email subject, enter email subject, enter receiver's email address, sign mail
+1	enter email subject, enter email subject, enter email subject, enter email body
+2	enter email subject, enter email subject, enter email subject, enter receiver's email address
+1	enter email subject, enter email subject, enter email subject, enter email subject
+1	enter email body, enter email body, enter receiver's email address, enter email subject
+2	enter email body, enter email body, enter receiver's email address, send email
+1	enter email body, enter email body, enter receiver's email address, enter receiver's email address
+1	enter email body, enter email body, enter receiver's email address, get receiver's public key
+1	enter email body, enter email body, enter receiver's email address, sign mail
+1	enter email body, enter email body, enter email body, enter receiver's email address
+1	enter email body, enter email body, enter email body, enter email body
+1	enter email body, enter email body, enter email body, enter email subject
+1	enter email body, enter email body, enter email subject, enter email body
+1	enter email body, enter email body, enter email subject, enter receiver's email address
+1	enter email body, enter email body, enter email subject, enter email subject
+1	enter email body, enter email subject, enter email body, enter receiver's email address
+1	enter email body, enter email subject, enter email body, enter email body
+1	enter email body, enter email subject, enter email body, enter email subject
+1	enter email body, enter email subject, enter receiver's email address, enter email subject
+3	enter email body, enter email subject, enter receiver's email address, send email
+1	enter email body, enter email subject, enter receiver's email address, enter receiver's email address
+1	enter email body, enter email subject, enter receiver's email address, get receiver's public key
+1	enter email body, enter email subject, enter receiver's email address, sign mail
+1	enter email body, enter email subject, enter email subject, enter email body
+1	enter email body, enter email subject, enter email subject, enter receiver's email address
+1	enter email body, enter email subject, enter email subject, enter email subject
+12	enter receiver's email address, get receiver's public key, encrypt mail with receiver's public key, send email
+0	Number of uncovered edges 

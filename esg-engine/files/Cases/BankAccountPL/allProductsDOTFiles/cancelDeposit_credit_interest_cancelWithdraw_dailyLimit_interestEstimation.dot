@@ -1,0 +1,63 @@
+digraph G {
+rankdir = LR
+label = "cancelDeposit_credit_interest_cancelWithdraw_dailyLimit_interestEstimation";
+esg41_vertex2 -> esg41_vertex1;
+esg41_vertex0 -> esg41_vertex2;
+esg41_vertex2 -> esg41_vertex3;
+esg41_vertex0 -> esg41_vertex3;
+esg41_vertex3 -> esg41_vertex4;
+esg41_vertex4 -> esg41_vertex5;
+esg41_vertex5 -> esg41_vertex1;
+esg41_vertex5 -> esg41_vertex2;
+esg41_vertex2 -> esg41_vertex6;
+esg41_vertex0 -> esg41_vertex6;
+esg41_vertex6 -> esg41_vertex7;
+esg41_vertex7 -> esg41_vertex8;
+esg41_vertex8 -> esg41_vertex1;
+esg41_vertex8 -> esg41_vertex2;
+esg41_vertex3 -> esg41_vertex9;
+esg41_vertex9 -> esg41_vertex1;
+esg41_vertex0 -> esg41_vertex10;
+esg41_vertex11 -> esg41_vertex1;
+esg41_vertex10 -> esg41_vertex11;
+esg41_vertex10 -> esg41_vertex12;
+esg41_vertex12 -> esg41_vertex1;
+esg41_vertex0 -> esg41_vertex13;
+esg41_vertex14 -> esg41_vertex1;
+esg41_vertex13 -> esg41_vertex14;
+esg41_vertex13 -> esg41_vertex15;
+esg41_vertex15 -> esg41_vertex1;
+esg41_vertex6 -> esg41_vertex16;
+esg41_vertex16 -> esg41_vertex1;
+esg41_vertex7 -> esg41_vertex17;
+esg41_vertex17 -> esg41_vertex16;
+esg41_vertex17 -> esg41_vertex7;
+esg41_vertex0 -> esg41_vertex18;
+esg41_vertex18 -> esg41_vertex1;
+esg41_vertex18 -> esg41_vertex18;
+esg41_vertex17 -> esg41_vertex1;
+esg41_vertex14 -> esg41_vertex19;
+esg41_vertex19 -> esg41_vertex20;
+esg41_vertex20 -> esg41_vertex1;
+esg41_vertex2 [label = "get balance"]
+esg41_vertex1 [label = "]"]
+esg41_vertex0 [label = "["]
+esg41_vertex3 [label = "select deposit"]
+esg41_vertex4 [label = "enter deposit amount"]
+esg41_vertex5 [label = "put money"]
+esg41_vertex6 [label = "select withdraw"]
+esg41_vertex7 [label = "enter withdraw amount"]
+esg41_vertex8 [label = "take money"]
+esg41_vertex9 [label = "cancel deposit"]
+esg41_vertex10 [label = "enter a credit amount"]
+esg41_vertex11 [label = "confirm credit approved"]
+esg41_vertex12 [label = "confirm credit disapproved"]
+esg41_vertex13 [label = "request an interest rate"]
+esg41_vertex14 [label = "confirm interest rate approved"]
+esg41_vertex15 [label = "confirm interest rate disapproved"]
+esg41_vertex16 [label = "cancel withdraw"]
+esg41_vertex17 [label = "confirm daily limit excess"]
+esg41_vertex18 [label = "enter daily withdraw limit"]
+esg41_vertex19 [label = "enter days left"]
+esg41_vertex20 [label = "get estimated interest for days left"]
+}

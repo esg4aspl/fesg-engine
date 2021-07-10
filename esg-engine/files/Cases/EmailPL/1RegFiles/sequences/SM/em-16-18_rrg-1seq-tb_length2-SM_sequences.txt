@@ -1,0 +1,5 @@
+composenewemail enteremailbody enteremailsubject enterreceiver'semailaddress sendemail
+openmailbox selectemail enterforwardreceiver'semailaddress sendemail
+composenewemail enteremailsubject enteremailsubject enterreceiver'semailaddress enterreceiver'semailaddress sendemail
+openmailbox selectemail
+composenewemail enterreceiver'semailaddress enteremailsubject enteremailbody enteremailbody enterreceiver'semailaddress signmail sendemail

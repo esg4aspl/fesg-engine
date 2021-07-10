@@ -1,0 +1,4 @@
+6 : push_button_to_call_elevator, wait_leaving_people, enter_elevator, press_target_floor_button, press_target_floor_button, leave_elevator
+6 : push_button_to_call_elevator, push_button_to_call_elevator, enter_elevator, press_target_floor_button, leave_elevator, trigger_sensor_with_decreasing_weight
+6 : push_button_to_call_elevator, push_button_to_call_elevator, enter_elevator, trigger_sensor_with_increasing_weight, hear_overloaded_alarm, leave_elevator
+6 : push_button_to_call_elevator, push_button_to_call_elevator, enter_elevator, trigger_sensor_with_increasing_weight, press_target_floor_button, leave_elevator

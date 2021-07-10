@@ -1,0 +1,51 @@
+Number of nodes: 31
+Number of edges: 52
+Number of CESs: 14
+Number of events: 89
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	log in, open notification settings
+4	select the existing schedule, view schedule
+4	open class records, select the existing schedule
+1	open notification settings, receive notifications as SMS
+1	receive notifications as SMS, confirm notification settings
+2	access as a student, open my attendance records
+3	log in, access as a student
+1	access as a student, open class records
+1	open my attendance records, open class records
+9	log in, access as a teacher
+9	access as a teacher, turn editing on
+4	turn editing on, open student attendance records
+1	turn editing on, open class records
+1	open student attendance records, open class records
+2	open student attendance records, select a class-list attendance record
+1	open student attendance records, select an editable student-record
+1	select a class-list attendance record, edit attendance status
+1	select an editable student-record, edit attendance status
+2	edit attendance status, submit attendance record update
+1	add new class, enter the name of the class
+1	enter the name of the class, enter the class detail
+1	add new class, enter the class detail
+1	enter the class detail, enter the name of the class
+1	enter the class detail, submit the class
+1	enter the name of the class, submit the class
+1	enter the name of the class, enter the name of the class
+1	enter the class detail, enter the class detail
+2	turn editing on, add new class
+2	turn editing on, select the editable class
+1	update the name of the class, update the class detail
+1	update the class detail, update the name of the class
+1	update the name of the class, submit the class
+1	update the class detail, submit the class
+1	update the name of the class, update the name of the class
+1	update the class detail, update the class detail
+1	select the editable class, update the name of the class
+1	select the editable class, update the class detail
+1	select the existing record, view record
+1	open my attendance records, select the existing record
+1	select a class-list attendance record, trace attendance activity of the class
+1	put your finger to the fingerprint scanner, put your finger to the fingerprint scanner
+1	submit attendance, put your finger to the fingerprint scanner
+1	put your finger to the fingerprint scanner, confirm your identity
+0	Number of uncovered edges 

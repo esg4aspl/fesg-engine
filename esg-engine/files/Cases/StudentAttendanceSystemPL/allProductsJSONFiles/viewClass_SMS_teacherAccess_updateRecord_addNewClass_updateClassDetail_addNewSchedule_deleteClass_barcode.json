@@ -1,0 +1,449 @@
+{
+	"ID"	:849,
+	"name"	:"viewClass_SMS_teacherAccess_updateRecord_addNewClass_updateClassDetail_addNewSchedule_deleteClass_barcode",
+	"vertices"	:[
+		{
+			"ID"	:0,
+			"event"	:"["
+		},
+		{
+			"ID"	:1,
+			"event"	:"]"
+		},
+		{
+			"ID"	:2,
+			"event"	:"submit attendance"
+		},
+		{
+			"ID"	:3,
+			"event"	:"confirm your identity"
+		},
+		{
+			"ID"	:4,
+			"event"	:"log in"
+		},
+		{
+			"ID"	:5,
+			"event"	:"open notification settings"
+		},
+		{
+			"ID"	:6,
+			"event"	:"confirm notification settings"
+		},
+		{
+			"ID"	:7,
+			"event"	:"open class records"
+		},
+		{
+			"ID"	:8,
+			"event"	:"select the existing class"
+		},
+		{
+			"ID"	:9,
+			"event"	:"view class"
+		},
+		{
+			"ID"	:10,
+			"event"	:"receive notifications as SMS"
+		},
+		{
+			"ID"	:11,
+			"event"	:"access as a teacher"
+		},
+		{
+			"ID"	:12,
+			"event"	:"turn editing on"
+		},
+		{
+			"ID"	:13,
+			"event"	:"open student attendance records"
+		},
+		{
+			"ID"	:14,
+			"event"	:"select a class-list attendance record"
+		},
+		{
+			"ID"	:15,
+			"event"	:"select an editable student-record"
+		},
+		{
+			"ID"	:16,
+			"event"	:"submit attendance record update"
+		},
+		{
+			"ID"	:17,
+			"event"	:"edit attendance status"
+		},
+		{
+			"ID"	:18,
+			"event"	:"add new class"
+		},
+		{
+			"ID"	:19,
+			"event"	:"enter the name of the class"
+		},
+		{
+			"ID"	:20,
+			"event"	:"enter the class detail"
+		},
+		{
+			"ID"	:21,
+			"event"	:"submit the class"
+		},
+		{
+			"ID"	:22,
+			"event"	:"select the editable class"
+		},
+		{
+			"ID"	:23,
+			"event"	:"update the name of the class"
+		},
+		{
+			"ID"	:24,
+			"event"	:"update the class detail"
+		},
+		{
+			"ID"	:25,
+			"event"	:"add new schedule"
+		},
+		{
+			"ID"	:26,
+			"event"	:"enter the days of the class"
+		},
+		{
+			"ID"	:27,
+			"event"	:"enter the hours of the class"
+		},
+		{
+			"ID"	:28,
+			"event"	:"submit the class schedule"
+		},
+		{
+			"ID"	:29,
+			"event"	:"delete class"
+		},
+		{
+			"ID"	:30,
+			"event"	:"confirm deletion"
+		},
+		{
+			"ID"	:31,
+			"event"	:"select the deletable class"
+		},
+		{
+			"ID"	:32,
+			"event"	:"show the barcode to the barcodereader"
+		},
+		{
+			"ID"	:33,
+			"event"	:"enter barcode manually"
+		}
+			],
+	"edges"	:[
+		{
+			"ID"	:0,
+			"source"	:0,
+			"target"	:2
+		},
+		{
+			"ID"	:1,
+			"source"	:3,
+			"target"	:1
+		},
+		{
+			"ID"	:2,
+			"source"	:0,
+			"target"	:4
+		},
+		{
+			"ID"	:3,
+			"source"	:4,
+			"target"	:5
+		},
+		{
+			"ID"	:4,
+			"source"	:6,
+			"target"	:1
+		},
+		{
+			"ID"	:5,
+			"source"	:8,
+			"target"	:9
+		},
+		{
+			"ID"	:6,
+			"source"	:9,
+			"target"	:1
+		},
+		{
+			"ID"	:7,
+			"source"	:7,
+			"target"	:8
+		},
+		{
+			"ID"	:8,
+			"source"	:5,
+			"target"	:10
+		},
+		{
+			"ID"	:9,
+			"source"	:10,
+			"target"	:6
+		},
+		{
+			"ID"	:10,
+			"source"	:4,
+			"target"	:11
+		},
+		{
+			"ID"	:11,
+			"source"	:11,
+			"target"	:12
+		},
+		{
+			"ID"	:12,
+			"source"	:12,
+			"target"	:13
+		},
+		{
+			"ID"	:13,
+			"source"	:12,
+			"target"	:7
+		},
+		{
+			"ID"	:14,
+			"source"	:13,
+			"target"	:7
+		},
+		{
+			"ID"	:15,
+			"source"	:13,
+			"target"	:14
+		},
+		{
+			"ID"	:16,
+			"source"	:13,
+			"target"	:15
+		},
+		{
+			"ID"	:17,
+			"source"	:16,
+			"target"	:1
+		},
+		{
+			"ID"	:18,
+			"source"	:14,
+			"target"	:17
+		},
+		{
+			"ID"	:19,
+			"source"	:15,
+			"target"	:17
+		},
+		{
+			"ID"	:20,
+			"source"	:17,
+			"target"	:16
+		},
+		{
+			"ID"	:21,
+			"source"	:18,
+			"target"	:19
+		},
+		{
+			"ID"	:22,
+			"source"	:19,
+			"target"	:20
+		},
+		{
+			"ID"	:23,
+			"source"	:18,
+			"target"	:20
+		},
+		{
+			"ID"	:24,
+			"source"	:20,
+			"target"	:19
+		},
+		{
+			"ID"	:25,
+			"source"	:20,
+			"target"	:21
+		},
+		{
+			"ID"	:26,
+			"source"	:19,
+			"target"	:21
+		},
+		{
+			"ID"	:27,
+			"source"	:19,
+			"target"	:19
+		},
+		{
+			"ID"	:28,
+			"source"	:20,
+			"target"	:20
+		},
+		{
+			"ID"	:29,
+			"source"	:12,
+			"target"	:18
+		},
+		{
+			"ID"	:30,
+			"source"	:21,
+			"target"	:1
+		},
+		{
+			"ID"	:31,
+			"source"	:12,
+			"target"	:22
+		},
+		{
+			"ID"	:32,
+			"source"	:23,
+			"target"	:24
+		},
+		{
+			"ID"	:33,
+			"source"	:24,
+			"target"	:23
+		},
+		{
+			"ID"	:34,
+			"source"	:23,
+			"target"	:21
+		},
+		{
+			"ID"	:35,
+			"source"	:24,
+			"target"	:21
+		},
+		{
+			"ID"	:36,
+			"source"	:23,
+			"target"	:23
+		},
+		{
+			"ID"	:37,
+			"source"	:24,
+			"target"	:24
+		},
+		{
+			"ID"	:38,
+			"source"	:22,
+			"target"	:23
+		},
+		{
+			"ID"	:39,
+			"source"	:22,
+			"target"	:24
+		},
+		{
+			"ID"	:40,
+			"source"	:25,
+			"target"	:26
+		},
+		{
+			"ID"	:41,
+			"source"	:26,
+			"target"	:27
+		},
+		{
+			"ID"	:42,
+			"source"	:25,
+			"target"	:27
+		},
+		{
+			"ID"	:43,
+			"source"	:27,
+			"target"	:26
+		},
+		{
+			"ID"	:44,
+			"source"	:27,
+			"target"	:28
+		},
+		{
+			"ID"	:45,
+			"source"	:26,
+			"target"	:28
+		},
+		{
+			"ID"	:46,
+			"source"	:26,
+			"target"	:26
+		},
+		{
+			"ID"	:47,
+			"source"	:27,
+			"target"	:27
+		},
+		{
+			"ID"	:48,
+			"source"	:12,
+			"target"	:25
+		},
+		{
+			"ID"	:49,
+			"source"	:28,
+			"target"	:1
+		},
+		{
+			"ID"	:50,
+			"source"	:29,
+			"target"	:30
+		},
+		{
+			"ID"	:51,
+			"source"	:30,
+			"target"	:1
+		},
+		{
+			"ID"	:52,
+			"source"	:12,
+			"target"	:31
+		},
+		{
+			"ID"	:53,
+			"source"	:31,
+			"target"	:29
+		},
+		{
+			"ID"	:54,
+			"source"	:30,
+			"target"	:31
+		},
+		{
+			"ID"	:55,
+			"source"	:32,
+			"target"	:32
+		},
+		{
+			"ID"	:56,
+			"source"	:32,
+			"target"	:33
+		},
+		{
+			"ID"	:57,
+			"source"	:2,
+			"target"	:32
+		},
+		{
+			"ID"	:58,
+			"source"	:32,
+			"target"	:3
+		},
+		{
+			"ID"	:59,
+			"source"	:33,
+			"target"	:3
+		},
+		{
+			"ID"	:60,
+			"source"	:2,
+			"target"	:33
+		}
+			]
+}

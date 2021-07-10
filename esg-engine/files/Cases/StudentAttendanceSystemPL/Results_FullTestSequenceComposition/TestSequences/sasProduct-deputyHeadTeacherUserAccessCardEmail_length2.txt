@@ -1,0 +1,2 @@
+4 : submit_attendance, read_the_access_card_to_the_card_reader, read_the_access_card_to_the_card_reader, confirm_your_identity
+4 : log_in, open_notification_settings, receive_notifications_as_Email, confirm_notification_settings

@@ -1,0 +1,25 @@
+6 : log_in, access_as_a_student, open_my_attendance_records, open_class_records, select_the_existing_schedule, view_schedule
+8 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_days_of_the_class, enter_the_days_of_the_class, enter_the_days_of_the_class, submit_the_class_schedule
+4 : log_in, access_as_a_student, open_my_attendance_records, monitor_current_attendance_status
+5 : log_in, access_as_a_student, open_class_records, select_the_existing_schedule, view_schedule
+7 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, open_class_records, select_the_existing_schedule, view_schedule
+8 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_days_of_the_class, update_the_days_of_the_class, update_the_days_of_the_class, submit_the_class_schedule
+3 : submit_attendance, show_the_QR_code_to_the_QR_code_reader, confirm_your_identity
+8 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_hours_of_the_class, enter_the_hours_of_the_class, enter_the_hours_of_the_class, submit_the_class_schedule
+8 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_hours_of_the_class, update_the_hours_of_the_class, update_the_hours_of_the_class, submit_the_class_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_hours_of_the_class, submit_the_class_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_days_of_the_class, submit_the_class_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_days_of_the_class, submit_the_class_schedule
+5 : log_in, access_as_a_student, open_my_attendance_records, select_the_existing_record, view_record
+6 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_hours_of_the_class, submit_the_class_schedule
+5 : log_in, access_as_a_student, open_class_records, select_the_existing_class, view_class
+11 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_hours_of_the_class, update_the_days_of_the_class, update_the_days_of_the_class, update_the_hours_of_the_class, update_the_hours_of_the_class, update_the_days_of_the_class, submit_the_class_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, open_class_records, select_the_existing_schedule, view_schedule
+11 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_hours_of_the_class, enter_the_days_of_the_class, enter_the_days_of_the_class, enter_the_hours_of_the_class, enter_the_hours_of_the_class, enter_the_days_of_the_class, submit_the_class_schedule
+9 : log_in, access_as_a_teacher, turn_editing_on, select_the_editable_schedule, update_the_days_of_the_class, update_the_hours_of_the_class, update_the_days_of_the_class, update_the_hours_of_the_class, submit_the_class_schedule
+9 : log_in, access_as_a_teacher, turn_editing_on, add_new_schedule, enter_the_days_of_the_class, enter_the_hours_of_the_class, enter_the_days_of_the_class, enter_the_hours_of_the_class, submit_the_class_schedule
+6 : log_in, access_as_a_teacher, turn_editing_on, open_class_records, select_the_existing_class, view_class
+7 : log_in, access_as_a_teacher, turn_editing_on, open_student_attendance_records, open_class_records, select_the_existing_class, view_class
+6 : log_in, access_as_a_student, open_my_attendance_records, open_class_records, select_the_existing_class, view_class
+4 : log_in, open_notification_settings, receive_notifications_as_Email, confirm_notification_settings
+5 : submit_attendance, show_the_QR_code_to_the_QR_code_reader, show_the_QR_code_to_the_QR_code_reader, show_the_QR_code_to_the_QR_code_reader, confirm_your_identity

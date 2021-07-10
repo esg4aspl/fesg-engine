@@ -1,0 +1,7 @@
+[ composenewemail enteremailsubject enteremailsubject enterreceiver'semailaddress sendemail ]
+[ composenewemail enterreceiver'semailaddress enterreceiver'semailaddress enteremailsubject enteremailbody enteremailbody enterreceiver'semailaddress sendemail ]
+[ composenewemail enteremailbody enteremailsubject enterreceiver'semailaddress sendemail ]
+[ enterautoresponseemailbody enteremailautoresponsedateinterval ]
+[ enteremailautoresponsedateinterval enterautoresponseemailbody enteremailautoresponsedateinterval ]
+[ openmailbox selectemail enterforwardreceiver'semailaddress sendemail ]
+[ openmailbox selectemail ]

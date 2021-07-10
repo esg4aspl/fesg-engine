@@ -1,0 +1,43 @@
+digraph G {
+rankdir = LR
+label = "interest_cancelWithdraw_interestEstimation";
+esg8_vertex2 -> esg8_vertex1;
+esg8_vertex0 -> esg8_vertex2;
+esg8_vertex2 -> esg8_vertex3;
+esg8_vertex0 -> esg8_vertex3;
+esg8_vertex3 -> esg8_vertex4;
+esg8_vertex4 -> esg8_vertex5;
+esg8_vertex5 -> esg8_vertex1;
+esg8_vertex5 -> esg8_vertex2;
+esg8_vertex2 -> esg8_vertex6;
+esg8_vertex0 -> esg8_vertex6;
+esg8_vertex6 -> esg8_vertex7;
+esg8_vertex7 -> esg8_vertex8;
+esg8_vertex8 -> esg8_vertex1;
+esg8_vertex8 -> esg8_vertex2;
+esg8_vertex0 -> esg8_vertex9;
+esg8_vertex10 -> esg8_vertex1;
+esg8_vertex9 -> esg8_vertex10;
+esg8_vertex9 -> esg8_vertex11;
+esg8_vertex11 -> esg8_vertex1;
+esg8_vertex6 -> esg8_vertex12;
+esg8_vertex12 -> esg8_vertex1;
+esg8_vertex10 -> esg8_vertex13;
+esg8_vertex13 -> esg8_vertex14;
+esg8_vertex14 -> esg8_vertex1;
+esg8_vertex2 [label = "get balance"]
+esg8_vertex1 [label = "]"]
+esg8_vertex0 [label = "["]
+esg8_vertex3 [label = "select deposit"]
+esg8_vertex4 [label = "enter deposit amount"]
+esg8_vertex5 [label = "put money"]
+esg8_vertex6 [label = "select withdraw"]
+esg8_vertex7 [label = "enter withdraw amount"]
+esg8_vertex8 [label = "take money"]
+esg8_vertex9 [label = "request an interest rate"]
+esg8_vertex10 [label = "confirm interest rate approved"]
+esg8_vertex11 [label = "confirm interest rate disapproved"]
+esg8_vertex12 [label = "cancel withdraw"]
+esg8_vertex13 [label = "enter days left"]
+esg8_vertex14 [label = "get estimated interest for days left"]
+}

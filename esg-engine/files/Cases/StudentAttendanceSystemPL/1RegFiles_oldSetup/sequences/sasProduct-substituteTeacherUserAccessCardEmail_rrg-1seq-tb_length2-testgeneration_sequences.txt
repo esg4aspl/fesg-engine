@@ -1,0 +1,7 @@
+[ login accessasateacher turneditingon openstudentattendancerecords selectaclass-listattendancerecord editattendancestatus submitattendancerecordupdate ]
+[ login accessasateacher turneditingon openstudentattendancerecords selectaneditablestudent-record editattendancestatus submitattendancerecordupdate ]
+[ login accessasateacher turneditingon openstudentattendancerecords openclassrecords selecttheexistingclass viewclass ]
+[ login accessasateacher turneditingon openclassrecords selecttheexistingschedule viewschedule ]
+[ login opennotificationsettings receivenotificationsasEmail confirmnotificationsettings ]
+[ submitattendance readtheaccesscardtothecardreader readtheaccesscardtothecardreader confirmyouridentity ]
+[ login accessasateacher turneditingon openstudentattendancerecords selectaclass-listattendancerecord traceattendanceactivityoftheclass ]

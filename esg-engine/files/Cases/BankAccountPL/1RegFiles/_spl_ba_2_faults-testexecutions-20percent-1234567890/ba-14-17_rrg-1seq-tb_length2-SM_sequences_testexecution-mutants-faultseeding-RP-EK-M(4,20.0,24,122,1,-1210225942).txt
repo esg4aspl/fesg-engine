@@ -1,0 +1,23 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+1	1	1	1	1	6	1	omitterminal,old,10/14	requestaninterestrate___10,false,false
+7	2	6	2	3	13	3	omitterminal,old,4/14	enterdepositamount___4:putmoney___5:getbalance___2,false,false
+9	3	2	2	3	17	3	omitterminal,old,3/14	selectdeposit___3:enterdepositamount___4:putmoney___5,false,false
+11	4	2	2	3	19	4	omitterminal,old,2/17	selectdeposit___3:enterdepositamount___4:putmoney___5:getbalance___2,false,false
+14	5	3	3	3	8	2	omitsequence,old,3/14	selectdeposit___3:enterdepositamount___4,enterdepositamount___4:putmoney___5,false,false
+19	6	5	5	3	4	1	omitterminal,old,5/14	selectwithdraw___6,false,false
+24	7	5	5	3	12	2	omitsequence,old,6/14	putmoney___5:getbalance___2,getbalance___2:selectwithdraw___6,false,false
+29	8	5	5	3	20	4	omitsequence,old,3/18	selectdeposit___3:enterdepositamount___4:putmoney___5:getbalance___2,enterdepositamount___4:putmoney___5:getbalance___2:selectwithdraw___6,false,false
+35	9	6	6	3	2	1	omitterminal,old,6/14	enterwithdrawamount___7,false,false
+41	10	6	6	3	3	1	omitsequence,old,6/14	selectwithdraw___6,enterwithdrawamount___7,false,false
+47	11	6	6	3	7	2	omitterminal,old,6/14	selectwithdraw___6:enterwithdrawamount___7,false,false
+53	12	6	6	3	23	4	omitterminal,old,10/17	selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+60	13	7	7	3	9	2	omitsequence,old,9/14	selectwithdraw___6:enterwithdrawamount___7,enterwithdrawamount___7:takemoney___8,false,false
+67	14	7	7	3	22	4	omitsequence,old,9/18	putmoney___5:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,getbalance___2:selectwithdraw___6:enterwithdrawamount___7:takemoney___8,false,false
+76	15	9	9	3	11	2	omitterminal,old,1/14	getbalance___2:selectdeposit___3,false,false
+85	16	9	9	3	16	3	omitterminal,old,11/14	takemoney___8:getbalance___2:selectdeposit___3,false,false
+95	17	10	10	3	24	4	omitterminal,old,14/17	takemoney___8:getbalance___2:selectdeposit___3:canceldeposit___9,false,false
+117	18	22	3	8	1	1	omitsequence,old,13/14	confirminterestrateapproved___11,enterdaysleft___14,false,false
+120	19	3	3	8	10	2	omitsequence,old,13/14	requestaninterestrate___10:confirminterestrateapproved___11,confirminterestrateapproved___11:enterdaysleft___14,false,false
+124	20	4	4	8	5	1	omitterminal,old,14/14	getestimatedinterestfordaysleft___15,false,false
+128	20	4	---	8	---	---

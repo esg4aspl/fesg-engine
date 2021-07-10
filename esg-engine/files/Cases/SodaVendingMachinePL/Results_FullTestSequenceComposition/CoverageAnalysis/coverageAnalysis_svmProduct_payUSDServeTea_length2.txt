@@ -1,0 +1,19 @@
+Number of nodes: 6
+Number of edges: 5
+Number of CESs: 0
+Number of events: 0
+Number of uncovered edges: 5
+Coverage: 0.0
+Number of coverage	Edge
+0	payUSD, select
+0	select, serveTea
+0	prompt, payUSD
+0	payUSD, cancel
+0	cancel, returnMoney
+5	Number of uncovered edges 
+Uncovered edges: 
+payUSD, select
+select, serveTea
+prompt, payUSD
+payUSD, cancel
+cancel, returnMoney

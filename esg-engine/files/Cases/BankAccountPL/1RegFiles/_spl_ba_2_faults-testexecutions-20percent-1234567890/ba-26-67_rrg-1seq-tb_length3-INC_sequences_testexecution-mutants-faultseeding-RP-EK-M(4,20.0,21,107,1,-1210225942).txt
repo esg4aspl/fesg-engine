@@ -1,0 +1,24 @@
+cum_executed	cum_faults	inc_executed	seq_executed	sequence_num	mutant_num	mutant_info
+0	0	---	---	---	---	---
+1	1	1	1	1	15	3	omitterminal,old,2/12	selectdeposit___3:enterdepositamount___4:putmoney___5,false,false
+5	2	4	4	1	16	3	omitsequence,old,2/13	selectdeposit___3:enterdepositamount___4:putmoney___5,enterdepositamount___4:putmoney___5:getbalance___2,false,false
+10	3	5	5	1	11	2	omitterminal,old,1/14	getbalance___2:selectdeposit___3,false,false
+16	4	6	6	1	17	4	omitsequence,old,4/14	enterdepositamount___4:putmoney___5:getbalance___2:selectdeposit___3,putmoney___5:getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+24	5	8	1	2	2	1	omitterminal,old,9/15	enteracreditamount___9,false,false
+26	6	2	2	2	3	1	omitsequence,old,10/14	enteracreditamount___9,confirmcreditdisapproved___11,false,false
+28	7	2	2	2	4	1	omitterminal,old,10/15	confirmcreditdisapproved___11,false,false
+32	8	4	2	3	8	2	omitterminal,old,9/14	enteracreditamount___9:confirmcreditapproved___10,false,false
+41	9	9	5	5	9	2	omitterminal,old,5/14	getbalance___2:selectwithdraw___6,false,false
+46	10	5	5	5	13	3	omitterminal,old,7/12	selectwithdraw___6:enterwithdrawamount___7:takemoney___8,false,false
+54	11	8	8	5	18	4	omitsequence,old,8/14	getbalance___2:selectwithdraw___6:enterwithdrawamount___7:takemoney___8,selectwithdraw___6:enterwithdrawamount___7:takemoney___8:getbalance___2,false,false
+63	12	9	9	5	19	4	omitterminal,old,12/13	takemoney___8:getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+73	13	10	10	5	12	3	omitsequence,old,12/13	takemoney___8:getbalance___2:selectwithdraw___6,getbalance___2:selectwithdraw___6:enterwithdrawamount___7,false,false
+89	14	16	5	6	20	4	omitterminal,old,9/13	enterwithdrawamount___7:takemoney___8:getbalance___2:selectdeposit___3,false,false
+95	15	6	6	6	14	3	omitsequence,old,11/13	takemoney___8:getbalance___2:selectdeposit___3,getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+101	16	6	6	6	21	4	omitsequence,old,11/14	enterwithdrawamount___7:takemoney___8:getbalance___2:selectdeposit___3,takemoney___8:getbalance___2:selectdeposit___3:enterdepositamount___4,false,false
+120	17	19	2	10	6	1	omitterminal,old,11/15	confirminterestrateapproved___13,false,false
+123	18	3	3	10	10	2	omitsequence,old,11/12	requestaninterestrate___12:confirminterestrateapproved___13,confirminterestrateapproved___13:enterdaysleft___15,false,false
+127	19	4	4	10	1	1	omitsequence,old,14/14	enterdaysleft___15,getestimatedinterestfordaysleft___16,false,false
+131	20	4	4	10	5	1	omitterminal,old,15/15	getestimatedinterestfordaysleft___16,false,false
+135	21	4	4	10	7	2	omitsequence,old,12/12	confirminterestrateapproved___13:enterdaysleft___15,enterdaysleft___15:getestimatedinterestfordaysleft___16,false,false
+141	21	6	---	11	---	---

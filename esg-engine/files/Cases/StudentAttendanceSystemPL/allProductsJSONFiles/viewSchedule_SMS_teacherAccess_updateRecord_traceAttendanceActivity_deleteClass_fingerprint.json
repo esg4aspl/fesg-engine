@@ -1,0 +1,255 @@
+{
+	"ID"	:306,
+	"name"	:"viewSchedule_SMS_teacherAccess_updateRecord_traceAttendanceActivity_deleteClass_fingerprint",
+	"vertices"	:[
+		{
+			"ID"	:0,
+			"event"	:"["
+		},
+		{
+			"ID"	:1,
+			"event"	:"]"
+		},
+		{
+			"ID"	:2,
+			"event"	:"submit attendance"
+		},
+		{
+			"ID"	:3,
+			"event"	:"confirm your identity"
+		},
+		{
+			"ID"	:4,
+			"event"	:"log in"
+		},
+		{
+			"ID"	:5,
+			"event"	:"open notification settings"
+		},
+		{
+			"ID"	:6,
+			"event"	:"confirm notification settings"
+		},
+		{
+			"ID"	:7,
+			"event"	:"open class records"
+		},
+		{
+			"ID"	:8,
+			"event"	:"select the existing schedule"
+		},
+		{
+			"ID"	:9,
+			"event"	:"view schedule"
+		},
+		{
+			"ID"	:10,
+			"event"	:"receive notifications as SMS"
+		},
+		{
+			"ID"	:11,
+			"event"	:"access as a teacher"
+		},
+		{
+			"ID"	:12,
+			"event"	:"turn editing on"
+		},
+		{
+			"ID"	:13,
+			"event"	:"open student attendance records"
+		},
+		{
+			"ID"	:14,
+			"event"	:"select a class-list attendance record"
+		},
+		{
+			"ID"	:15,
+			"event"	:"select an editable student-record"
+		},
+		{
+			"ID"	:16,
+			"event"	:"submit attendance record update"
+		},
+		{
+			"ID"	:17,
+			"event"	:"edit attendance status"
+		},
+		{
+			"ID"	:18,
+			"event"	:"trace attendance activity of the class"
+		},
+		{
+			"ID"	:19,
+			"event"	:"delete class"
+		},
+		{
+			"ID"	:20,
+			"event"	:"confirm deletion"
+		},
+		{
+			"ID"	:21,
+			"event"	:"select the deletable class"
+		},
+		{
+			"ID"	:22,
+			"event"	:"put your finger to the fingerprint scanner"
+		}
+			],
+	"edges"	:[
+		{
+			"ID"	:0,
+			"source"	:0,
+			"target"	:2
+		},
+		{
+			"ID"	:1,
+			"source"	:3,
+			"target"	:1
+		},
+		{
+			"ID"	:2,
+			"source"	:0,
+			"target"	:4
+		},
+		{
+			"ID"	:3,
+			"source"	:4,
+			"target"	:5
+		},
+		{
+			"ID"	:4,
+			"source"	:6,
+			"target"	:1
+		},
+		{
+			"ID"	:5,
+			"source"	:8,
+			"target"	:9
+		},
+		{
+			"ID"	:6,
+			"source"	:9,
+			"target"	:1
+		},
+		{
+			"ID"	:7,
+			"source"	:7,
+			"target"	:8
+		},
+		{
+			"ID"	:8,
+			"source"	:5,
+			"target"	:10
+		},
+		{
+			"ID"	:9,
+			"source"	:10,
+			"target"	:6
+		},
+		{
+			"ID"	:10,
+			"source"	:4,
+			"target"	:11
+		},
+		{
+			"ID"	:11,
+			"source"	:11,
+			"target"	:12
+		},
+		{
+			"ID"	:12,
+			"source"	:12,
+			"target"	:13
+		},
+		{
+			"ID"	:13,
+			"source"	:12,
+			"target"	:7
+		},
+		{
+			"ID"	:14,
+			"source"	:13,
+			"target"	:7
+		},
+		{
+			"ID"	:15,
+			"source"	:13,
+			"target"	:14
+		},
+		{
+			"ID"	:16,
+			"source"	:13,
+			"target"	:15
+		},
+		{
+			"ID"	:17,
+			"source"	:16,
+			"target"	:1
+		},
+		{
+			"ID"	:18,
+			"source"	:14,
+			"target"	:17
+		},
+		{
+			"ID"	:19,
+			"source"	:15,
+			"target"	:17
+		},
+		{
+			"ID"	:20,
+			"source"	:17,
+			"target"	:16
+		},
+		{
+			"ID"	:21,
+			"source"	:14,
+			"target"	:18
+		},
+		{
+			"ID"	:22,
+			"source"	:18,
+			"target"	:1
+		},
+		{
+			"ID"	:23,
+			"source"	:19,
+			"target"	:20
+		},
+		{
+			"ID"	:24,
+			"source"	:20,
+			"target"	:1
+		},
+		{
+			"ID"	:25,
+			"source"	:12,
+			"target"	:21
+		},
+		{
+			"ID"	:26,
+			"source"	:21,
+			"target"	:19
+		},
+		{
+			"ID"	:27,
+			"source"	:20,
+			"target"	:21
+		},
+		{
+			"ID"	:28,
+			"source"	:22,
+			"target"	:22
+		},
+		{
+			"ID"	:29,
+			"source"	:2,
+			"target"	:22
+		},
+		{
+			"ID"	:30,
+			"source"	:22,
+			"target"	:3
+		}
+			]
+}

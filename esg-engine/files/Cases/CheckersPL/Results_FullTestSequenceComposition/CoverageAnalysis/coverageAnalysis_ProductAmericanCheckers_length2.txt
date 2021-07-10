@@ -1,0 +1,101 @@
+Number of nodes: 29
+Number of edges: 93
+Number of CESs: 42
+Number of events: 328
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+42	display board, announce winner
+24	display error message, display board
+1	enter player1 pawn diagonal forward left march move, display board
+3	display board, enter player1 pawn diagonal forward left march move
+1	enter player1 king diagonal forward left march move, display board
+2	display board, enter player1 king diagonal forward left march move
+1	enter player1 king diagonal backward left march move, display board
+2	display board, enter player1 king diagonal backward left march move
+2	enter player1 pawn diagonal forward right march move, display board
+4	display board, enter player1 pawn diagonal forward right march move
+1	enter player1 king diagonal forward right march move, display board
+2	display board, enter player1 king diagonal forward right march move
+1	enter player1 king diagonal backward right march move, display board
+2	display board, enter player1 king diagonal backward right march move
+1	enter player1 pawn diagonal forward left jump move, display board
+3	display board, enter player1 pawn diagonal forward left jump move
+6	enter player1 king diagonal forward left jump move, display board
+8	display board, enter player1 king diagonal forward left jump move
+3	enter player1 king diagonal backward left jump move, display board
+5	display board, enter player1 king diagonal backward left jump move
+2	enter player1 pawn diagonal forward right jump move, display board
+4	display board, enter player1 pawn diagonal forward right jump move
+7	enter player1 king diagonal forward right jump move, display board
+9	display board, enter player1 king diagonal forward right jump move
+1	enter player1 king diagonal backward right jump move, display board
+3	display board, enter player1 king diagonal backward right jump move
+2	enter player2 king diagonal backward right jump move, display board
+4	display board, enter player2 king diagonal backward right jump move
+4	enter player2 king diagonal forward right jump move, display board
+6	display board, enter player2 king diagonal forward right jump move
+3	enter player2 pawn diagonal forward right jump move, display board
+6	display board, enter player2 pawn diagonal forward right jump move
+8	enter player2 king diagonal backward left jump move, display board
+10	display board, enter player2 king diagonal backward left jump move
+5	enter player2 king diagonal forward left jump move, display board
+7	display board, enter player2 king diagonal forward left jump move
+5	enter player2 pawn diagonal forward left jump move, display board
+7	display board, enter player2 pawn diagonal forward left jump move
+1	enter player2 king diagonal backward right march move, display board
+2	display board, enter player2 king diagonal backward right march move
+1	enter player2 king diagonal forward right march move, display board
+2	display board, enter player2 king diagonal forward right march move
+1	enter player2 pawn diagonal forward right march move, display board
+3	display board, enter player2 pawn diagonal forward right march move
+1	enter player2 king diagonal backward left march move, display board
+2	display board, enter player2 king diagonal backward left march move
+1	enter player2 king diagonal forward left march move, display board
+2	display board, enter player2 king diagonal forward left march move
+1	enter player2 pawn diagonal forward left march move, display board
+3	display board, enter player2 pawn diagonal forward left march move
+1	enter player1 pawn diagonal forward left march move, display error message
+1	enter player1 king diagonal forward left march move, display error message
+1	enter player1 king diagonal backward left march move, display error message
+1	enter player1 pawn diagonal forward right march move, display error message
+1	enter player1 king diagonal forward right march move, display error message
+1	enter player1 king diagonal backward right march move, display error message
+1	enter player1 pawn diagonal forward left jump move, display error message
+1	enter player1 king diagonal forward left jump move, display error message
+1	enter player1 king diagonal backward left jump move, display error message
+1	enter player1 pawn diagonal forward right jump move, display error message
+1	enter player1 king diagonal forward right jump move, display error message
+1	enter player1 king diagonal backward right jump move, display error message
+1	enter player2 king diagonal backward right jump move, display error message
+1	enter player2 king diagonal forward right jump move, display error message
+1	enter player2 pawn diagonal forward right jump move, display error message
+1	enter player2 king diagonal backward left jump move, display error message
+1	enter player2 king diagonal forward left jump move, display error message
+1	enter player2 pawn diagonal forward left jump move, display error message
+1	enter player2 king diagonal backward right march move, display error message
+1	enter player2 king diagonal forward right march move, display error message
+1	enter player2 pawn diagonal forward right march move, display error message
+1	enter player2 king diagonal backward left march move, display error message
+1	enter player2 king diagonal forward left march move, display error message
+1	enter player2 pawn diagonal forward left march move, display error message
+5	promote to king, display board
+1	enter player1 pawn diagonal forward right march move, promote to king
+1	enter player1 pawn diagonal forward left march move, promote to king
+1	enter player2 pawn diagonal forward right march move, promote to king
+1	enter player2 pawn diagonal forward left march move, promote to king
+1	enter player1 pawn diagonal forward left jump move, capture opponent piece
+1	enter player2 pawn diagonal forward left jump move, capture opponent piece
+2	enter player2 pawn diagonal forward right jump move, capture opponent piece
+1	enter player1 pawn diagonal forward right jump move, capture opponent piece
+1	capture opponent piece, promote to king
+12	capture opponent piece, display board
+1	enter player1 king diagonal forward left jump move, capture opponent piece
+1	enter player1 king diagonal backward left jump move, capture opponent piece
+1	enter player1 king diagonal forward right jump move, capture opponent piece
+1	enter player1 king diagonal backward right jump move, capture opponent piece
+1	enter player2 king diagonal backward right jump move, capture opponent piece
+1	enter player2 king diagonal forward right jump move, capture opponent piece
+1	enter player2 king diagonal backward left jump move, capture opponent piece
+1	enter player2 king diagonal forward left jump move, capture opponent piece
+0	Number of uncovered edges 

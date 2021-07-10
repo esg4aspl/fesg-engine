@@ -1,0 +1,55 @@
+digraph G {
+rankdir = LR
+label = "credit_interest_cancelWithdraw_dailyLimit";
+esg34_vertex2 -> esg34_vertex1;
+esg34_vertex0 -> esg34_vertex2;
+esg34_vertex2 -> esg34_vertex3;
+esg34_vertex0 -> esg34_vertex3;
+esg34_vertex3 -> esg34_vertex4;
+esg34_vertex4 -> esg34_vertex5;
+esg34_vertex5 -> esg34_vertex1;
+esg34_vertex5 -> esg34_vertex2;
+esg34_vertex2 -> esg34_vertex6;
+esg34_vertex0 -> esg34_vertex6;
+esg34_vertex6 -> esg34_vertex7;
+esg34_vertex7 -> esg34_vertex8;
+esg34_vertex8 -> esg34_vertex1;
+esg34_vertex8 -> esg34_vertex2;
+esg34_vertex0 -> esg34_vertex9;
+esg34_vertex10 -> esg34_vertex1;
+esg34_vertex9 -> esg34_vertex10;
+esg34_vertex9 -> esg34_vertex11;
+esg34_vertex11 -> esg34_vertex1;
+esg34_vertex0 -> esg34_vertex12;
+esg34_vertex13 -> esg34_vertex1;
+esg34_vertex12 -> esg34_vertex13;
+esg34_vertex12 -> esg34_vertex14;
+esg34_vertex14 -> esg34_vertex1;
+esg34_vertex6 -> esg34_vertex15;
+esg34_vertex15 -> esg34_vertex1;
+esg34_vertex7 -> esg34_vertex16;
+esg34_vertex16 -> esg34_vertex15;
+esg34_vertex16 -> esg34_vertex7;
+esg34_vertex0 -> esg34_vertex17;
+esg34_vertex17 -> esg34_vertex1;
+esg34_vertex17 -> esg34_vertex17;
+esg34_vertex16 -> esg34_vertex1;
+esg34_vertex2 [label = "get balance"]
+esg34_vertex1 [label = "]"]
+esg34_vertex0 [label = "["]
+esg34_vertex3 [label = "select deposit"]
+esg34_vertex4 [label = "enter deposit amount"]
+esg34_vertex5 [label = "put money"]
+esg34_vertex6 [label = "select withdraw"]
+esg34_vertex7 [label = "enter withdraw amount"]
+esg34_vertex8 [label = "take money"]
+esg34_vertex9 [label = "enter a credit amount"]
+esg34_vertex10 [label = "confirm credit approved"]
+esg34_vertex11 [label = "confirm credit disapproved"]
+esg34_vertex12 [label = "request an interest rate"]
+esg34_vertex13 [label = "confirm interest rate approved"]
+esg34_vertex14 [label = "confirm interest rate disapproved"]
+esg34_vertex15 [label = "cancel withdraw"]
+esg34_vertex16 [label = "confirm daily limit excess"]
+esg34_vertex17 [label = "enter daily withdraw limit"]
+}

@@ -1,0 +1,17 @@
+Number of nodes: 10
+Number of edges: 16
+Number of CESs: 8
+Number of events: 89
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+9	get balance, select deposit
+11	select deposit, enter deposit amount
+10	enter deposit amount, put money
+7	put money, get balance
+4	get balance, select withdraw
+6	select withdraw, enter withdraw amount
+5	enter withdraw amount, take money
+3	take money, get balance
+4	select deposit, cancel deposit
+0	Number of uncovered edges 

@@ -1,0 +1,7 @@
+S -> [___0 nt([___0)
+nt([___0) -> prompt___5 nt(prompt___5)
+nt(]___1) -> <epsilon>
+nt(select___2) -> serveSoda___3 nt(serveSoda___3)
+nt(serveSoda___3) -> ]___1 nt(]___1)
+nt(~free___4) -> select___2 nt(select___2)
+nt(prompt___5) -> ~free___4 nt(~free___4)

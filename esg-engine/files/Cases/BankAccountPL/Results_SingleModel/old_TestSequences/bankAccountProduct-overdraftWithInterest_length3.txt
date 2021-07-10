@@ -1,0 +1,12 @@
+8 : select_withdraw, enter_withdraw_amount, take_money, get_balance, select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, confirm_overdraft_limit_excess
+7 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, confirm_daily_limit_excess, confirm_overdraft_limit_excess, cancel_withdraw
+2 : request_an_interest_rate, confirm_interest_rate_approved
+2 : request_an_interest_rate, confirm_interest_rate_disapproved
+3 : enter_overdraft_limit, enter_overdraft_limit, enter_overdraft_limit
+3 : enter_daily_withdraw_limit, enter_daily_withdraw_limit, enter_daily_withdraw_limit
+2 : select_withdraw, cancel_withdraw
+4 : select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, cancel_withdraw
+16 : select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, enter_withdraw_amount, confirm_daily_limit_excess, enter_withdraw_amount, take_money, get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_withdraw, cancel_withdraw
+4 : get_balance, select_withdraw, enter_withdraw_amount, take_money
+8 : get_balance, select_deposit, enter_deposit_amount, put_money, get_balance, select_deposit, enter_deposit_amount, put_money
+4 : request_an_interest_rate, confirm_interest_rate_approved, enter_days_left, get_estimated_interest_for_days_left

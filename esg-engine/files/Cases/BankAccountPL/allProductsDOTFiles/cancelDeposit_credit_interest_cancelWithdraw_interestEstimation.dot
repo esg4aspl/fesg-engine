@@ -1,0 +1,54 @@
+digraph G {
+rankdir = LR
+label = "cancelDeposit_credit_interest_cancelWithdraw_interestEstimation";
+esg38_vertex2 -> esg38_vertex1;
+esg38_vertex0 -> esg38_vertex2;
+esg38_vertex2 -> esg38_vertex3;
+esg38_vertex0 -> esg38_vertex3;
+esg38_vertex3 -> esg38_vertex4;
+esg38_vertex4 -> esg38_vertex5;
+esg38_vertex5 -> esg38_vertex1;
+esg38_vertex5 -> esg38_vertex2;
+esg38_vertex2 -> esg38_vertex6;
+esg38_vertex0 -> esg38_vertex6;
+esg38_vertex6 -> esg38_vertex7;
+esg38_vertex7 -> esg38_vertex8;
+esg38_vertex8 -> esg38_vertex1;
+esg38_vertex8 -> esg38_vertex2;
+esg38_vertex3 -> esg38_vertex9;
+esg38_vertex9 -> esg38_vertex1;
+esg38_vertex0 -> esg38_vertex10;
+esg38_vertex11 -> esg38_vertex1;
+esg38_vertex10 -> esg38_vertex11;
+esg38_vertex10 -> esg38_vertex12;
+esg38_vertex12 -> esg38_vertex1;
+esg38_vertex0 -> esg38_vertex13;
+esg38_vertex14 -> esg38_vertex1;
+esg38_vertex13 -> esg38_vertex14;
+esg38_vertex13 -> esg38_vertex15;
+esg38_vertex15 -> esg38_vertex1;
+esg38_vertex6 -> esg38_vertex16;
+esg38_vertex16 -> esg38_vertex1;
+esg38_vertex14 -> esg38_vertex17;
+esg38_vertex17 -> esg38_vertex18;
+esg38_vertex18 -> esg38_vertex1;
+esg38_vertex2 [label = "get balance"]
+esg38_vertex1 [label = "]"]
+esg38_vertex0 [label = "["]
+esg38_vertex3 [label = "select deposit"]
+esg38_vertex4 [label = "enter deposit amount"]
+esg38_vertex5 [label = "put money"]
+esg38_vertex6 [label = "select withdraw"]
+esg38_vertex7 [label = "enter withdraw amount"]
+esg38_vertex8 [label = "take money"]
+esg38_vertex9 [label = "cancel deposit"]
+esg38_vertex10 [label = "enter a credit amount"]
+esg38_vertex11 [label = "confirm credit approved"]
+esg38_vertex12 [label = "confirm credit disapproved"]
+esg38_vertex13 [label = "request an interest rate"]
+esg38_vertex14 [label = "confirm interest rate approved"]
+esg38_vertex15 [label = "confirm interest rate disapproved"]
+esg38_vertex16 [label = "cancel withdraw"]
+esg38_vertex17 [label = "enter days left"]
+esg38_vertex18 [label = "get estimated interest for days left"]
+}

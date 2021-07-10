@@ -1,0 +1,111 @@
+Number of nodes: 33
+Number of edges: 54
+Number of CESs: 2
+Number of events: 8
+Number of uncovered edges: 48
+Coverage: 11.111111111111114
+Number of coverage	Edge
+0	access as a teacher, turn editing on
+0	log in, access as a teacher
+0	turn editing on, open class records
+0	add new class, enter the name of the class
+0	enter the name of the class, enter the class detail
+0	add new class, enter the class detail
+0	enter the class detail, enter the name of the class
+0	enter the class detail, submit the class
+0	enter the name of the class, submit the class
+0	enter the name of the class, enter the name of the class
+0	enter the class detail, enter the class detail
+0	turn editing on, add new class
+0	update the name of the class, update the class detail
+0	update the class detail, update the name of the class
+0	update the name of the class, update the name of the class
+0	update the class detail, update the class detail
+0	select the editable class, update the name of the class
+0	select the editable class, update the class detail
+0	turn editing on, select the editable class
+0	update the name of the class, submit the class
+0	update the class detail, submit the class
+0	add new schedule, enter the days of the class
+0	enter the days of the class, enter the hours of the class
+0	add new schedule, enter the hours of the class
+0	enter the hours of the class, enter the days of the class
+0	enter the hours of the class, submit the class schedule
+0	enter the days of the class, submit the class schedule
+0	enter the days of the class, enter the days of the class
+0	enter the hours of the class, enter the hours of the class
+0	turn editing on, add new schedule
+0	update the days of the class, update the days of the class
+0	update the hours of the class, update the hours of the class
+0	update the hours of the class, submit the class schedule
+0	update the days of the class, submit the class schedule
+0	select the editable schedule, update the days of the class
+0	select the editable schedule, update the hours of the class
+0	turn editing on, select the editable schedule
+1	read the access card to the card reader, read the access card to the card reader
+1	submit attendance, read the access card to the card reader
+1	read the access card to the card reader, confirm your identity
+1	log in, open notification settings
+1	open notification settings, receive notifications as Email
+1	receive notifications as Email, confirm notification settings
+0	open class records, select the existing schedule
+0	open class records, select the existing class
+0	select the existing schedule, view schedule
+0	select the existing class, view class
+0	turn editing on, open student attendance records
+0	open student attendance records, open class records
+0	open student attendance records, select a class-list attendance record
+0	open student attendance records, select an editable student-record
+0	select a class-list attendance record, edit attendance status
+0	select an editable student-record, edit attendance status
+0	edit attendance status, submit attendance record update
+48	Number of uncovered edges 
+Uncovered edges: 
+access as a teacher, turn editing on
+log in, access as a teacher
+turn editing on, open class records
+add new class, enter the name of the class
+enter the name of the class, enter the class detail
+add new class, enter the class detail
+enter the class detail, enter the name of the class
+enter the class detail, submit the class
+enter the name of the class, submit the class
+enter the name of the class, enter the name of the class
+enter the class detail, enter the class detail
+turn editing on, add new class
+update the name of the class, update the class detail
+update the class detail, update the name of the class
+update the name of the class, update the name of the class
+update the class detail, update the class detail
+select the editable class, update the name of the class
+select the editable class, update the class detail
+turn editing on, select the editable class
+update the name of the class, submit the class
+update the class detail, submit the class
+add new schedule, enter the days of the class
+enter the days of the class, enter the hours of the class
+add new schedule, enter the hours of the class
+enter the hours of the class, enter the days of the class
+enter the hours of the class, submit the class schedule
+enter the days of the class, submit the class schedule
+enter the days of the class, enter the days of the class
+enter the hours of the class, enter the hours of the class
+turn editing on, add new schedule
+update the days of the class, update the days of the class
+update the hours of the class, update the hours of the class
+update the hours of the class, submit the class schedule
+update the days of the class, submit the class schedule
+select the editable schedule, update the days of the class
+select the editable schedule, update the hours of the class
+turn editing on, select the editable schedule
+open class records, select the existing schedule
+open class records, select the existing class
+select the existing schedule, view schedule
+select the existing class, view class
+turn editing on, open student attendance records
+open student attendance records, open class records
+open student attendance records, select a class-list attendance record
+open student attendance records, select an editable student-record
+select a class-list attendance record, edit attendance status
+select an editable student-record, edit attendance status
+edit attendance status, submit attendance record update

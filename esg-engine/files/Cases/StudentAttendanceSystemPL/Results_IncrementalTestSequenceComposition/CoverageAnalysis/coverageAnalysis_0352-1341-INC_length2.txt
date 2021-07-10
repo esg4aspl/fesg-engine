@@ -1,0 +1,39 @@
+Number of nodes: 29
+Number of edges: 41
+Number of CESs: 12
+Number of events: 69
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	log in, open notification settings
+1	select the existing class, view class
+1	open class records, select the existing class
+4	select the existing schedule, view schedule
+4	open class records, select the existing schedule
+1	open notification settings, receive notifications as Email
+1	receive notifications as Email, confirm notification settings
+3	access as a student, open my attendance records
+5	log in, access as a student
+2	access as a student, open class records
+1	open my attendance records, open class records
+5	log in, access as a teacher
+5	access as a teacher, turn editing on
+3	turn editing on, open student attendance records
+1	turn editing on, open class records
+1	open student attendance records, open class records
+1	open student attendance records, select a class-list attendance record
+1	open student attendance records, select an editable student-record
+1	select a class-list attendance record, edit attendance status
+1	select an editable student-record, edit attendance status
+2	edit attendance status, submit attendance record update
+1	select the existing record, view record
+1	open my attendance records, select the existing record
+1	open my attendance records, monitor current attendance status
+2	delete class, confirm deletion
+1	turn editing on, select the deletable class
+2	select the deletable class, delete class
+1	confirm deletion, select the deletable class
+1	read the access card to the card reader, read the access card to the card reader
+1	submit attendance, read the access card to the card reader
+1	read the access card to the card reader, confirm your identity
+0	Number of uncovered edges 

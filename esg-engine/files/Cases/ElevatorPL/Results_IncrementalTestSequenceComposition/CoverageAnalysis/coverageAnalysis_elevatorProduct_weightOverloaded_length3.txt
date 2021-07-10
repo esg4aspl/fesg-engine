@@ -1,0 +1,23 @@
+Number of nodes: 8
+Number of edges: 15
+Number of CESs: 16
+Number of events: 129
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+3	press target floor button, leave elevator, trigger sensor with decreasing weight
+5	push button to call elevator, wait leaving people, enter elevator
+4	wait leaving people, enter elevator, trigger sensor with increasing weight
+7	push button to call elevator, enter elevator, trigger sensor with increasing weight
+7	press target floor button, press target floor button, leave elevator
+4	press target floor button, press target floor button, press target floor button
+4	push button to call elevator, push button to call elevator, wait leaving people
+9	push button to call elevator, push button to call elevator, enter elevator
+10	push button to call elevator, push button to call elevator, push button to call elevator
+9	enter elevator, trigger sensor with increasing weight, press target floor button
+2	enter elevator, trigger sensor with increasing weight, hear overloaded alarm
+4	trigger sensor with increasing weight, press target floor button, leave elevator
+5	trigger sensor with increasing weight, press target floor button, press target floor button
+2	trigger sensor with increasing weight, hear overloaded alarm, leave elevator
+1	hear overloaded alarm, leave elevator, trigger sensor with decreasing weight
+0	Number of uncovered edges 

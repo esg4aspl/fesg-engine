@@ -1,0 +1,46 @@
+Number of nodes: 31
+Number of edges: 48
+Number of CESs: 12
+Number of events: 75
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+1	log in, open notification settings
+3	select the existing class, view class
+3	open class records, select the existing class
+1	select the existing schedule, view schedule
+1	open class records, select the existing schedule
+1	open notification settings, receive notifications as SMS
+1	receive notifications as SMS, confirm notification settings
+2	access as a student, open my attendance records
+3	log in, access as a student
+1	access as a student, open class records
+1	open my attendance records, open class records
+7	log in, access as a teacher
+7	access as a teacher, turn editing on
+3	turn editing on, open student attendance records
+1	turn editing on, open class records
+1	open student attendance records, open class records
+1	open student attendance records, select a class-list attendance record
+1	open student attendance records, select an editable student-record
+1	select a class-list attendance record, edit attendance status
+1	select an editable student-record, edit attendance status
+2	edit attendance status, submit attendance record update
+1	add new schedule, enter the days of the class
+1	enter the days of the class, enter the hours of the class
+1	add new schedule, enter the hours of the class
+1	enter the hours of the class, enter the days of the class
+1	enter the hours of the class, submit the class schedule
+1	enter the days of the class, submit the class schedule
+1	enter the days of the class, enter the days of the class
+1	enter the hours of the class, enter the hours of the class
+2	turn editing on, add new schedule
+1	open my attendance records, monitor current attendance status
+2	delete class, confirm deletion
+1	turn editing on, select the deletable class
+2	select the deletable class, delete class
+1	confirm deletion, select the deletable class
+1	put your finger to the fingerprint scanner, put your finger to the fingerprint scanner
+1	submit attendance, put your finger to the fingerprint scanner
+1	put your finger to the fingerprint scanner, confirm your identity
+0	Number of uncovered edges 

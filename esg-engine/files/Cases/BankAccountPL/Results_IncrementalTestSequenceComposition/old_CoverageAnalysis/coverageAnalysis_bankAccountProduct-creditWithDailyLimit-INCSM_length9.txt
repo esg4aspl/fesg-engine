@@ -1,0 +1,109 @@
+Number of nodes: 19
+Number of edges: 101
+Number of CESs: 98
+Number of events: 1075
+Number of uncovered edges: 0
+Coverage: 100.0
+Number of coverage	Edge
+2	select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit
+19	select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw
+5	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit
+6	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw
+13	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+13	select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+1	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount
+1	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, cancel deposit
+15	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount
+4	enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, cancel withdraw
+3	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+2	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+4	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+2	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+11	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance
+12	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, cancel withdraw
+4	get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money, get balance
+7	get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money, get balance
+8	get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, cancel withdraw
+5	select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit
+6	select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw
+4	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit
+5	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw
+2	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+2	select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+5	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+4	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+3	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+3	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit
+3	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw
+3	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+3	select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+3	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount
+3	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, cancel deposit
+2	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount
+9	enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, cancel withdraw
+5	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+2	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+3	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+3	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+2	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance
+2	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, cancel withdraw
+8	get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance
+3	get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance
+2	get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, cancel withdraw
+4	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+1	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+6	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+2	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+5	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance
+5	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, cancel withdraw
+3	take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money
+1	take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money
+1	take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+5	take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+1	take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+2	take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+1	take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit
+1	take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw
+1	take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+1	take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+1	put money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit, enter deposit amount, put money
+6	put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, take money
+9	put money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+3	put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+2	put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+2	put money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+4	put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit
+7	put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw
+6	put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+6	put money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+6	enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance
+5	enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+1	enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, cancel withdraw
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, cancel deposit
+3	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount
+1	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, cancel withdraw
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount
+2	enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, cancel withdraw
+1	confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select deposit
+5	confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money, get balance, select withdraw
+3	confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select deposit
+1	confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money, get balance, select withdraw
+1	confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+1	confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+2	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit, enter deposit amount, put money
+2	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, take money
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw, enter withdraw amount, confirm daily limit excess
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select deposit
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money, get balance, select withdraw
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, take money
+1	confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess, enter withdraw amount, confirm daily limit excess
+1	enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit, enter daily withdraw limit
+0	Number of uncovered edges 
