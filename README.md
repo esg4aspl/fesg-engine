@@ -7,3 +7,4 @@ This project is an extension of ESG-Engine project. The Featured ESG, feature ES
 - Apply Incremental Test Sequence Composition by exploiting Feature-based Incremental Product Graph.
 - Create test scenarios from the feature model of an SPL. 
 - Try different testing scenarios on different SPL cases. 
+- Reduce features from full products' ESGs to have different product configurations with the help of the FESGs.
