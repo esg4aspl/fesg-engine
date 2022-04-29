@@ -1,0 +1,42 @@
+{
+		"guardConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:cancelWithdraw,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"select withdraw->cancel withdraw",
+					"cancel withdraw->]",
+					"[->select withdraw"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:credit,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->enter a credit amount",
+					"confirm credit approved->]",
+					"enter a credit amount->confirm credit approved",
+					"enter a credit amount->confirm credit disapproved",
+					"confirm credit disapproved->]"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:dailyLimit,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"enter withdraw amount->confirm daily limit excess",
+					"[->enter withdraw amount",
+					"[->enter daily withdraw limit",
+					"confirm daily limit excess->cancel withdraw",
+					"confirm daily limit excess->enter withdraw amount",
+					"confirm daily limit excess->]",
+					"enter daily withdraw limit->]",
+					"enter daily withdraw limit->enter daily withdraw limit",
+					"cancel withdraw->]"
+			]
+		}
+		]
+}

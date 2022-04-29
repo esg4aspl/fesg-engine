@@ -1,0 +1,28 @@
+{
+		"guardConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:free,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"~free->select",
+					"prompt->~free",
+					"select->]",
+					"[->prompt"
+			]
+		}
+		]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

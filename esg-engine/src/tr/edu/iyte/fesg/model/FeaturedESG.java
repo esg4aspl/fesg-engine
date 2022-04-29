@@ -53,6 +53,10 @@ public class FeaturedESG {
 	public void addFeatureESG(ESG featureESG) {
 		this.featureESGSet.add(featureESG);
 	}
+	
+	public void removeFeatureESG(ESG featureESG) {
+		this.featureESGSet.remove(featureESG);
+	}
 
 	public String getCoreESGName() {
 		return coreESGName;
@@ -68,6 +72,14 @@ public class FeaturedESG {
 
 	public void setCesSet(Set<EventSequence> cesSet) {
 		this.cesSet = cesSet;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public Set<ESG> getFeaturedESGSet(){
@@ -89,14 +101,16 @@ public class FeaturedESG {
 		
 		return featureESG;
 	}
-
-	public String getName() {
-		return name;
+	
+	public Set<String> getFeatureNames(){
+		Set<String> nameSet = new LinkedHashSet<String>();
+		for(ESG featureESG : featureESGSet) {
+			nameSet.add(featureESG.getName().trim().toLowerCase());
+		}
+		return nameSet;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+
 	
 	@Override
 	public String toString() {

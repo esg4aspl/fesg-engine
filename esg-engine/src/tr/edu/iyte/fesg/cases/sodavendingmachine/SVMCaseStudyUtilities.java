@@ -29,6 +29,16 @@ public abstract class SVMCaseStudyUtilities extends  CaseStudyFilePathCreationUt
 				svmProduct_payUSDServeTea();
 				break;
 			}
+			case 6:{
+				initializeCaseStudyFolderNames();
+				svmProduct_fullProduct();
+				break;
+			}
+			case 7: {
+				initializeCaseStudyFolderNames();
+				svmProduct_baseProduct();
+				break;
+			}
 		}
 	}
 	
@@ -59,7 +69,7 @@ public abstract class SVMCaseStudyUtilities extends  CaseStudyFilePathCreationUt
 
 	public static void svmProduct_payEURServeSoda(){
 		
-		int numberOfFeatures = 4; 
+		int numberOfFeatures = 3; 
 		esgFileName = new String[numberOfFeatures];
 		esgName = new String[numberOfFeatures];
 		productESGName.append("svmProduct-payEURServeSoda");
@@ -67,12 +77,12 @@ public abstract class SVMCaseStudyUtilities extends  CaseStudyFilePathCreationUt
 		esgFileName[0] = "core_useful.mxe";
 		esgFileName[1] = "payEUR.mxe";
 		esgFileName[2] = "serveSoda.mxe";
-		esgFileName[3] = "cancel.mxe";
+
 
 		esgName[0] = "core";
 		esgName[1] = "payEUR";
 		esgName[2] = "serveSoda";
-		esgName[3] = "cancel";
+
 	}
 
 	public static void svmProduct_free() {
@@ -127,6 +137,47 @@ public abstract class SVMCaseStudyUtilities extends  CaseStudyFilePathCreationUt
 		esgName[1] = "payUSD";
 		esgName[2] = "serveTea";
 		esgName[3] = "cancel";
+	}
+	
+	public static void svmProduct_fullProduct() {
+		
+		int numberOfFeatures = 7; 
+		esgFileName = new String[numberOfFeatures];
+		esgName = new String[numberOfFeatures];
+		productESGName.append("svmProduct-fullProduct");
+		
+		esgFileName[0] = "core_useful.mxe";
+		esgFileName[1] = "payUSD.mxe";
+		esgFileName[2] = "payEUR.mxe";
+		esgFileName[3] = "serveSoda.mxe";
+		esgFileName[4] = "serveTea.mxe";
+		esgFileName[5] = "cancel.mxe";
+		esgFileName[6] = "free.mxe";
+
+		esgName[0] = "core";
+		esgName[1] = "payUSD";
+		esgName[2] = "payEUR";
+		esgName[3] = "serveSoda";
+		esgName[4] = "serveTea";
+		esgName[5] = "cancel";
+		esgName[6] = "free";
+	}
+	
+	public static void svmProduct_baseProduct() {
+		
+		int numberOfFeatures = 3; 
+		esgFileName = new String[numberOfFeatures];
+		esgName = new String[numberOfFeatures];
+		productESGName.append("svmProduct-fullProduct");
+		
+		esgFileName[0] = "core_useful.mxe";
+		esgFileName[1] = "payEUR.mxe";
+		esgFileName[2] = "serveSoda.mxe";
+
+		esgName[0] = "core";
+		esgName[1] = "payEUR";
+		esgName[2] = "serveSoda";
+
 	}
 	
 

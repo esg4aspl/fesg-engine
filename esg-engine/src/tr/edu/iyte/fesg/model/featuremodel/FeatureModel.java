@@ -126,6 +126,66 @@ public class FeatureModel {
 		
 	}
 	
+	public void removeFeature(Feature feature) {
+		if (!feature.equals(root)) {
+			featureSet.remove(feature);
+			
+			if(xorFeatures.containsKey(feature)) {
+				xorFeatures.remove(feature);
+			}else {
+				Iterator<Map.Entry<Feature, Set<Feature>>> xorFeaturesEntrySetIterator = xorFeatures.entrySet().iterator();
+				while(xorFeaturesEntrySetIterator.hasNext()) {
+					Map.Entry<Feature, Set<Feature>> entry = xorFeaturesEntrySetIterator.next();
+					if(entry.getValue().contains(feature)) {
+						entry.getValue().remove(feature);
+						System.out.println(feature.getName() + " is removed XOR");
+					}
+					
+					if(entry.getValue().size() < 2) { 
+						xorFeaturesEntrySetIterator.remove();
+					}
+					
+				}
+			}
+			if(orFeatures.containsKey(feature)) {
+				orFeatures.remove(feature);
+			}else {
+				for(Feature keyFeature : orFeatures.keySet()) {
+					Set<Feature> subFeatureSet = orFeatures.get(keyFeature);
+					Iterator<Feature> subFeatureSetIterator = subFeatureSet.iterator();
+					while(subFeatureSetIterator.hasNext()) {
+						Feature next = subFeatureSetIterator.next();
+						if(next.equals(feature)) {
+							subFeatureSetIterator.remove();
+							System.out.println(feature.getName() + " is removed OR");
+						}
+					}
+				}
+			}
+			
+			Iterator<Connector> connConstraintsIterator = connConstraints.iterator();
+			while(connConstraintsIterator.hasNext()) {
+				Set<Feature> connFeature = connConstraintsIterator.next().getFeatureSet();
+				Iterator<Feature> connFeatureIterator = connFeature.iterator();
+				while(connFeatureIterator.hasNext()) {
+					Feature next = connFeatureIterator.next();
+					System.out.println("NEXT " + next.getName());
+					System.out.println("FEATURE " + feature.getName());
+					if(next.equals(feature)) {
+						System.out.println("CONN " + feature.getName());
+						connFeatureIterator.remove();
+					}
+				}
+				
+				if(connFeature.size() < 3) {
+					System.out.println("HERE ");
+					connConstraintsIterator.remove();
+				}
+			}
+		}
+		
+	
+	}
 
 	
 	@Override

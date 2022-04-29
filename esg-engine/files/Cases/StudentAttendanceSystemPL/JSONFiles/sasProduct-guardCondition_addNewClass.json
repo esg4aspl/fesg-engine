@@ -1,0 +1,21 @@
+{
+	"guardConditions": [
+				{
+			"ID": 1,
+			"conditionName": "addNewClass",
+			"result": false,
+			"edgesToBeRemoved": [
+				"turn editing on->add new class",
+				"add new class->enter the class detail",
+				"add new class->enter the name of the class",
+				"enter the name of the class->enter the class detail",
+				"enter the name of the class->enter the name of the class",
+				"enter the class detail->enter the name of the class",
+				"enter the class detail->enter the class detail",
+				"enter the name of the class->submit the class",
+				"enter the class detail->submit the class",
+				"submit the class->]"
+			]
+		}
+	]
+}

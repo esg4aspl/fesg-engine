@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 import tr.edu.iyte.esg.conversion.dot.ESGToDOTFileConverter;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.systematictesting.ESGVariationsGenerator;
 import tr.edu.iyte.esg.testgeneration.TestSuite;
@@ -50,9 +50,9 @@ public class SystematicTestingApp {
 				String FCESFilePath = "files/SystematicTesting/" + variantESGFolderName +"/TestSequences/FCESs/" + name
 						+ "_length" + coverageLength + ".txt";
 				try {
-					EventSequenceUtilties.esgEventSequenceSetFileWriter(positiveTestSuite.getCompleteEventSequences(),
+					EventSequenceUtilities.esgEventSequenceSetFileWriter(positiveTestSuite.getCompleteEventSequences(),
 							CESFilePath);
-					EventSequenceUtilties.esgEventSequenceSetFileWriter(negativeTestSuite.getCompleteEventSequences(),
+					EventSequenceUtilities.esgEventSequenceSetFileWriter(negativeTestSuite.getCompleteEventSequences(),
 							FCESFilePath);
 				} catch (IOException e) {
 					e.printStackTrace();

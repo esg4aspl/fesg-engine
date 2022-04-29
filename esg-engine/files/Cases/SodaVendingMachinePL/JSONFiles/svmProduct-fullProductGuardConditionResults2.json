@@ -1,0 +1,12 @@
+{
+   "guardConditions" : [
+   {
+   "ID":0,
+   "conditionName":"cancel",
+   "result":false,
+   "edgesToBeRemoved":[
+                        "cancel->returnMoney"
+                      ]
+   }
+   ]
+}

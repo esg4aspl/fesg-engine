@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.model.Edge;
 import tr.edu.iyte.esg.model.EventSimple;
@@ -83,7 +83,7 @@ public class TestSequenceCompositionUtilities {
 		Iterator<EventSequence> itr = sequences.iterator();
 		while(itr.hasNext() && seq_index==null) {
 			EventSequence ss = itr.next();
-			if(EventSequenceUtilties.endsWith(ss, vertexeventname)) {
+			if(EventSequenceUtilities.endsWith(ss, vertexeventname)) {
 				seq_index = new Object[2];
 				seq_index[0] = ss;
 				seq_index[1] = ss.getEventSequence().size()-1;
@@ -99,7 +99,7 @@ public class TestSequenceCompositionUtilities {
 			EventSequence ss = itr.next();
 //System.out.println("CURRENT EventSequence " + ss);
 //System.out.println("Vertex event name " + vertexeventname);
-			int i = EventSequenceUtilties.getFirstIndexByEventName(ss, vertexeventname);
+			int i = EventSequenceUtilities.getFirstIndexByEventName(ss, vertexeventname);
 //System.out.println("i " + i);
 			if(i != -1) {
 				seq_index = new Object[2];
@@ -115,7 +115,7 @@ public class TestSequenceCompositionUtilities {
 		Iterator<EventSequence> itr = sequences.iterator();
 		while(itr.hasNext() && seq_index==null) {
 			EventSequence cs = itr.next();
-			int i = EventSequenceUtilties.getLastIndexByEventName(cs, vertexeventname);
+			int i = EventSequenceUtilities.getLastIndexByEventName(cs, vertexeventname);
 			if(i != -1) {
 				seq_index = new Object[2];
 				seq_index[0] = cs;

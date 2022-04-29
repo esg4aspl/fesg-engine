@@ -8,7 +8,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.fesg.cases.IncrementalTestSequenceCompositionUtilities;
 import tr.edu.iyte.fesg.model.FeaturedESG;
 
@@ -46,7 +46,7 @@ public class BankAccountIncrementalTestSequenceCompositionApp extends Incrementa
 		FeaturedESG featuredESG = buildFeaturedESG();
 		Set<EventSequence> cesSet = composeSequencesOfFeaturedESGWithNewFeatures(featuredESG, "cancelDeposit",
 				"cancelWithdraw", "dailyLimit");
-		EventSequenceUtilties.esgEventSequenceSetPrinter(cesSet);
+		EventSequenceUtilities.esgEventSequenceSetPrinter(cesSet);
 		System.out.println(productESGName);
 		writeIncrementalTestCompositionResultsToFile(cesSet);
 		analyseIncrementalTestCompositionResultsCoverage(cesSet);

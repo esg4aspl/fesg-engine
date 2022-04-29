@@ -1,0 +1,13 @@
+{
+	"guardConditions": [
+				{
+			"ID": 1,
+			"conditionName": "cancelDeposit",
+			"result": false,
+			"edgesToBeRemoved": [
+				"select deposit->cancel deposit",
+				"cancel deposit->]"
+			]
+		}
+	]
+}

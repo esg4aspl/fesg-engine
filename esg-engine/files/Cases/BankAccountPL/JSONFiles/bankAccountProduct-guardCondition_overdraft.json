@@ -1,0 +1,17 @@
+{
+	"guardConditions": [
+		{
+			"ID": 1,
+			"conditionName": "overdraft",
+			"result": false,
+			"edgesToBeRemoved": [
+				"confirm daily limit excess->confirm overdraft limit excess",
+				"confirm overdraft limit excess->cancel withdraw",
+				"confirm overdraft limit excess->]",
+				"[->enter overdraft limit",
+				"enter overdraft limit->enter overdraft limit",
+				"enter overdraft limit->]"
+			]
+		}
+	]
+}

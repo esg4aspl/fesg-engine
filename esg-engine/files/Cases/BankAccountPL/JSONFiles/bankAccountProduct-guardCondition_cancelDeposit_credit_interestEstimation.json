@@ -1,0 +1,37 @@
+{
+		"guardConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:cancelDeposit,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"select deposit->cancel deposit",
+					"cancel deposit->]",
+					"[->select deposit"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:credit,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->enter a credit amount",
+					"confirm credit approved->]",
+					"enter a credit amount->confirm credit approved",
+					"enter a credit amount->confirm credit disapproved",
+					"confirm credit disapproved->]"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:interestEstimation,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->confirm interest rate approved",
+					"confirm interest rate approved->enter days left",
+					"enter days left->get estimated interest for days left",
+					"get estimated interest for days left->]"
+			]
+		}
+		]
+}

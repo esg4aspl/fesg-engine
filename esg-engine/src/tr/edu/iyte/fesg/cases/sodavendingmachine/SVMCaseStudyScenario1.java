@@ -20,7 +20,7 @@ public class SVMCaseStudyScenario1 extends SVMCaseStudyUtilities {
 	 *initialize productID to build different products
 	 */
 	public static void main(String[] args) {
-		coverageLenght = 2;
+		coverageLenght = 3;
 		incrementalBasisApproachID = 0;
 		productID = 2;
 		SVMCaseStudyUtilities.buildProductModel();
@@ -34,12 +34,12 @@ public class SVMCaseStudyScenario1 extends SVMCaseStudyUtilities {
 
 		FeatureBasedIncrementalProductGraphVertex vertex1 = new FeatureBasedIncrementalProductGraphVertex(product1,true,true);
 		
-		FeaturedESG product2 = new FeaturedESG("svmProduct-payEUR",coreESGNameOfPL);
+		FeaturedESG product2 = new FeaturedESG("svmProduct-EUR-Soda-Cancel",coreESGNameOfPL);
 		product2.setCoreESG(coreESGOfPL);
 		FeatureBasedIncrementalProductGraphVertex vertex3 = new FeatureBasedIncrementalProductGraphVertex(product2, true,false);
 		
 		FeatureBasedIncrementalProductGraphEdge edge1 = new FeatureBasedIncrementalProductGraphEdge(vertex1, vertex3);
-		Set<ESG> featureESGSet2 = IncrementalTestSequenceCompositionUtilities.buildNewFeatureESGSet("serveTea");
+		Set<ESG> featureESGSet2 = IncrementalTestSequenceCompositionUtilities.buildNewFeatureESGSet("cancel");
 		edge1.addFeatureESGSet(featureESGSet2);
 		
 		featureBasedIncrementalProductGraph.addVertex(vertex1);

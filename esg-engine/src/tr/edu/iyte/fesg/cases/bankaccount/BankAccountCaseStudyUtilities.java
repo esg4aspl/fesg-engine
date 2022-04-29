@@ -48,6 +48,16 @@ public abstract class BankAccountCaseStudyUtilities extends CaseStudyFilePathCre
 			bankAccountProduct_overdraftWithInterest();
 			break;
 		}
+		case 9: {
+			initializeCaseStudyFolderNames();
+			bankAccountProduct_fullProduct_Credit();
+			break;
+		}
+		case 10: {
+			initializeCaseStudyFolderNames();
+			bankAccountProduct_fullProduct_Overdraft();
+			break;
+		}
 		}
 	}
 
@@ -235,6 +245,64 @@ public abstract class BankAccountCaseStudyUtilities extends CaseStudyFilePathCre
 		esgName[5] = "overdraft";
 		esgName[6] = "interest";
 		esgName[7] = "interestEstimation";
+
+	}
+	
+	public static void bankAccountProduct_fullProduct_Credit() {
+		int numberOfFeatures = 9;
+		esgFileName = new String[numberOfFeatures];
+		esgName = new String[numberOfFeatures];
+		productESGName.append("bankAccountProduct-fullProduct");
+
+		esgFileName[0] = "core.mxe";
+		esgFileName[1] = "deposit.mxe";
+		esgFileName[2] = "withdraw.mxe";
+		esgFileName[3] = "cancelDeposit.mxe";
+		esgFileName[4] = "cancelWithdraw.mxe";
+		esgFileName[5] = "credit.mxe";
+		esgFileName[6] = "interest.mxe";
+		esgFileName[7] = "interestEstimation.mxe";
+		esgFileName[8] = "dailyLimit.mxe";
+
+		
+		esgName[0] = "core";
+		esgName[1] = "deposit";
+		esgName[2] = "withdraw";
+		esgName[3] = "cancelDeposit";
+		esgName[4] = "cancelWithdraw";
+		esgName[5] = "credit";
+		esgName[6] = "interest";
+		esgName[7] = "interestEstimation";
+		esgName[8] = "dailyLimit";
+
+
+	}
+	
+	public static void bankAccountProduct_fullProduct_Overdraft() {
+		int numberOfFeatures = 9;
+		esgFileName = new String[numberOfFeatures];
+		esgName = new String[numberOfFeatures];
+		productESGName.append("bankAccountProduct-fullProduct");
+
+		esgFileName[0] = "core.mxe";
+		esgFileName[1] = "deposit.mxe";
+		esgFileName[2] = "withdraw.mxe";
+		esgFileName[3] = "cancelDeposit.mxe";
+		esgFileName[4] = "cancelWithdraw.mxe";
+		esgFileName[5] = "interest.mxe";
+		esgFileName[6] = "interestEstimation.mxe";
+		esgFileName[7] = "dailyLimit.mxe";
+		esgFileName[8] = "overdraft.mxe";
+		
+		esgName[0] = "core";
+		esgName[1] = "deposit";
+		esgName[2] = "withdraw";
+		esgName[3] = "cancelDeposit";
+		esgName[4] = "cancelWithdraw";
+		esgName[5] = "interest";
+		esgName[6] = "interestEstimation";
+		esgName[7] = "dailyLimit";
+		esgName[8] = "overdraft";
 
 	}
 }

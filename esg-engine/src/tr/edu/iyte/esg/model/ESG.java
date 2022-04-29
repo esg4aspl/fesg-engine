@@ -31,7 +31,7 @@ public class ESG {
 		vertexList = new ArrayList<Vertex>();
 		edgeList = new ArrayList<Edge>();
 		eventList = new ArrayList<Event>();
-		decisionTableMap = new LinkedHashMap<Vertex,DecisionTable>();
+		decisionTableMap = new LinkedHashMap<Vertex, DecisionTable>();
 		// TODO work on ESG issuing IDs
 		lastVertexID = -1;
 		lastEdgeID = -1;
@@ -56,8 +56,8 @@ public class ESG {
 		eventList = new ArrayList<Event>(esg.getEventList());
 		for (Event event : esg.getEventList())
 			eventList.add(event);
-		decisionTableMap = new LinkedHashMap<Vertex,DecisionTable>();
-		for (Entry<Vertex,DecisionTable> entry : esg.getDecisionTableMap().entrySet())
+		decisionTableMap = new LinkedHashMap<Vertex, DecisionTable>();
+		for (Entry<Vertex, DecisionTable> entry : esg.getDecisionTableMap().entrySet())
 			decisionTableMap.put(entry.getKey(), entry.getValue());
 		lastVertexID = esg.getLastVertexID();
 		lastEdgeID = esg.getLastEdgeID();
@@ -79,6 +79,7 @@ public class ESG {
 		for (Vertex vertex : esg.getExitVertexSet())
 			exitVertexSet.add(vertex);
 	}
+	
 
 	public int getID() {
 		return ID;
@@ -100,7 +101,7 @@ public class ESG {
 		return eventList;
 	}
 
-	public Map<Vertex,DecisionTable> getDecisionTableMap() {
+	public Map<Vertex, DecisionTable> getDecisionTableMap() {
 		return decisionTableMap;
 	}
 
@@ -112,6 +113,25 @@ public class ESG {
 		for (Vertex vertex : vertexList) {
 			if (ID == vertex.getID())
 				return vertex;
+		}
+		return null;
+	}
+
+	public Vertex getVertexByEventName(String eventName) {
+		for (Vertex vertex : vertexList) {
+			if (vertex.getEvent().getName().equals(eventName))
+				return vertex;
+		}
+		return null;
+
+	}
+
+	public Edge getEdgeBySourceEventNameTargetEventName(String source, String target) {
+		for (Edge edge : edgeList) {
+			if (edge.getSource().getEvent().getName().equals(source)
+					&& edge.getTarget().getEvent().getName().equals(target)) {
+				return edge;
+			}
 		}
 		return null;
 	}
@@ -246,10 +266,10 @@ public class ESG {
 	}
 
 	public void addDecisionTable(Vertex vertex, DecisionTable decisionTable) {
-		decisionTableMap.put(vertex,decisionTable);
+		decisionTableMap.put(vertex, decisionTable);
 	}
 
-	public void removeDecisionTable(Vertex vertex,DecisionTable decisionTable) {
+	public void removeDecisionTable(Vertex vertex, DecisionTable decisionTable) {
 		decisionTableMap.remove(vertex, decisionTable);
 	}
 
@@ -258,7 +278,6 @@ public class ESG {
 			addVertex(vertex);
 		}
 	}
-
 
 	public void addEdgeList(List<Edge> edgeList) {
 		for (Edge edge : edgeList) {
@@ -271,7 +290,6 @@ public class ESG {
 			addEvent(event);
 		}
 	}
-
 
 	private String vertexListToString() {
 		String vertexListToString = "Vertex List as (ID)Event: \n";

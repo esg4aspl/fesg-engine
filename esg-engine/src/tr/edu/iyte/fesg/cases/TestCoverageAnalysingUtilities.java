@@ -6,7 +6,7 @@ import java.util.Set;
 import tr.edu.iyte.esg.conversion.json.*;
 import tr.edu.iyte.esg.coverageanalysis.TestSequenceCoverageAnalyser;
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 
 
@@ -17,7 +17,7 @@ public abstract class TestCoverageAnalysingUtilities extends TestSequenceComposi
 		buildResultFilePath();
 		
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriter(cesSet, fullComposition_testCaseFilePath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriter(cesSet, fullComposition_testCaseFilePath.toString());
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -28,7 +28,7 @@ public abstract class TestCoverageAnalysingUtilities extends TestSequenceComposi
 		buildResultFilePath();
 		
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_testCaseFilePath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_testCaseFilePath.toString());
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -44,14 +44,14 @@ public abstract class TestCoverageAnalysingUtilities extends TestSequenceComposi
 		buildResultFilePath();
 		
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_testCaseFilePath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_testCaseFilePath.toString());
 		} catch (IOException e) {
 
 			e.printStackTrace();
 		}
 	
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriterForMutationAnalysis(cesSet, incrementalComposition_testCaseMutationSequencesPath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriterForMutationAnalysis(cesSet, incrementalComposition_testCaseMutationSequencesPath.toString());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -64,7 +64,7 @@ public abstract class TestCoverageAnalysingUtilities extends TestSequenceComposi
 		buildResultFilePath();
 		
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_exisitingProductTestCaseFilePath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriter(cesSet, incrementalComposition_exisitingProductTestCaseFilePath.toString());
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -77,7 +77,7 @@ public abstract class TestCoverageAnalysingUtilities extends TestSequenceComposi
 		buildResultFilePath();
 		
 		try {
-			EventSequenceUtilties.esgEventSequenceSetFileWriter(cesSet, testGeneration_testCaseFilePath.toString());
+			EventSequenceUtilities.esgEventSequenceSetFileWriter(cesSet, testGeneration_testCaseFilePath.toString());
 		} catch (IOException e) {
 
 			e.printStackTrace();

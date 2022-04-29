@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.model.Vertex;
 import tr.edu.iyte.fesg.model.FeaturedESG;
@@ -66,7 +66,7 @@ public class IncrementalTestSequenceComposer {
 		int numberOfTransformations = k -2;
 		//featuredESG.getFeatureESGSet().addAll(newFeatureESGSet);
 		this.cesSet = featuredESG.getCesSet();
-		EventSequenceUtilties.esgEventSequenceSetPrinter(cesSet);
+		EventSequenceUtilities.esgEventSequenceSetPrinter(cesSet);
 		ESGSequenceMap esgSequenceMapOfNewFeatures = new ESGSequenceMap();
 		newFeatureESGSet.forEach(e->System.out.println(e.getName()));
 		esgSequenceMapOfNewFeatures.generateESGSequenceMap1_NewFeatureESGSet(featuredESG,newFeatureESGSet,numberOfTransformations);

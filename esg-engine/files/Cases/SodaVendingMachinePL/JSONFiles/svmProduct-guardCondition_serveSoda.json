@@ -1,0 +1,13 @@
+{
+   "guardConditions" : [
+   {
+   "ID":0,
+   "conditionName":"serveSoda",
+   "result":false,
+   "edgesToBeRemoved":[
+                        "select->serveSoda",
+                        "serveSoda->]"
+                     ]
+   }
+   ]
+}

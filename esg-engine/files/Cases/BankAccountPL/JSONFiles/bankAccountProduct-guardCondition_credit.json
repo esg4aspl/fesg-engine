@@ -1,0 +1,16 @@
+{
+	"guardConditions": [
+				{
+			"ID": 1,
+			"conditionName": "credit",
+			"result": false,
+			"edgesToBeRemoved": [
+				"[->enter a credit amount",
+				"enter a credit amount->confirm credit approved",
+				"enter a credit amount->confirm credit disapproved",
+				"confirm credit approved->]",
+				"confirm credit disapproved->]"
+			]
+		}
+	]
+}

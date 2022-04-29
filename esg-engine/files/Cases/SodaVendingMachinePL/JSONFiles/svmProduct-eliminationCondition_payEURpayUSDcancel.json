@@ -1,0 +1,35 @@
+{
+		"eliminationConditions"	:[
+		{
+   			"ID":0,
+   			"conditionName":"payEUR",
+   			"result":false,
+   			"edgesToBeRemoved":[
+					    "[->payEUR",
+                        "prompt->payEUR",
+                        "payEUR->select"
+            ]
+        },
+		{
+			"ID":1,
+			"conditionName"	:payUSD,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"prompt->payUSD",
+					"payUSD->select"
+
+			]
+		},
+		{
+			"ID":2,
+			"conditionName"	:cancel,
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"payEUR->cancel",
+					"payUSD->cancel",
+					"cancel->returnMoney",
+					"returnMoney->]"
+			]
+		}
+		]
+}

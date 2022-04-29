@@ -5,7 +5,7 @@ import java.util.AbstractMap;
 import java.util.Map;
 
 import tr.edu.iyte.esg.conversion.json.JSONFileToESGConverter;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.testgeneration.TestSuite;
 import tr.edu.iyte.esg.testgeneration.TestSuiteGenerator;
@@ -41,7 +41,7 @@ public class SingleModelTestGeneration extends EmailCaseStudyUtilities {
 			TestSuite testSuite = testSuiteGenerator.generateTestSuite(coverageLenght, ESG);
 
 			try {
-				EventSequenceUtilties.esgEventSequenceSetFileWriter(testSuite.getCompleteEventSequences(), esgFolderName
+				EventSequenceUtilities.esgEventSequenceSetFileWriter(testSuite.getCompleteEventSequences(), esgFolderName
 						+ "/Results_SingleModel/TestSequences/" + newName + "_length" + coverageLenght + ".txt");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block

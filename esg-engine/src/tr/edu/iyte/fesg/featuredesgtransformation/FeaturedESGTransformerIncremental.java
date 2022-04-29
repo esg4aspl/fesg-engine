@@ -125,6 +125,7 @@ public class FeaturedESGTransformerIncremental {
 			for(int i=0; i<kesgList.size(); i++) { //faster?
 //			for(int i=kesgList.size()-1; i>=0; i--) { //!!!messes up with the esg order
 				ESG kESG = kesgList.get(i);
+				
 //System.out.println(" - "+k+": "+kESG.getName());
 
 //ESGToDOTFileConverter.buildDOTFileFromESG(kESG, "files/MXEFiles/BankAccountPL/k_" + kESG.getName() + ".dot");

@@ -3,6 +3,7 @@ package tr.edu.iyte.fesg.cases;
 import java.util.Set;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.fesg.model.FeaturedESG;
 import tr.edu.iyte.fesg.testsequencecomposition.ESGSequenceMap;
 import tr.edu.iyte.fesg.testsequencecomposition.FullTestSequenceComposer;
@@ -34,6 +35,7 @@ public class TestSequenceCompositionUtilties extends CaseStudyFilePathCreationUt
 		fullTestSequenceCompositionAlgorithm.compose();
 		
 		cesSet = fullTestSequenceCompositionAlgorithm.getCompleteSequences();
+
 //EventSequenceUtilities.esgEventSequenceSetPrinter(cesSet);
 
 		return cesSet;

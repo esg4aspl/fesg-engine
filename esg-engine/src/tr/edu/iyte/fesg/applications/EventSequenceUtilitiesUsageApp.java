@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.EventSimple;
 import tr.edu.iyte.esg.model.Vertex;
 import tr.edu.iyte.esg.model.VertexSimple;
@@ -18,10 +18,10 @@ public class EventSequenceUtilitiesUsageApp {
 		EventSequence ESwithoutConnectionPoint = generateEventSequenceWithoutConnectionPoint();
 		System.out.println("EventSequence: " + ESwithoutConnectionPoint.toString() + "\n");
 		System.out.println("Divide Event Sequences without Connection Points as Proceeding");
-		Set<EventSequence> ESset1 = EventSequenceUtilties.divideESsWithoutConnectionPointAsProceeding(ESwithoutConnectionPoint,"a");
+		Set<EventSequence> ESset1 = EventSequenceUtilities.divideESsWithoutConnectionPointAsProceeding(ESwithoutConnectionPoint,"a");
 		ESset1.forEach(ES->System.out.println(ES.toString() + "  "));
 		System.out.println("Divide Event Sequences without Connection Points as Preceeding");
-		Set<EventSequence> ESset2 = EventSequenceUtilties.divideESsWithoutConnectionPointAsPreceeding(ESwithoutConnectionPoint,"a");
+		Set<EventSequence> ESset2 = EventSequenceUtilities.divideESsWithoutConnectionPointAsPreceeding(ESwithoutConnectionPoint,"a");
 		ESset2.forEach(ES->System.out.println(ES.toString() + "  "));
 		
 		EventSequence ESwithConnectionPoint = generateEventSequenceWithConnectionPoint();

@@ -142,9 +142,11 @@ public class ESGValidator extends AbstractValidator implements IValidator<ESG> {
 		}
 	}
 
+
 	private boolean checkSourceVertexReachingTargetVertex(Vertex source, Vertex target, ESG context) {
 
 		boolean visited[] = new boolean[context.getVertexList().size()];
+		
 		Queue<Vertex> queue = new LinkedList<Vertex>();
 		visited[source.getID()] = true;
 		queue.add(source);

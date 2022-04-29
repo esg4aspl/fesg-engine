@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.Set;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.testgeneration.TestSuite;
 import tr.edu.iyte.esg.testgeneration.TestSuiteGenerator;
@@ -75,12 +75,13 @@ public class FeatureBasedIncrementalProductGraph {
 				//System.out.println(productESG);
 				TestSuiteGenerator testSuiteGenerator = new TestSuiteGenerator();
 				TestSuite testSuite = testSuiteGenerator.generateTestSuite(coverageLength,productESG);
-//System.out.println(testSuite.toString());
+System.out.println("Existing Product Test Sequences");
+System.out.println(testSuite.toString());
 				start.getFeaturedESG().setCesSet(testSuite.getCompleteEventSequences());
 			}else if(start.isStart() && incrementalBasisApproachID == 1) {
 				Set<EventSequence> fullCESSet = TestSequenceCompositionUtilties
 						.composeSequencesFully(start.getFeaturedESG());
-EventSequenceUtilties.esgEventSequenceSetPrinter(fullCESSet);
+EventSequenceUtilities.esgEventSequenceSetPrinter(fullCESSet);
 TestCoverageAnalysingUtilities.writeExistingproductTestCompositionResultsToFile(fullCESSet);
 				start.getFeaturedESG().setCesSet(fullCESSet);
 			}

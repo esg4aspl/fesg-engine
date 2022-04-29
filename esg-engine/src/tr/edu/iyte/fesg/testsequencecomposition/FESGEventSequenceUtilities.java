@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 
 import tr.edu.iyte.esg.eventsequence.EventSequence;
-import tr.edu.iyte.esg.eventsequence.EventSequenceUtilties;
+import tr.edu.iyte.esg.eventsequence.EventSequenceUtilities;
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.model.Event;
 import tr.edu.iyte.esg.model.EventSimple;
@@ -172,7 +172,7 @@ public class FESGEventSequenceUtilities {
 
 		Set<EventSequence> esSet = new LinkedHashSet<EventSequence>();
 
-		List<Integer> indexList = EventSequenceUtilties.indexesOfRepeatedEvent(eventSequence, eventName);
+		List<Integer> indexList = EventSequenceUtilities.indexesOfRepeatedEvent(eventSequence, eventName);
 
 		for (int i = 0; i < indexList.size(); i++) {
 			int index1 = indexList.get(i);
@@ -192,7 +192,7 @@ public class FESGEventSequenceUtilities {
 
 		Set<EventSequence> esSet = new LinkedHashSet<EventSequence>();
 
-		List<Integer> indexList = EventSequenceUtilties.indexesOfRepeatedEvent(eventSequence, eventName);
+		List<Integer> indexList = EventSequenceUtilities.indexesOfRepeatedEvent(eventSequence, eventName);
 		//System.out.println("eventSequence.length() " + eventSequence.length());
 		for (int i = 0; i < indexList.size(); i++) {
 			int index = indexList.get(i);
