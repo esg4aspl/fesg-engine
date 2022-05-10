@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<feature automatic="selected" name="StudentAttendanceSystem"/>
+<feature automatic="selected" name="submitAttandanceMethod"/>
+<feature manual="selected" name="accessCard"/>
+<feature automatic="unselected" name="barcode"/>
+<feature automatic="unselected" name="fingerprint"/>
+<feature automatic="unselected" name="QRCode"/>
+<feature automatic="selected" name="notification"/>
+<feature manual="selected" name="email"/>
+<feature automatic="unselected" name="SMS"/>
+<feature automatic="selected" name="userAccess"/>
+<feature automatic="selected" manual="selected" name="studentAccess"/>
+<feature automatic="selected" manual="selected" name="teacherAccess"/>
+<feature automatic="selected" name="recordInformation"/>
+<feature automatic="selected" manual="selected" name="viewRecord"/>
+<feature automatic="selected" manual="selected" name="updateRecord"/>
+<feature name="monitorAttendanceStatus"/>
+<feature name="traceAttendanceActivity"/>
+<feature automatic="selected" name="classManagement"/>
+<feature automatic="selected" manual="selected" name="viewClass"/>
+<feature name="addNewClass"/>
+<feature name="updateClassDetail"/>
+<feature name="deleteClass"/>
+<feature automatic="selected" name="ClassSchedule"/>
+<feature automatic="selected" manual="selected" name="viewSchedule"/>
+<feature automatic="selected" manual="selected" name="addNewSchedule"/>
+<feature automatic="selected" manual="selected" name="editSchedule"/>
+<feature name="assignNewSchedule"/>
+</configuration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<feature automatic="selected" name="SodaVendingMachine"/>
+<feature manual="selected" name="cancel"/>
+<feature automatic="selected" name="ServeBeverage"/>
+<feature automatic="selected" manual="selected" name="serveSoda"/>
+<feature automatic="selected" manual="selected" name="serveTea"/>
+<feature automatic="selected" name="Purchase"/>
+<feature automatic="selected" manual="selected" name="payEUR"/>
+<feature name="payUSD"/>
+<feature automatic="selected" manual="selected" name="free"/>
+</configuration>

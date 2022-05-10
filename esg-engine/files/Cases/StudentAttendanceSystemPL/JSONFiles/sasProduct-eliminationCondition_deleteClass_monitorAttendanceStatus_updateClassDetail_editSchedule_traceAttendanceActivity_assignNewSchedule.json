@@ -1,0 +1,86 @@
+{
+		"eliminationConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:"deleteClass",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"delete class->confirm deletion",
+					"confirm deletion->]",
+					"confirm deletion->select the deletable class",
+					"[->turn editing on",
+					"turn editing on->select the deletable class",
+					"select the deletable class->delete class"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:"monitorAttendanceStatus",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->open my attendance records",
+					"monitor current attendance status->]",
+					"open my attendance records->monitor current attendance status"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:"updateClassDetail",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"turn editing on->select the editable class",
+					"update the name of the class->update the class detail",
+					"update the name of the class->submit the class",
+					"update the name of the class->update the name of the class",
+					"update the class detail->update the name of the class",
+					"update the class detail->submit the class",
+					"update the class detail->update the class detail",
+					"select the editable class->update the name of the class",
+					"select the editable class->update the class detail",
+					"submit the class->]",
+					"[->turn editing on"
+			]
+		},
+		{
+			"ID"	:3,
+			"conditionName"	:"editSchedule",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->turn editing on",
+					"update the days of the class->update the hours of the class",
+					"update the days of the class->submit the class schedule",
+					"update the days of the class->update the days of the class",
+					"update the hours of the class->update the days of the class",
+					"update the hours of the class->submit the class schedule",
+					"update the hours of the class->update the hours of the class",
+					"submit the class schedule->]",
+					"turn editing on->select the editable schedule",
+					"select the editable schedule->update the days of the class",
+					"select the editable schedule->update the hours of the class"
+			]
+		},
+		{
+			"ID"	:4,
+			"conditionName"	:"traceAttendanceActivity",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->select a class-list attendance record",
+					"select a class-list attendance record->trace attendance activity of the class",
+					"trace attendance activity of the class->]"
+			]
+		},
+		{
+			"ID"	:5,
+			"conditionName"	:"assignNewSchedule",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->select the editable class",
+					"select the editable class->assign schedule",
+					"assign schedule->select the editable schedule",
+					"assign schedule->add new schedule",
+					"select the editable schedule->]",
+					"add new schedule->]"
+			]
+		}
+		]
+}

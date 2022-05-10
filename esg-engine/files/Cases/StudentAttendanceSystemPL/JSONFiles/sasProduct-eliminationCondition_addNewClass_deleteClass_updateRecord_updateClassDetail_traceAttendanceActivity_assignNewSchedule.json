@@ -1,0 +1,90 @@
+{
+		"eliminationConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:"addNewClass",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->turn editing on",
+					"add new class->enter the name of the class",
+					"add new class->enter the class detail",
+					"enter the name of the class->enter the class detail",
+					"enter the name of the class->submit the class",
+					"enter the name of the class->enter the name of the class",
+					"enter the class detail->enter the name of the class",
+					"enter the class detail->submit the class",
+					"enter the class detail->enter the class detail",
+					"turn editing on->add new class",
+					"submit the class->]"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:"deleteClass",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"delete class->confirm deletion",
+					"confirm deletion->]",
+					"confirm deletion->select the deletable class",
+					"[->turn editing on",
+					"turn editing on->select the deletable class",
+					"select the deletable class->delete class"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:"updateRecord",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"open student attendance records->select a class-list attendance record",
+					"open student attendance records->select an editable student-record",
+					"submit attendance record update->]",
+					"[->open student attendance records",
+					"select a class-list attendance record->edit attendance status",
+					"select an editable student-record->edit attendance status",
+					"edit attendance status->submit attendance record update"
+			]
+		},
+		{
+			"ID"	:3,
+			"conditionName"	:"updateClassDetail",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"turn editing on->select the editable class",
+					"update the name of the class->update the class detail",
+					"update the name of the class->submit the class",
+					"update the name of the class->update the name of the class",
+					"update the class detail->update the name of the class",
+					"update the class detail->submit the class",
+					"update the class detail->update the class detail",
+					"select the editable class->update the name of the class",
+					"select the editable class->update the class detail",
+					"submit the class->]",
+					"[->turn editing on"
+			]
+		},
+		{
+			"ID"	:4,
+			"conditionName"	:"traceAttendanceActivity",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->select a class-list attendance record",
+					"select a class-list attendance record->trace attendance activity of the class",
+					"trace attendance activity of the class->]"
+			]
+		},
+		{
+			"ID"	:5,
+			"conditionName"	:"assignNewSchedule",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->select the editable class",
+					"select the editable class->assign schedule",
+					"assign schedule->select the editable schedule",
+					"assign schedule->add new schedule",
+					"select the editable schedule->]",
+					"add new schedule->]"
+			]
+		}
+		]
+}

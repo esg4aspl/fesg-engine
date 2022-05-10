@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<feature automatic="selected" name="BankAccount"/>
+<feature manual="selected" name="deposit"/>
+<feature manual="selected" name="withdraw"/>
+<feature name="interest"/>
+<feature name="interestEstimation"/>
+<feature name="dailyLimit"/>
+<feature automatic="selected" name="extraMoney"/>
+<feature automatic="unselected" name="overdraft"/>
+<feature manual="selected" name="credit"/>
+<feature automatic="selected" name="cancellation"/>
+<feature automatic="selected" manual="selected" name="cancelDeposit"/>
+<feature automatic="selected" manual="selected" name="cancelWithdraw"/>
+</configuration>
