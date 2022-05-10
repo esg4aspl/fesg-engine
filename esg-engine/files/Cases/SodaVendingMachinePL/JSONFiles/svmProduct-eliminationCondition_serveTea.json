@@ -1,0 +1,14 @@
+{
+		"eliminationConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:"serveTea",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"select->serveTea",
+					"serveTea->]",
+					"[->select"
+			]
+		}
+		]
+}

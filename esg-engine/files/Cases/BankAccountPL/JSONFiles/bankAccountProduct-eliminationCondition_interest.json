@@ -1,0 +1,16 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "interest",
+			"result": false,
+			"edgesToBeRemoved": [
+				"[->request an interest rate",
+				"request an interest rate->confirm  interest rate approved",
+				"request an interest rate->confirm  interest rate disapproved",
+				"confirm  interest rate approved->]",
+				"confirm  interest rate disapproved->]"
+			]
+		}
+	]
+}

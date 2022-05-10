@@ -1,0 +1,21 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "updateClassDetail",
+			"result": false,
+			"edgesToBeRemoved": [
+				"turn editing on->select the editable class",
+				"select the editable class->update the name of the class",
+				"select the editable class->update the class detail",
+				"update the name of the class->update the class detail",
+				"update the name of the class->update the name of the class",
+				"update the class detail->update the name of the class",
+				"update the class detail->update the class detail",
+				"update the name of the class->submit the class",
+				"update the class detail->submit the class",
+				"submit the class->]"
+			]
+		}
+	]
+}

@@ -9,12 +9,12 @@ import java.text.DecimalFormat;
 public class FullProductESGReductionTimeMeasurementWriter {
 
 	public static void writeTimeMeasurement(double time, String SPLFolderName, String productType, String fullESGName,
-			String guardConditionFeatureName) {
+			String eliminationConditionFeatureName) {
 		DecimalFormat df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		
-		String timeMeasurementFile = SPLFolderName + "TimeMeasurement/FullProductReductionTimeMeasurement/" + productType + "-"
-				+ fullESGName + "-" + guardConditionFeatureName + ".csv";
+		String timeMeasurementFile = SPLFolderName + "/FullProductReduction/TimeMeasurement/" + productType + "-"
+				+ fullESGName + "-" + eliminationConditionFeatureName + ".csv";
 
 		BufferedWriter writer = null;
 		try {

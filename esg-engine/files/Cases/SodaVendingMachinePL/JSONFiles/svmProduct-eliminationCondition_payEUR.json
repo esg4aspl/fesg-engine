@@ -1,0 +1,13 @@
+{
+   "eliminationConditions" : [
+   {
+   "ID":0,
+   "conditionName":"payEUR",
+   "result":false,
+   "edgesToBeRemoved":[
+                        "prompt->payEUR",
+                        "payEUR->select"
+                     ]
+   }
+   ]
+}

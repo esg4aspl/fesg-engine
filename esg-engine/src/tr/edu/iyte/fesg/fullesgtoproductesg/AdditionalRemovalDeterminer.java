@@ -130,7 +130,7 @@ public class AdditionalRemovalDeterminer {
 			FeatureDependencyTreeNode node = orderedFeatureDependencyTreeNodeListIterator.next();
 			orderedRemovalList.add(node.getFeatureESG());
 		}
-System.out.print("Ordered to be removed ");orderedRemovalList.forEach(e -> System.out.print(e.getName() + " "));System.out.println();
+//System.out.print("Ordered to be removed ");orderedRemovalList.forEach(e -> System.out.print(e.getName() + " "));System.out.println();
 
 		return orderedRemovalList;
 	}

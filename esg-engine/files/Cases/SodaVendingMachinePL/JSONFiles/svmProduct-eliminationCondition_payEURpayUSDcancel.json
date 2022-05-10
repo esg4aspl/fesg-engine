@@ -12,7 +12,7 @@
         },
 		{
 			"ID":1,
-			"conditionName"	:payUSD,
+			"conditionName"	:"payUSD",
 			"result"	:false,
 			"edgesToBeRemoved"	:[
 					"prompt->payUSD",
@@ -22,7 +22,7 @@
 		},
 		{
 			"ID":2,
-			"conditionName"	:cancel,
+			"conditionName"	:"cancel",
 			"result"	:false,
 			"edgesToBeRemoved"	:[
 					"payEUR->cancel",

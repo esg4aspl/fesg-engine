@@ -1,0 +1,14 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "viewRecord",
+			"result": false,
+			"edgesToBeRemoved": [
+				"open my attendance records->select the existing record",
+				"select the existing record->view record",
+				"view record->]"
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "deposit",
+			"result": false,
+			"edgesToBeRemoved": [
+				"[->select deposit",
+				"get balance->select deposit",
+				"select deposit->enter deposit amount",
+				"enter deposit amount->put money",
+				"put money->get balance",
+				"put money->]"
+			]
+		}
+	]
+}

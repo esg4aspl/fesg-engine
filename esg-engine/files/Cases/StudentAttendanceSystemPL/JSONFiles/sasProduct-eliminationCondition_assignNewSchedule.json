@@ -1,0 +1,14 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "assignNewSchedule",
+			"result": false,
+			"edgesToBeRemoved": [
+				"select the editable class->assign schedule",
+				"assign schedule->select the editable schedule",
+				"assign schedule->add new schedule"
+			]
+		}
+	]
+}

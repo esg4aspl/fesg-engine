@@ -252,7 +252,7 @@ public abstract class BankAccountCaseStudyUtilities extends CaseStudyFilePathCre
 		int numberOfFeatures = 9;
 		esgFileName = new String[numberOfFeatures];
 		esgName = new String[numberOfFeatures];
-		productESGName.append("bankAccountProduct-fullProduct");
+		productESGName.append("bankAccountProduct-fullProduct_Credit");
 
 		esgFileName[0] = "core.mxe";
 		esgFileName[1] = "deposit.mxe";
@@ -282,7 +282,7 @@ public abstract class BankAccountCaseStudyUtilities extends CaseStudyFilePathCre
 		int numberOfFeatures = 9;
 		esgFileName = new String[numberOfFeatures];
 		esgName = new String[numberOfFeatures];
-		productESGName.append("bankAccountProduct-fullProduct");
+		productESGName.append("bankAccountProduct-fullProduct_Overdraft");
 
 		esgFileName[0] = "core.mxe";
 		esgFileName[1] = "deposit.mxe";

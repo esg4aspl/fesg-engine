@@ -1,0 +1,17 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "updateRecord",
+			"result": false, 
+			"edgesToBeRemoved": [
+				"open student attendance records->select a class-list attendance record",
+				"open student attendance records->select an editable student-record",
+				"select a class-list attendance record->edit attendance status",
+				"select an editable student-record->edit attendance status",
+				"edit attendance status->submit attendance record update",
+				"submit attendance record update->]"
+			]
+		}
+	]
+}

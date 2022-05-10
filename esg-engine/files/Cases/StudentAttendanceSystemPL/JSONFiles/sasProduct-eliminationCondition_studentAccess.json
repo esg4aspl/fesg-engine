@@ -1,0 +1,15 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "studentAccess",
+			"result": false,
+			"edgesToBeRemoved": [
+				"log in->access as a student",
+				"access as a student->open my attendance records ",
+				"access as a student->open class records",
+				"open my attendance records->open class records"
+			]
+		}
+	]
+}

@@ -85,11 +85,11 @@ public abstract class CaseStudyFilePathCreationUtilities {
 		
 		productESGFilePath.append(esgFolderName + "/" + productESGName + mxeFileExtension);
 		
-		fullComposition_resultsFolderName.append(esgFolderName + "/Results_FullTestSequenceComposition/");
+		fullComposition_resultsFolderName.append(esgFolderName + "/FullTestSequenceComposition/");
 		fullComposition_testCaseFolderName.append(fullComposition_resultsFolderName + "/TestSequences/");
 		fullComposition_coverageAnalysisFolderName.append(fullComposition_resultsFolderName + "/CoverageAnalysis/");
 		
-		incrementalComposition_resultsFolderName.append(esgFolderName + "/Results_IncrementalTestSequenceComposition/");
+		incrementalComposition_resultsFolderName.append(esgFolderName + "/IncrementalTestSequenceComposition/Results_IncrementalTestSequenceComposition/");
 		incrementalComposition_testCaseFolderName.append(incrementalComposition_resultsFolderName + "/TestSequences/");
 		incrementalComposition_coverageAnalysisFolderName.append(incrementalComposition_resultsFolderName + "/CoverageAnalysis/");
 		incrementalComposition_exisitingProductTestCaseFolderName.append(incrementalComposition_resultsFolderName + "/ExistingProductTestSequences/");
@@ -97,9 +97,8 @@ public abstract class CaseStudyFilePathCreationUtilities {
 		testCaseFileName = productESGName + lengthTag + coverageLenght + txtFileExtension;
 		existingProduct_testCaseFileName = existingProductESGName + lengthTag + coverageLenght + txtFileExtension;
 		
-		testGeneration_resultsFolderName.append(esgFolderName + "/Results_SingleModel/TestSequences");
+		testGeneration_resultsFolderName.append(esgFolderName + "/IncrementalTestSequenceComposition/Results_SingleModel/TestSequences");
 		testGeneration_testCaseFilePath.append(testGeneration_resultsFolderName + "/" + testCaseFileName);
-		
 		
 		fullComposition_testCaseFilePath.append(fullComposition_testCaseFolderName + "/" + testCaseFileName);
 		fullComposition_coverageAnalysisFilePath.append(fullComposition_coverageAnalysisFolderName + coverageAnalysisTag + productESGName + lengthTag + coverageLenght + txtFileExtension);

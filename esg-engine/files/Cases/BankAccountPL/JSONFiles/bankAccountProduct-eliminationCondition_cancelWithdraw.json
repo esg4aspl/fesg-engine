@@ -1,0 +1,13 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "cancelWithdraw",
+			"result": false,
+			"edgesToBeRemoved": [
+				"select withdraw->cancel withdraw",
+				"cancel withdraw->]"
+			]
+		}
+	]
+}

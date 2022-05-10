@@ -1,0 +1,21 @@
+{
+	"eliminationConditions": [
+				{
+			"ID": 1,
+			"conditionName": "editSchedule",
+			"result": false,
+			"edgesToBeRemoved": [
+				"turn editing on->select the editable schedule",
+				"select the editable schedule->update the days of the class",
+				"select the editable schedule->update the hours of the class",
+				"update the days of the class->update the hours of the class",
+				"update the days of the class->update the days of the class",
+				"update the hours of the class->update the days of the class",
+				"update the hours of the class->update the hours of the class",
+				"update the days of the class->submit the class schedule",
+				"update the hours of the class->submit the class schedule",
+				"submit the class schedule->]"
+			]
+		}
+	]
+}

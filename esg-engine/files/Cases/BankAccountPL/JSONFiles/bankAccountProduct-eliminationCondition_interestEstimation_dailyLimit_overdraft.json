@@ -1,0 +1,46 @@
+{
+		"eliminationConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	:"interestEstimation",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->confirm interest rate approved",
+					"confirm interest rate approved->enter days left",
+					"enter days left->get estimated interest for days left",
+					"get estimated interest for days left->]"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:"dailyLimit",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"enter withdraw amount->confirm daily limit excess",
+					"[->enter withdraw amount",
+					"[->enter daily withdraw limit",
+					"confirm daily limit excess->cancel withdraw",
+					"confirm daily limit excess->enter withdraw amount",
+					"confirm daily limit excess->]",
+					"enter daily withdraw limit->]",
+					"enter daily withdraw limit->enter daily withdraw limit",
+					"cancel withdraw->]"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:"overdraft",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->confirm daily limit excess",
+					"[->enter overdraft limit",
+					"confirm daily limit excess->confirm overdraft limit excess",
+					"enter overdraft limit->]",
+					"enter overdraft limit->enter overdraft limit",
+					"confirm overdraft limit excess->cancel withdraw",
+					"confirm overdraft limit excess->]",
+					"cancel withdraw->]"
+			]
+		}
+		]
+}

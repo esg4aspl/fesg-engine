@@ -1,0 +1,36 @@
+{
+		"eliminationConditions"	:[
+		{
+			"ID"	:0,
+			"conditionName"	: "cancelDeposit",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"select deposit->cancel deposit",
+					"cancel deposit->]",
+					"[->select deposit"
+			]
+		},
+		{
+			"ID"	:1,
+			"conditionName"	:"cancelWithdraw",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"select withdraw->cancel withdraw",
+					"cancel withdraw->]",
+					"[->select withdraw"
+			]
+		},
+		{
+			"ID"	:2,
+			"conditionName"	:"credit",
+			"result"	:false,
+			"edgesToBeRemoved"	:[
+					"[->enter a credit amount",
+					"confirm credit approved->]",
+					"enter a credit amount->confirm credit approved",
+					"enter a credit amount->confirm credit disapproved",
+					"confirm credit disapproved->]"
+			]
+		}
+		]
+}

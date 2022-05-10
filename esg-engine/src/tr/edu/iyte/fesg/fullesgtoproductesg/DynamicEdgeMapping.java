@@ -38,7 +38,7 @@ public class DynamicEdgeMapping {
 
 		for (ESG featureESG : FESG.getFeatureESGSet()) {
 			int indexOfFeatureESG = indexOfESG(orderedRemovalList, featureESG.getName());
-System.out.println("Current feature ESG " + featureESG.getName() + " indexOfFeatureESG " + indexOfFeatureESG);
+//System.out.println("Current feature ESG " + featureESG.getName() + " indexOfFeatureESG " + indexOfFeatureESG);
 
 			for (Edge realEdge : featureESG.getRealEdgeList()) {
 
@@ -50,88 +50,88 @@ System.out.println("Current feature ESG " + featureESG.getName() + " indexOfFeat
 				String event = "";
 				Edge fullESGEdge = null;
 				int indexOfConnectionPointESG = -2;
-System.out.println("The edge is " + sourceEventName + " " + targetEventName);
+//System.out.println("The edge is " + sourceEventName + " " + targetEventName);
 				if (sourceIsConnectionPoint && !targetIsConnectionPoint) {
-System.out.println("Source is connection point-target is not");
+//System.out.println("Source is connection point-target is not");
 					String[] array = TestSequenceCompositionUtilities
 							.getESGAndEventNameInConnectionPoint(sourceEventName);
 					esg = array[0].trim();
 					event = array[1].trim();
-System.out.println("ESG " + esg + " event " + event);
+//System.out.println("ESG " + esg + " event " + event);
 					fullESGEdge = fullESG.getEdgeBySourceEventNameTargetEventName(event, targetEventName);
 
 					if (esg.equals("core")) {
 						edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 					} else {
 						indexOfConnectionPointESG = indexOfESG(orderedRemovalList, esg);
-System.out.println("Second cond indexOfConnectionPointESG " + indexOfConnectionPointESG);
+//System.out.println("Second cond indexOfConnectionPointESG " + indexOfConnectionPointESG);
 						if (indexOfFeatureESG == -1) {
-System.out.println("indexOfFeatureESG == -1");
+//System.out.println("indexOfFeatureESG == -1");
 							edgeFeatureESGMap.put(fullESGEdge, FESG.getFeatureESGByName(esg));
-System.out.println("Edge is mapped to " + esg);
+//System.out.println("Edge is mapped to " + esg);
 						} else if (indexOfConnectionPointESG == -1) {
-System.out.println("indexOfConnectionPointESG == -1");
+//System.out.println("indexOfConnectionPointESG == -1");
 							edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 						} else if (indexOfFeatureESG < indexOfConnectionPointESG) {
-System.out.println("indexOfFeatureESG < indexOfConnectionPointESG");
+//System.out.println("indexOfFeatureESG < indexOfConnectionPointESG");
 							edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 						} else if (indexOfFeatureESG > indexOfConnectionPointESG) {
-System.out.println("indexOfFeatureESG > indexOfConnectionPointESG");
+//System.out.println("indexOfFeatureESG > indexOfConnectionPointESG");
 							edgeFeatureESGMap.put(fullESGEdge, FESG.getFeatureESGByName(esg));
-System.out.println("Edge is mapped to " + esg);
+//System.out.println("Edge is mapped to " + esg);
 						}
 					}
 
 				} else if (!sourceIsConnectionPoint && targetIsConnectionPoint) {
-System.out.println("Source is not connection point-target is");
+//System.out.println("Source is not connection point-target is");
 					String[] array = TestSequenceCompositionUtilities
 							.getESGAndEventNameInConnectionPoint(targetEventName);
 					esg = array[0].trim();
 					event = array[1].trim();
-System.out.println("ESG " + esg + " event " + event);
+//System.out.println("ESG " + esg + " event " + event);
 					fullESGEdge = fullESG.getEdgeBySourceEventNameTargetEventName(sourceEventName, event);
 
 					if (esg.equals("core")) {
 						edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 					} else {
 						indexOfConnectionPointESG = indexOfESG(orderedRemovalList, esg);
-System.out.println("Second cond indexOfConnectionPointESG " + indexOfConnectionPointESG);
+//System.out.println("Second cond indexOfConnectionPointESG " + indexOfConnectionPointESG);
 						if (indexOfFeatureESG == -1) {
-System.out.println("indexOfFeatureESG == -1");
+//System.out.println("indexOfFeatureESG == -1");
 							edgeFeatureESGMap.put(fullESGEdge, FESG.getFeatureESGByName(esg));
-System.out.println("Edge is mapped to " + esg);
+//System.out.println("Edge is mapped to " + esg);
 						} else if (indexOfConnectionPointESG == -1) {
-System.out.println("indexOfConnectionPointESG == -1");
+//System.out.println("indexOfConnectionPointESG == -1");
 							edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 						} else if (indexOfFeatureESG < indexOfConnectionPointESG) {
-System.out.println("indexOfFeatureESG < indexOfConnectionPointESG");
+//System.out.println("indexOfFeatureESG < indexOfConnectionPointESG");
 							edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 						} else if (indexOfFeatureESG > indexOfConnectionPointESG) {
-System.out.println("indexOfFeatureESG > indexOfConnectionPointESG");
+//System.out.println("indexOfFeatureESG > indexOfConnectionPointESG");
 							edgeFeatureESGMap.put(fullESGEdge, FESG.getFeatureESGByName(esg));
-System.out.println("Edge is mapped to " + esg);
+//System.out.println("Edge is mapped to " + esg);
 						}
 					}
 				} else if (!sourceIsConnectionPoint && !targetIsConnectionPoint) {
-System.out.println("critical edge det: else if (!sourceIsConnectionPoint && !targetIsConnectionPoint)");
+//System.out.println("critical edge det: else if (!sourceIsConnectionPoint && !targetIsConnectionPoint)");
 					fullESGEdge = fullESG.getEdgeBySourceEventNameTargetEventName(sourceEventName, targetEventName);
 					edgeFeatureESGMap.put(fullESGEdge, featureESG);
-System.out.println("Edge is mapped to " + featureESG.getName());
+//System.out.println("Edge is mapped to " + featureESG.getName());
 				} else {
-System.out.println("critical edge det: else both source and event are connection points");
+//System.out.println("critical edge det: else both source and event are connection points");
 				}
-System.out.println("Edge is " + fullESGEdge.getSource().getEvent().getName() + " "+ fullESGEdge.getTarget().getEvent().getName());
+//System.out.println("Edge is " + fullESGEdge.getSource().getEvent().getName() + " "+ fullESGEdge.getTarget().getEvent().getName());
 
 			}
 		}
 		
-		printEdgeMapping();
+		//printEdgeMapping();
 	}
 
 	public void printEdgeMapping() {

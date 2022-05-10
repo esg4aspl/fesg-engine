@@ -1,16 +1,16 @@
 package tr.edu.iyte.fesg.fullesgtoproductesg;
 
 import java.util.Iterator;
-import java.util.LinkedHashMap;
+
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
+
 import java.util.Set;
 
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.model.Edge;
-import tr.edu.iyte.esg.model.guardcondition.GuardCondition;
+import tr.edu.iyte.esg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.esg.model.validation.ESGValidator;
 import tr.edu.iyte.fesg.fullesggeneration.FullESGGenerator;
 import tr.edu.iyte.fesg.model.FeaturedESG;
@@ -146,40 +146,40 @@ public class BaseProductToCandidateProductESGSetBuilder {
 		return toBeRemovedFeaturesSet;
 	}
 	
-	public Set<List<GuardCondition>> getGuardConditionListSet(FeaturedESG fullProductFESG, Set<Set<String>> toBeRemovedFeaturesSet){
-		Set<List<GuardCondition>> guardConditionListSet = new LinkedHashSet<>();
+	public Set<List<EliminationCondition>> getEliminationConditionListSet(FeaturedESG fullProductFESG, Set<Set<String>> toBeRemovedFeaturesSet){
+		Set<List<EliminationCondition>> eliminationConditionListSet = new LinkedHashSet<>();
 		
 		for(Set<String> featureNameSet : toBeRemovedFeaturesSet) {
-			List<GuardCondition> guardConditionList = new LinkedList<GuardCondition>();
+			List<EliminationCondition> eliminationConditionList = new LinkedList<EliminationCondition>();
 			int ID = 0;
 			for(String featureName : featureNameSet) {
-				GuardCondition guardCondition = new GuardCondition(ID,featureName, false);
+				EliminationCondition eliminationCondition = new EliminationCondition(ID,featureName, false);
 				ESG featureESG = fullProductFESG.getFeatureESGByName(featureName);
-				addEdgesToBeRemoved(guardCondition, featureESG);
-				guardConditionList.add(guardCondition);
+				addEdgesToBeRemoved(eliminationCondition, featureESG);
+				eliminationConditionList.add(eliminationCondition);
 				ID++;
 			}
-			guardConditionListSet.add(guardConditionList);
-			guardConditionList.forEach(e->System.out.print(e.getID() + " "+ e.getConditionName() + " ----"));
+			eliminationConditionListSet.add(eliminationConditionList);
+			eliminationConditionList.forEach(e->System.out.print(e.getID() + " "+ e.getConditionName() + " ----"));
 			System.out.println();
 		}
-		System.out.println(guardConditionListSet.size());
-		return guardConditionListSet;
+		System.out.println(eliminationConditionListSet.size());
+		return eliminationConditionListSet;
 	}
 	
-	public String getFileName(List<GuardCondition> guardConditionList) {
+	public String getFileName(List<EliminationCondition> eliminationConditionList) {
 		String s = "";
 		
-		for(int i = 0; i < guardConditionList.size() - 1 ; i++) {
-			GuardCondition guardCondition = guardConditionList.get(i);
-			s+= guardCondition.getConditionName() + "_";
+		for(int i = 0; i < eliminationConditionList.size() - 1 ; i++) {
+			EliminationCondition eliminationCondition = eliminationConditionList.get(i);
+			s+= eliminationCondition.getConditionName() + "_";
 		}
-		GuardCondition guardCondition = guardConditionList.get(guardConditionList.size() - 1);
-		s+= guardCondition.getConditionName() ;
+		EliminationCondition eliminationCondition = eliminationConditionList.get(eliminationConditionList.size() - 1);
+		s+= eliminationCondition.getConditionName() ;
 		return s;
 	}
 	
-	private void  addEdgesToBeRemoved(GuardCondition guardCondition, ESG featureESG) {
+	private void  addEdgesToBeRemoved(EliminationCondition eliminationCondition, ESG featureESG) {
 
 		for(Edge edge : featureESG.getEdgeList()) {
 			String sourceEvetName = edge.getSource().getEvent().getName();
@@ -194,7 +194,7 @@ public class BaseProductToCandidateProductESGSetBuilder {
 			}
 			
 			if(!sourceEvetName.equals("]") && !targetEventName.equals("["))	
-				guardCondition.addEdgeToBeRemoved(sourceEvetName, targetEventName);
+				eliminationCondition.addEdgeToBeRemoved(sourceEvetName, targetEventName);
 
 		}
 
