@@ -38,7 +38,7 @@ public class BankAccountEliminationConditionApp_Overdraft extends TestCoverageAn
 		String SPLFolderName = "files/Cases/BankAccountPL/";
 		String productType = "ba";
 		String fullESGName = "fullProduct_Overdraft";
-		String eliminationConditionFeatureName = "interestEstimation_dailyLimit_overdraft";
+		String eliminationConditionFeatureName = "interest_interestEstimation_dailyLimit";
 
 		String ESGfileName = SPLFolderName + "bankAccountProduct-" + fullESGName + ".mxe";
 		String eliminationConditionFileName = SPLFolderName + "JSONFiles/bankAccountProduct-eliminationCondition_"

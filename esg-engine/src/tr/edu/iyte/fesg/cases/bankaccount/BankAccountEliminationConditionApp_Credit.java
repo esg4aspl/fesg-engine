@@ -39,7 +39,7 @@ public class BankAccountEliminationConditionApp_Credit extends TestCoverageAnaly
 		String SPLFolderName = "files/Cases/BankAccountPL/";
 		String productType = "ba";
 		String fullESGName = "fullProduct_Credit";
-		String eliminationConditionFeatureName = "credit_interestEstimation_dailyLimit";
+		String eliminationConditionFeatureName = "cancelDeposit_cancelWithdraw_credit";
 
 		String ESGfileName = SPLFolderName + "bankAccountProduct-" + fullESGName + ".mxe";
 		String eliminationConditionFileName = SPLFolderName + "JSONFiles/bankAccountProduct-eliminationCondition_"
