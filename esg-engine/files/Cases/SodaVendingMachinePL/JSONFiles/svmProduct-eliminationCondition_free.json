@@ -3,7 +3,7 @@
 		{
 			"ID"	:0,
 			"conditionName"	:"free",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"~free->select",
 					"prompt->~free",

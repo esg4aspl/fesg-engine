@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "viewRecord",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"open my attendance records->select the existing record",
 				"select the existing record->view record",

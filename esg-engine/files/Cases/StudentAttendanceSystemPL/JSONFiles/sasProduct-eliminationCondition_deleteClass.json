@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "deleteClass",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"turn editing on->select the deletable class",
 				"select the deletable class->delete class",

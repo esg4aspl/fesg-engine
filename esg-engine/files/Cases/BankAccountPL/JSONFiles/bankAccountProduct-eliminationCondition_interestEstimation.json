@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "interestEstimation",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"confirm  interest rate approved->enter days left",
 				"enter days left->get estimated interest for days left",

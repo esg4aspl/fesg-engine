@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "studentAccess",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"log in->access as a student",
 				"access as a student->open my attendance records ",

@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "traceAttendanceActivity",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"select a class-list attendance record->trace attendance activity of the class",
 				"trace attendance activity of the class->]"

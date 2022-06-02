@@ -3,7 +3,7 @@
 		{
 			"ID"	:0,
 			"conditionName"	:"payUSD",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"payUSD->select",
 					"prompt->payUSD",

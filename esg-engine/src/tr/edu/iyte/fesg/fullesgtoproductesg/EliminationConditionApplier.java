@@ -166,7 +166,7 @@ public class EliminationConditionApplier {
 		Iterator<EliminationCondition> eliminationConditionListIterator = eliminationConditionList.iterator();
 		while (eliminationConditionListIterator.hasNext()) {
 			EliminationCondition eliminationCondition = eliminationConditionListIterator.next();
-			if (!eliminationCondition.isResult()) {
+			if (eliminationCondition.isResult()) {
 				String featureName = eliminationCondition.getConditionName();
 
 				Iterator<ESG> featureESGIterator = FESG.getFeaturedESGSet().iterator();

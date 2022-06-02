@@ -3,7 +3,7 @@
 		{
 			"ID"	:0,
 			"conditionName"	:"deleteClass",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"delete class->confirm deletion",
 					"confirm deletion->]",
@@ -16,7 +16,7 @@
 		{
 			"ID"	:1,
 			"conditionName"	:"monitorAttendanceStatus",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->open my attendance records",
 					"monitor current attendance status->]",
@@ -26,7 +26,7 @@
 		{
 			"ID"	:2,
 			"conditionName"	:"updateClassDetail",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"turn editing on->select the editable class",
 					"update the name of the class->update the class detail",
@@ -44,7 +44,7 @@
 		{
 			"ID"	:3,
 			"conditionName"	:"editSchedule",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->turn editing on",
 					"update the days of the class->update the hours of the class",
@@ -62,7 +62,7 @@
 		{
 			"ID"	:4,
 			"conditionName"	:"traceAttendanceActivity",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->select a class-list attendance record",
 					"select a class-list attendance record->trace attendance activity of the class",
@@ -72,7 +72,7 @@
 		{
 			"ID"	:5,
 			"conditionName"	:"assignNewSchedule",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->select the editable class",
 					"select the editable class->assign schedule",

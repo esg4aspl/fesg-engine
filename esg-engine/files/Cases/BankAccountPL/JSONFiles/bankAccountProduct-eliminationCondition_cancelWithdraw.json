@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "cancelWithdraw",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"select withdraw->cancel withdraw",
 				"cancel withdraw->]"

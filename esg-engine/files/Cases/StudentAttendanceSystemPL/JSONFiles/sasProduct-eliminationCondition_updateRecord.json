@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "updateRecord",
-			"result": false, 
+			"result": true, 
 			"edgesToBeRemoved": [
 				"open student attendance records->select a class-list attendance record",
 				"open student attendance records->select an editable student-record",

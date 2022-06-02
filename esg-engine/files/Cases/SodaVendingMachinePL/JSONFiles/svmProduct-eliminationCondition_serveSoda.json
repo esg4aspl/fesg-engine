@@ -3,7 +3,7 @@
    {
    "ID":0,
    "conditionName":"serveSoda",
-   "result":false,
+   "result":true,
    "edgesToBeRemoved":[
                         "select->serveSoda",
                         "serveSoda->]"

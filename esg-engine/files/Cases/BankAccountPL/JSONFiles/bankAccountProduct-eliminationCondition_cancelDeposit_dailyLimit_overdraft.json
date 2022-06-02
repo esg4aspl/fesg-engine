@@ -3,7 +3,7 @@
 		{
 			"ID"	:0,
 			"conditionName"	:"cancelDeposit",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"select deposit->cancel deposit",
 					"cancel deposit->]",
@@ -13,7 +13,7 @@
 		{
 			"ID"	:1,
 			"conditionName"	:"dailyLimit",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"enter withdraw amount->confirm daily limit excess",
 					"[->enter withdraw amount",
@@ -29,7 +29,7 @@
 		{
 			"ID"	:2,
 			"conditionName"	:"overdraft",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->confirm daily limit excess",
 					"[->enter overdraft limit",

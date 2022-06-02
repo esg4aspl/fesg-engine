@@ -3,7 +3,7 @@
    {
    "ID":0,
    "conditionName":"door_is_opened",
-   "result":false,
+   "result":true,
    "edgesToBeRemoved":[
                         "[->close"
                      ]

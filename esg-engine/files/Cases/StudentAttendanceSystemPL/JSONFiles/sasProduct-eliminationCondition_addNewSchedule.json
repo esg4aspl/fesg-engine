@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "addNewSchedule",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"turn editing on->add new schedule",
 				"add new schedule->enter the days of the class",

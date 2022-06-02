@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "withdraw",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"[->select withdraw",
 				"get balance->select withdraw",

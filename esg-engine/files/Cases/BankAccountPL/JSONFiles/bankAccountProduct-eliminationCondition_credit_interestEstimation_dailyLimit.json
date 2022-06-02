@@ -3,7 +3,7 @@
 		{
 			"ID"	:0,
 			"conditionName"	:"credit",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->enter a credit amount",
 					"confirm credit approved->]",
@@ -15,7 +15,7 @@
 		{
 			"ID"	:1,
 			"conditionName"	:"interestEstimation",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"[->confirm interest rate approved",
 					"confirm interest rate approved->enter days left",
@@ -26,7 +26,7 @@
 		{
 			"ID"	:2,
 			"conditionName"	:"dailyLimit",
-			"result"	:false,
+			"result"	:true,
 			"edgesToBeRemoved"	:[
 					"enter withdraw amount->confirm daily limit excess",
 					"[->enter withdraw amount",

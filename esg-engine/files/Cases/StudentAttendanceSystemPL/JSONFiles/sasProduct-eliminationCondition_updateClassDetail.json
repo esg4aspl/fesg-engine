@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "updateClassDetail",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"turn editing on->select the editable class",
 				"select the editable class->update the name of the class",

@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "teacherAccess",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"log in->access as a teacher",
 				"access as a teacher->turn editing on",

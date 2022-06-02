@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "interest",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"[->request an interest rate",
 				"request an interest rate->confirm  interest rate approved",

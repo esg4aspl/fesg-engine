@@ -3,7 +3,7 @@
 		{
 			"ID": 1,
 			"conditionName": "dailyLimit",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"enter withdraw amount->confirm daily limit excess",
 				"confirm daily limit excess->enter withdraw amount",

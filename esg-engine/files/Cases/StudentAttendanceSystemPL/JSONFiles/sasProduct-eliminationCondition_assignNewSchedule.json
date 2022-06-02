@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "assignNewSchedule",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"select the editable class->assign schedule",
 				"assign schedule->select the editable schedule",

@@ -3,7 +3,7 @@
    {
    "ID":0,
    "conditionName":"payEUR",
-   "result":false,
+   "result":true,
    "edgesToBeRemoved":[
                         "prompt->payEUR",
                         "payEUR->select"

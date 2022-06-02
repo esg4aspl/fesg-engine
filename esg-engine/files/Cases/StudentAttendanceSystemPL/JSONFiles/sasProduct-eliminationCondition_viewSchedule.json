@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "viewSchedule",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"open class records->select the existing schedule",
 				"select the existing schedule->view schedule",

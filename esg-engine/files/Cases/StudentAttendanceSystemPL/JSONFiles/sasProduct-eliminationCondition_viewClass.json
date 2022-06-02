@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "viewClass",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"open class records->select the existing class",
 				"select the existing class->view class",

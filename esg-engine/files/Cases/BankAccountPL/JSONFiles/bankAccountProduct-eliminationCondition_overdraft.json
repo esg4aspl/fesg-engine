@@ -3,7 +3,7 @@
 		{
 			"ID": 1,
 			"conditionName": "overdraft",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"confirm daily limit excess->confirm overdraft limit excess",
 				"confirm overdraft limit excess->cancel withdraw",

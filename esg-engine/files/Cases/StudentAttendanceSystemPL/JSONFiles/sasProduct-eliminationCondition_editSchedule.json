@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "editSchedule",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"turn editing on->select the editable schedule",
 				"select the editable schedule->update the days of the class",

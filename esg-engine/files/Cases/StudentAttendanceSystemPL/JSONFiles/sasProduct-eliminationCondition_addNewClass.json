@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "addNewClass",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"turn editing on->add new class",
 				"add new class->enter the class detail",

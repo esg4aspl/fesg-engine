@@ -3,7 +3,7 @@
 				{
 			"ID": 1,
 			"conditionName": "credit",
-			"result": false,
+			"result": true,
 			"edgesToBeRemoved": [
 				"[->enter a credit amount",
 				"enter a credit amount->confirm credit approved",
