@@ -4,13 +4,13 @@ import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Set;
 
-import tr.edu.iyte.esg.conversion.json.EliminationConditionToJSONFileConverter;
 import tr.edu.iyte.esg.model.ESG;
-import tr.edu.iyte.esg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.cases.TestCoverageAnalysingUtilities;
+import tr.edu.iyte.fesg.conversion.EliminationConditionToJSONFileConverter;
 import tr.edu.iyte.fesg.fullesgtoproductesg.BaseProductToCandidateProductESGSetBuilder;
 import tr.edu.iyte.fesg.fullesgtoproductesg.EliminationConditionApplier;
 import tr.edu.iyte.fesg.model.FeaturedESG;
+import tr.edu.iyte.fesg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.model.featuredependencytree.FeatureDependencyTreeBuilder;
 
 public class BankAccountEliminationConditionJSONFileBuilderApp_Credit extends TestCoverageAnalysingUtilities {

@@ -10,10 +10,10 @@ import java.util.Set;
 
 import tr.edu.iyte.esg.model.ESG;
 import tr.edu.iyte.esg.model.Edge;
-import tr.edu.iyte.esg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.esg.model.validation.ESGValidator;
 import tr.edu.iyte.fesg.fullesggeneration.FullESGGenerator;
 import tr.edu.iyte.fesg.model.FeaturedESG;
+import tr.edu.iyte.fesg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.model.featuredependencytree.FeatureDependencyTreeBuilder;
 import tr.edu.iyte.fesg.testsequencecomposition.TestSequenceCompositionUtilities;
 

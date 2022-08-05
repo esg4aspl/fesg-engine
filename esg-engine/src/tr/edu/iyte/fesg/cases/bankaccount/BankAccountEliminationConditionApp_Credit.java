@@ -4,18 +4,18 @@ import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
 
-import tr.edu.iyte.esg.conversion.json.JSONFileToEliminationConditionConverter;
 import tr.edu.iyte.esg.conversion.mxe.MXEFiletoESGConverter;
 import tr.edu.iyte.esg.model.ESG;
-import tr.edu.iyte.esg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.esg.model.validation.ESGValidator;
 import tr.edu.iyte.fesg.cases.TestCoverageAnalysingUtilities;
 import tr.edu.iyte.fesg.cases.resultrecordingutilities.FullProductESGReductionTimeMeasurementWriter;
+import tr.edu.iyte.fesg.conversion.JSONFileToEliminationConditionConverter;
 import tr.edu.iyte.fesg.conversion.xml.FeatureModelModifier;
 import tr.edu.iyte.fesg.conversion.xml.FeaturedESGToConfigurationFileConverter;
 import tr.edu.iyte.fesg.featurebasedincrementalproductgraph.automaticbuild.FeatureModelParser;
 import tr.edu.iyte.fesg.fullesgtoproductesg.EliminationConditionApplier;
 import tr.edu.iyte.fesg.model.FeaturedESG;
+import tr.edu.iyte.fesg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.model.featuredependencytree.FeatureDependencyTreeBuilder;
 import tr.edu.iyte.fesg.model.featuremodel.FeatureModel;
 

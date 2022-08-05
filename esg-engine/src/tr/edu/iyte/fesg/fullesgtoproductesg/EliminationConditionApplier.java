@@ -15,8 +15,8 @@ import tr.edu.iyte.esg.model.Event;
 import tr.edu.iyte.esg.model.EventSimple;
 import tr.edu.iyte.esg.model.Vertex;
 import tr.edu.iyte.esg.model.VertexSimple;
-import tr.edu.iyte.esg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.model.FeaturedESG;
+import tr.edu.iyte.fesg.model.eliminationcondition.EliminationCondition;
 import tr.edu.iyte.fesg.model.featuredependencytree.FeatureDependencyTreeBuilder;
 import tr.edu.iyte.fesg.testsequencecomposition.TestSequenceCompositionUtilities;
 
