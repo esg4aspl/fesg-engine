@@ -8,3 +8,9 @@ This project is an extension of ESG-Engine project. The Featured ESG, feature ES
 - Create test scenarios from the feature model of an SPL. 
 - Try different testing scenarios on different SPL cases. 
 - Reduce features from full products' ESGs to have different product configurations with the help of the FESGs.
+
+# How to use fesg-engine in Eclipse IDE
+
+Clone fesg-engine project. 
+Open Eclipse IDE. 
+Follow File -> Import -> Maven -> Existing Maven Projects and select the cloned project. 
